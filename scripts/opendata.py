@@ -74,8 +74,8 @@ def csv_to_json_dep(df):
   dict_json = {"departements": deps}
 
   for dep in deps:
-    df_dep = df[df.dep == dep]
-    dict_json[dep] = {"n_dose1": df_dep.n_dose1.tolist(), "dates": df_dep.jour.tolist()}
+    df_dep = df[df.dep == dep].sort_values(by="jour")
+    dict_json[dep] = {"dates": df_dep.jour.tolist(), "n_dose1": df_dep.n_dose1.tolist()}
 
   with open("data/output/vacsi-dep.json", "w") as outfile: 
     outfile.write(json.dumps(dict_json, indent=4))
