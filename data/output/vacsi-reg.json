@@ -1,0 +1,2288 @@
+[
+    {
+        "date": "2021-01-12",
+        "code": "0REG-1",
+        "n_dose1": 20,
+        "n_cum_dose1": 20
+    },
+    {
+        "date": "2021-01-13",
+        "code": "0REG-1",
+        "n_dose1": 6,
+        "n_cum_dose1": 26
+    },
+    {
+        "date": "2021-01-14",
+        "code": "0REG-1",
+        "n_dose1": 24,
+        "n_cum_dose1": 50
+    },
+    {
+        "date": "2021-01-15",
+        "code": "0REG-1",
+        "n_dose1": 24,
+        "n_cum_dose1": 74
+    },
+    {
+        "date": "2021-01-18",
+        "code": "0REG-1",
+        "n_dose1": 29,
+        "n_cum_dose1": 103
+    },
+    {
+        "date": "2021-01-19",
+        "code": "0REG-1",
+        "n_dose1": 48,
+        "n_cum_dose1": 151
+    },
+    {
+        "date": "2021-01-20",
+        "code": "0REG-1",
+        "n_dose1": 42,
+        "n_cum_dose1": 193
+    },
+    {
+        "date": "2021-01-21",
+        "code": "0REG-1",
+        "n_dose1": 56,
+        "n_cum_dose1": 249
+    },
+    {
+        "date": "2021-01-22",
+        "code": "0REG-1",
+        "n_dose1": 35,
+        "n_cum_dose1": 284
+    },
+    {
+        "date": "2021-01-25",
+        "code": "0REG-1",
+        "n_dose1": 68,
+        "n_cum_dose1": 352
+    },
+    {
+        "date": "2021-01-26",
+        "code": "0REG-1",
+        "n_dose1": 61,
+        "n_cum_dose1": 413
+    },
+    {
+        "date": "2021-01-06",
+        "code": "0REG-2",
+        "n_dose1": 5,
+        "n_cum_dose1": 5
+    },
+    {
+        "date": "2021-01-07",
+        "code": "0REG-2",
+        "n_dose1": 30,
+        "n_cum_dose1": 35
+    },
+    {
+        "date": "2021-01-08",
+        "code": "0REG-2",
+        "n_dose1": 76,
+        "n_cum_dose1": 111
+    },
+    {
+        "date": "2021-01-09",
+        "code": "0REG-2",
+        "n_dose1": 20,
+        "n_cum_dose1": 131
+    },
+    {
+        "date": "2021-01-11",
+        "code": "0REG-2",
+        "n_dose1": 110,
+        "n_cum_dose1": 241
+    },
+    {
+        "date": "2021-01-12",
+        "code": "0REG-2",
+        "n_dose1": 75,
+        "n_cum_dose1": 316
+    },
+    {
+        "date": "2021-01-13",
+        "code": "0REG-2",
+        "n_dose1": 59,
+        "n_cum_dose1": 375
+    },
+    {
+        "date": "2021-01-14",
+        "code": "0REG-2",
+        "n_dose1": 79,
+        "n_cum_dose1": 454
+    },
+    {
+        "date": "2021-01-15",
+        "code": "0REG-2",
+        "n_dose1": 118,
+        "n_cum_dose1": 572
+    },
+    {
+        "date": "2021-01-16",
+        "code": "0REG-2",
+        "n_dose1": 49,
+        "n_cum_dose1": 621
+    },
+    {
+        "date": "2021-01-18",
+        "code": "0REG-2",
+        "n_dose1": 145,
+        "n_cum_dose1": 766
+    },
+    {
+        "date": "2021-01-19",
+        "code": "0REG-2",
+        "n_dose1": 123,
+        "n_cum_dose1": 889
+    },
+    {
+        "date": "2021-01-20",
+        "code": "0REG-2",
+        "n_dose1": 155,
+        "n_cum_dose1": 1044
+    },
+    {
+        "date": "2021-01-21",
+        "code": "0REG-2",
+        "n_dose1": 161,
+        "n_cum_dose1": 1205
+    },
+    {
+        "date": "2021-01-22",
+        "code": "0REG-2",
+        "n_dose1": 147,
+        "n_cum_dose1": 1352
+    },
+    {
+        "date": "2021-01-23",
+        "code": "0REG-2",
+        "n_dose1": 56,
+        "n_cum_dose1": 1408
+    },
+    {
+        "date": "2021-01-25",
+        "code": "0REG-2",
+        "n_dose1": 146,
+        "n_cum_dose1": 1554
+    },
+    {
+        "date": "2021-01-26",
+        "code": "0REG-2",
+        "n_dose1": 91,
+        "n_cum_dose1": 1645
+    },
+    {
+        "date": "2021-01-13",
+        "code": "0REG-3",
+        "n_dose1": 29,
+        "n_cum_dose1": 29
+    },
+    {
+        "date": "2021-01-14",
+        "code": "0REG-3",
+        "n_dose1": 46,
+        "n_cum_dose1": 75
+    },
+    {
+        "date": "2021-01-15",
+        "code": "0REG-3",
+        "n_dose1": 34,
+        "n_cum_dose1": 109
+    },
+    {
+        "date": "2021-01-16",
+        "code": "0REG-3",
+        "n_dose1": 17,
+        "n_cum_dose1": 126
+    },
+    {
+        "date": "2021-01-18",
+        "code": "0REG-3",
+        "n_dose1": 61,
+        "n_cum_dose1": 187
+    },
+    {
+        "date": "2021-01-19",
+        "code": "0REG-3",
+        "n_dose1": 132,
+        "n_cum_dose1": 319
+    },
+    {
+        "date": "2021-01-20",
+        "code": "0REG-3",
+        "n_dose1": 108,
+        "n_cum_dose1": 427
+    },
+    {
+        "date": "2021-01-21",
+        "code": "0REG-3",
+        "n_dose1": 107,
+        "n_cum_dose1": 534
+    },
+    {
+        "date": "2021-01-22",
+        "code": "0REG-3",
+        "n_dose1": 63,
+        "n_cum_dose1": 597
+    },
+    {
+        "date": "2021-01-25",
+        "code": "0REG-3",
+        "n_dose1": 56,
+        "n_cum_dose1": 653
+    },
+    {
+        "date": "2021-01-26",
+        "code": "0REG-3",
+        "n_dose1": 96,
+        "n_cum_dose1": 749
+    },
+    {
+        "date": "2021-01-05",
+        "code": "0REG-4",
+        "n_dose1": 1,
+        "n_cum_dose1": 1
+    },
+    {
+        "date": "2021-01-15",
+        "code": "0REG-4",
+        "n_dose1": 125,
+        "n_cum_dose1": 126
+    },
+    {
+        "date": "2021-01-16",
+        "code": "0REG-4",
+        "n_dose1": 20,
+        "n_cum_dose1": 146
+    },
+    {
+        "date": "2021-01-18",
+        "code": "0REG-4",
+        "n_dose1": 49,
+        "n_cum_dose1": 195
+    },
+    {
+        "date": "2021-01-19",
+        "code": "0REG-4",
+        "n_dose1": 366,
+        "n_cum_dose1": 561
+    },
+    {
+        "date": "2021-01-20",
+        "code": "0REG-4",
+        "n_dose1": 347,
+        "n_cum_dose1": 908
+    },
+    {
+        "date": "2021-01-21",
+        "code": "0REG-4",
+        "n_dose1": 510,
+        "n_cum_dose1": 1418
+    },
+    {
+        "date": "2021-01-22",
+        "code": "0REG-4",
+        "n_dose1": 369,
+        "n_cum_dose1": 1787
+    },
+    {
+        "date": "2021-01-23",
+        "code": "0REG-4",
+        "n_dose1": 72,
+        "n_cum_dose1": 1859
+    },
+    {
+        "date": "2021-01-25",
+        "code": "0REG-4",
+        "n_dose1": 230,
+        "n_cum_dose1": 2089
+    },
+    {
+        "date": "2021-01-26",
+        "code": "0REG-4",
+        "n_dose1": 317,
+        "n_cum_dose1": 2406
+    },
+    {
+        "date": "2021-01-25",
+        "code": "0REG-6",
+        "n_dose1": 49,
+        "n_cum_dose1": 49
+    },
+    {
+        "date": "2021-01-26",
+        "code": "0REG-6",
+        "n_dose1": 34,
+        "n_cum_dose1": 83
+    },
+    {
+        "date": "2021-01-18",
+        "code": "0REG-7",
+        "n_dose1": 1,
+        "n_cum_dose1": 1
+    },
+    {
+        "date": "2020-12-18",
+        "code": "REG-11",
+        "n_dose1": 1,
+        "n_cum_dose1": 1
+    },
+    {
+        "date": "2020-12-23",
+        "code": "REG-11",
+        "n_dose1": 1,
+        "n_cum_dose1": 2
+    },
+    {
+        "date": "2020-12-27",
+        "code": "REG-11",
+        "n_dose1": 9,
+        "n_cum_dose1": 11
+    },
+    {
+        "date": "2020-12-29",
+        "code": "REG-11",
+        "n_dose1": 19,
+        "n_cum_dose1": 30
+    },
+    {
+        "date": "2020-12-30",
+        "code": "REG-11",
+        "n_dose1": 63,
+        "n_cum_dose1": 93
+    },
+    {
+        "date": "2020-12-31",
+        "code": "REG-11",
+        "n_dose1": 34,
+        "n_cum_dose1": 127
+    },
+    {
+        "date": "2021-01-01",
+        "code": "REG-11",
+        "n_dose1": 9,
+        "n_cum_dose1": 136
+    },
+    {
+        "date": "2021-01-02",
+        "code": "REG-11",
+        "n_dose1": 40,
+        "n_cum_dose1": 176
+    },
+    {
+        "date": "2021-01-03",
+        "code": "REG-11",
+        "n_dose1": 72,
+        "n_cum_dose1": 248
+    },
+    {
+        "date": "2021-01-04",
+        "code": "REG-11",
+        "n_dose1": 518,
+        "n_cum_dose1": 766
+    },
+    {
+        "date": "2021-01-05",
+        "code": "REG-11",
+        "n_dose1": 1649,
+        "n_cum_dose1": 2415
+    },
+    {
+        "date": "2021-01-06",
+        "code": "REG-11",
+        "n_dose1": 2286,
+        "n_cum_dose1": 4701
+    },
+    {
+        "date": "2021-01-07",
+        "code": "REG-11",
+        "n_dose1": 3871,
+        "n_cum_dose1": 8572
+    },
+    {
+        "date": "2021-01-08",
+        "code": "REG-11",
+        "n_dose1": 4700,
+        "n_cum_dose1": 13272
+    },
+    {
+        "date": "2021-01-09",
+        "code": "REG-11",
+        "n_dose1": 1716,
+        "n_cum_dose1": 14988
+    },
+    {
+        "date": "2021-01-10",
+        "code": "REG-11",
+        "n_dose1": 1550,
+        "n_cum_dose1": 16538
+    },
+    {
+        "date": "2021-01-11",
+        "code": "REG-11",
+        "n_dose1": 4790,
+        "n_cum_dose1": 21328
+    },
+    {
+        "date": "2021-01-12",
+        "code": "REG-11",
+        "n_dose1": 6464,
+        "n_cum_dose1": 27792
+    },
+    {
+        "date": "2021-01-13",
+        "code": "REG-11",
+        "n_dose1": 6299,
+        "n_cum_dose1": 34091
+    },
+    {
+        "date": "2021-01-14",
+        "code": "REG-11",
+        "n_dose1": 7018,
+        "n_cum_dose1": 41109
+    },
+    {
+        "date": "2021-01-15",
+        "code": "REG-11",
+        "n_dose1": 5863,
+        "n_cum_dose1": 46972
+    },
+    {
+        "date": "2021-01-16",
+        "code": "REG-11",
+        "n_dose1": 1532,
+        "n_cum_dose1": 48504
+    },
+    {
+        "date": "2021-01-17",
+        "code": "REG-11",
+        "n_dose1": 624,
+        "n_cum_dose1": 49128
+    },
+    {
+        "date": "2021-01-18",
+        "code": "REG-11",
+        "n_dose1": 9748,
+        "n_cum_dose1": 58876
+    },
+    {
+        "date": "2021-01-19",
+        "code": "REG-11",
+        "n_dose1": 13246,
+        "n_cum_dose1": 72122
+    },
+    {
+        "date": "2021-01-20",
+        "code": "REG-11",
+        "n_dose1": 15157,
+        "n_cum_dose1": 87279
+    },
+    {
+        "date": "2021-01-21",
+        "code": "REG-11",
+        "n_dose1": 18107,
+        "n_cum_dose1": 105386
+    },
+    {
+        "date": "2021-01-22",
+        "code": "REG-11",
+        "n_dose1": 14142,
+        "n_cum_dose1": 119528
+    },
+    {
+        "date": "2021-01-23",
+        "code": "REG-11",
+        "n_dose1": 4345,
+        "n_cum_dose1": 123873
+    },
+    {
+        "date": "2021-01-24",
+        "code": "REG-11",
+        "n_dose1": 959,
+        "n_cum_dose1": 124832
+    },
+    {
+        "date": "2021-01-25",
+        "code": "REG-11",
+        "n_dose1": 7743,
+        "n_cum_dose1": 132575
+    },
+    {
+        "date": "2021-01-26",
+        "code": "REG-11",
+        "n_dose1": 10533,
+        "n_cum_dose1": 143108
+    },
+    {
+        "date": "2020-12-28",
+        "code": "REG-24",
+        "n_dose1": 7,
+        "n_cum_dose1": 7
+    },
+    {
+        "date": "2020-12-29",
+        "code": "REG-24",
+        "n_dose1": 7,
+        "n_cum_dose1": 14
+    },
+    {
+        "date": "2021-01-04",
+        "code": "REG-24",
+        "n_dose1": 4,
+        "n_cum_dose1": 18
+    },
+    {
+        "date": "2021-01-05",
+        "code": "REG-24",
+        "n_dose1": 163,
+        "n_cum_dose1": 181
+    },
+    {
+        "date": "2021-01-06",
+        "code": "REG-24",
+        "n_dose1": 307,
+        "n_cum_dose1": 488
+    },
+    {
+        "date": "2021-01-07",
+        "code": "REG-24",
+        "n_dose1": 459,
+        "n_cum_dose1": 947
+    },
+    {
+        "date": "2021-01-08",
+        "code": "REG-24",
+        "n_dose1": 909,
+        "n_cum_dose1": 1856
+    },
+    {
+        "date": "2021-01-09",
+        "code": "REG-24",
+        "n_dose1": 495,
+        "n_cum_dose1": 2351
+    },
+    {
+        "date": "2021-01-10",
+        "code": "REG-24",
+        "n_dose1": 393,
+        "n_cum_dose1": 2744
+    },
+    {
+        "date": "2021-01-11",
+        "code": "REG-24",
+        "n_dose1": 1252,
+        "n_cum_dose1": 3996
+    },
+    {
+        "date": "2021-01-12",
+        "code": "REG-24",
+        "n_dose1": 2528,
+        "n_cum_dose1": 6524
+    },
+    {
+        "date": "2021-01-13",
+        "code": "REG-24",
+        "n_dose1": 2053,
+        "n_cum_dose1": 8577
+    },
+    {
+        "date": "2021-01-14",
+        "code": "REG-24",
+        "n_dose1": 2401,
+        "n_cum_dose1": 10978
+    },
+    {
+        "date": "2021-01-15",
+        "code": "REG-24",
+        "n_dose1": 1983,
+        "n_cum_dose1": 12961
+    },
+    {
+        "date": "2021-01-16",
+        "code": "REG-24",
+        "n_dose1": 733,
+        "n_cum_dose1": 13694
+    },
+    {
+        "date": "2021-01-17",
+        "code": "REG-24",
+        "n_dose1": 312,
+        "n_cum_dose1": 14006
+    },
+    {
+        "date": "2021-01-18",
+        "code": "REG-24",
+        "n_dose1": 3142,
+        "n_cum_dose1": 17148
+    },
+    {
+        "date": "2021-01-19",
+        "code": "REG-24",
+        "n_dose1": 5916,
+        "n_cum_dose1": 23064
+    },
+    {
+        "date": "2021-01-20",
+        "code": "REG-24",
+        "n_dose1": 6731,
+        "n_cum_dose1": 29795
+    },
+    {
+        "date": "2021-01-21",
+        "code": "REG-24",
+        "n_dose1": 7148,
+        "n_cum_dose1": 36943
+    },
+    {
+        "date": "2021-01-22",
+        "code": "REG-24",
+        "n_dose1": 4855,
+        "n_cum_dose1": 41798
+    },
+    {
+        "date": "2021-01-23",
+        "code": "REG-24",
+        "n_dose1": 1178,
+        "n_cum_dose1": 42976
+    },
+    {
+        "date": "2021-01-24",
+        "code": "REG-24",
+        "n_dose1": 222,
+        "n_cum_dose1": 43198
+    },
+    {
+        "date": "2021-01-25",
+        "code": "REG-24",
+        "n_dose1": 2837,
+        "n_cum_dose1": 46035
+    },
+    {
+        "date": "2021-01-26",
+        "code": "REG-24",
+        "n_dose1": 4339,
+        "n_cum_dose1": 50374
+    },
+    {
+        "date": "2020-12-27",
+        "code": "REG-27",
+        "n_dose1": 4,
+        "n_cum_dose1": 4
+    },
+    {
+        "date": "2020-12-29",
+        "code": "REG-27",
+        "n_dose1": 19,
+        "n_cum_dose1": 23
+    },
+    {
+        "date": "2020-12-30",
+        "code": "REG-27",
+        "n_dose1": 20,
+        "n_cum_dose1": 43
+    },
+    {
+        "date": "2021-01-04",
+        "code": "REG-27",
+        "n_dose1": 17,
+        "n_cum_dose1": 60
+    },
+    {
+        "date": "2021-01-05",
+        "code": "REG-27",
+        "n_dose1": 258,
+        "n_cum_dose1": 318
+    },
+    {
+        "date": "2021-01-06",
+        "code": "REG-27",
+        "n_dose1": 636,
+        "n_cum_dose1": 954
+    },
+    {
+        "date": "2021-01-07",
+        "code": "REG-27",
+        "n_dose1": 1454,
+        "n_cum_dose1": 2408
+    },
+    {
+        "date": "2021-01-08",
+        "code": "REG-27",
+        "n_dose1": 1687,
+        "n_cum_dose1": 4095
+    },
+    {
+        "date": "2021-01-09",
+        "code": "REG-27",
+        "n_dose1": 674,
+        "n_cum_dose1": 4769
+    },
+    {
+        "date": "2021-01-10",
+        "code": "REG-27",
+        "n_dose1": 2,
+        "n_cum_dose1": 4771
+    },
+    {
+        "date": "2021-01-11",
+        "code": "REG-27",
+        "n_dose1": 2207,
+        "n_cum_dose1": 6978
+    },
+    {
+        "date": "2021-01-12",
+        "code": "REG-27",
+        "n_dose1": 3398,
+        "n_cum_dose1": 10376
+    },
+    {
+        "date": "2021-01-13",
+        "code": "REG-27",
+        "n_dose1": 3229,
+        "n_cum_dose1": 13605
+    },
+    {
+        "date": "2021-01-14",
+        "code": "REG-27",
+        "n_dose1": 4153,
+        "n_cum_dose1": 17758
+    },
+    {
+        "date": "2021-01-15",
+        "code": "REG-27",
+        "n_dose1": 3030,
+        "n_cum_dose1": 20788
+    },
+    {
+        "date": "2021-01-16",
+        "code": "REG-27",
+        "n_dose1": 769,
+        "n_cum_dose1": 21557
+    },
+    {
+        "date": "2021-01-17",
+        "code": "REG-27",
+        "n_dose1": 116,
+        "n_cum_dose1": 21673
+    },
+    {
+        "date": "2021-01-18",
+        "code": "REG-27",
+        "n_dose1": 5416,
+        "n_cum_dose1": 27089
+    },
+    {
+        "date": "2021-01-19",
+        "code": "REG-27",
+        "n_dose1": 7417,
+        "n_cum_dose1": 34506
+    },
+    {
+        "date": "2021-01-20",
+        "code": "REG-27",
+        "n_dose1": 7176,
+        "n_cum_dose1": 41682
+    },
+    {
+        "date": "2021-01-21",
+        "code": "REG-27",
+        "n_dose1": 8458,
+        "n_cum_dose1": 50140
+    },
+    {
+        "date": "2021-01-22",
+        "code": "REG-27",
+        "n_dose1": 6923,
+        "n_cum_dose1": 57063
+    },
+    {
+        "date": "2021-01-23",
+        "code": "REG-27",
+        "n_dose1": 2888,
+        "n_cum_dose1": 59951
+    },
+    {
+        "date": "2021-01-24",
+        "code": "REG-27",
+        "n_dose1": 328,
+        "n_cum_dose1": 60279
+    },
+    {
+        "date": "2021-01-25",
+        "code": "REG-27",
+        "n_dose1": 4588,
+        "n_cum_dose1": 64867
+    },
+    {
+        "date": "2021-01-26",
+        "code": "REG-27",
+        "n_dose1": 6643,
+        "n_cum_dose1": 71510
+    },
+    {
+        "date": "2020-12-31",
+        "code": "REG-28",
+        "n_dose1": 1,
+        "n_cum_dose1": 1
+    },
+    {
+        "date": "2021-01-04",
+        "code": "REG-28",
+        "n_dose1": 16,
+        "n_cum_dose1": 17
+    },
+    {
+        "date": "2021-01-05",
+        "code": "REG-28",
+        "n_dose1": 159,
+        "n_cum_dose1": 176
+    },
+    {
+        "date": "2021-01-06",
+        "code": "REG-28",
+        "n_dose1": 1319,
+        "n_cum_dose1": 1495
+    },
+    {
+        "date": "2021-01-07",
+        "code": "REG-28",
+        "n_dose1": 2450,
+        "n_cum_dose1": 3945
+    },
+    {
+        "date": "2021-01-08",
+        "code": "REG-28",
+        "n_dose1": 3107,
+        "n_cum_dose1": 7052
+    },
+    {
+        "date": "2021-01-09",
+        "code": "REG-28",
+        "n_dose1": 1312,
+        "n_cum_dose1": 8364
+    },
+    {
+        "date": "2021-01-10",
+        "code": "REG-28",
+        "n_dose1": 695,
+        "n_cum_dose1": 9059
+    },
+    {
+        "date": "2021-01-11",
+        "code": "REG-28",
+        "n_dose1": 2925,
+        "n_cum_dose1": 11984
+    },
+    {
+        "date": "2021-01-12",
+        "code": "REG-28",
+        "n_dose1": 3717,
+        "n_cum_dose1": 15701
+    },
+    {
+        "date": "2021-01-13",
+        "code": "REG-28",
+        "n_dose1": 4022,
+        "n_cum_dose1": 19723
+    },
+    {
+        "date": "2021-01-14",
+        "code": "REG-28",
+        "n_dose1": 7187,
+        "n_cum_dose1": 26910
+    },
+    {
+        "date": "2021-01-15",
+        "code": "REG-28",
+        "n_dose1": 5785,
+        "n_cum_dose1": 32695
+    },
+    {
+        "date": "2021-01-16",
+        "code": "REG-28",
+        "n_dose1": 2032,
+        "n_cum_dose1": 34727
+    },
+    {
+        "date": "2021-01-17",
+        "code": "REG-28",
+        "n_dose1": 3701,
+        "n_cum_dose1": 38428
+    },
+    {
+        "date": "2021-01-18",
+        "code": "REG-28",
+        "n_dose1": 7988,
+        "n_cum_dose1": 46416
+    },
+    {
+        "date": "2021-01-19",
+        "code": "REG-28",
+        "n_dose1": 6670,
+        "n_cum_dose1": 53086
+    },
+    {
+        "date": "2021-01-20",
+        "code": "REG-28",
+        "n_dose1": 5937,
+        "n_cum_dose1": 59023
+    },
+    {
+        "date": "2021-01-21",
+        "code": "REG-28",
+        "n_dose1": 5635,
+        "n_cum_dose1": 64658
+    },
+    {
+        "date": "2021-01-22",
+        "code": "REG-28",
+        "n_dose1": 5193,
+        "n_cum_dose1": 69851
+    },
+    {
+        "date": "2021-01-23",
+        "code": "REG-28",
+        "n_dose1": 1954,
+        "n_cum_dose1": 71805
+    },
+    {
+        "date": "2021-01-24",
+        "code": "REG-28",
+        "n_dose1": 1420,
+        "n_cum_dose1": 73225
+    },
+    {
+        "date": "2021-01-25",
+        "code": "REG-28",
+        "n_dose1": 5729,
+        "n_cum_dose1": 78954
+    },
+    {
+        "date": "2021-01-26",
+        "code": "REG-28",
+        "n_dose1": 4167,
+        "n_cum_dose1": 83121
+    },
+    {
+        "date": "2020-12-28",
+        "code": "REG-32",
+        "n_dose1": 25,
+        "n_cum_dose1": 25
+    },
+    {
+        "date": "2020-12-29",
+        "code": "REG-32",
+        "n_dose1": 12,
+        "n_cum_dose1": 37
+    },
+    {
+        "date": "2021-01-04",
+        "code": "REG-32",
+        "n_dose1": 79,
+        "n_cum_dose1": 116
+    },
+    {
+        "date": "2021-01-05",
+        "code": "REG-32",
+        "n_dose1": 291,
+        "n_cum_dose1": 407
+    },
+    {
+        "date": "2021-01-06",
+        "code": "REG-32",
+        "n_dose1": 766,
+        "n_cum_dose1": 1173
+    },
+    {
+        "date": "2021-01-07",
+        "code": "REG-32",
+        "n_dose1": 2220,
+        "n_cum_dose1": 3393
+    },
+    {
+        "date": "2021-01-08",
+        "code": "REG-32",
+        "n_dose1": 2872,
+        "n_cum_dose1": 6265
+    },
+    {
+        "date": "2021-01-09",
+        "code": "REG-32",
+        "n_dose1": 929,
+        "n_cum_dose1": 7194
+    },
+    {
+        "date": "2021-01-10",
+        "code": "REG-32",
+        "n_dose1": 631,
+        "n_cum_dose1": 7825
+    },
+    {
+        "date": "2021-01-11",
+        "code": "REG-32",
+        "n_dose1": 2939,
+        "n_cum_dose1": 10764
+    },
+    {
+        "date": "2021-01-12",
+        "code": "REG-32",
+        "n_dose1": 4232,
+        "n_cum_dose1": 14996
+    },
+    {
+        "date": "2021-01-13",
+        "code": "REG-32",
+        "n_dose1": 4407,
+        "n_cum_dose1": 19403
+    },
+    {
+        "date": "2021-01-14",
+        "code": "REG-32",
+        "n_dose1": 4984,
+        "n_cum_dose1": 24387
+    },
+    {
+        "date": "2021-01-15",
+        "code": "REG-32",
+        "n_dose1": 4602,
+        "n_cum_dose1": 28989
+    },
+    {
+        "date": "2021-01-16",
+        "code": "REG-32",
+        "n_dose1": 1550,
+        "n_cum_dose1": 30539
+    },
+    {
+        "date": "2021-01-17",
+        "code": "REG-32",
+        "n_dose1": 853,
+        "n_cum_dose1": 31392
+    },
+    {
+        "date": "2021-01-18",
+        "code": "REG-32",
+        "n_dose1": 6437,
+        "n_cum_dose1": 37829
+    },
+    {
+        "date": "2021-01-19",
+        "code": "REG-32",
+        "n_dose1": 9193,
+        "n_cum_dose1": 47022
+    },
+    {
+        "date": "2021-01-20",
+        "code": "REG-32",
+        "n_dose1": 9443,
+        "n_cum_dose1": 56465
+    },
+    {
+        "date": "2021-01-21",
+        "code": "REG-32",
+        "n_dose1": 11530,
+        "n_cum_dose1": 67995
+    },
+    {
+        "date": "2021-01-22",
+        "code": "REG-32",
+        "n_dose1": 9044,
+        "n_cum_dose1": 77039
+    },
+    {
+        "date": "2021-01-23",
+        "code": "REG-32",
+        "n_dose1": 3056,
+        "n_cum_dose1": 80095
+    },
+    {
+        "date": "2021-01-24",
+        "code": "REG-32",
+        "n_dose1": 927,
+        "n_cum_dose1": 81022
+    },
+    {
+        "date": "2021-01-25",
+        "code": "REG-32",
+        "n_dose1": 6280,
+        "n_cum_dose1": 87302
+    },
+    {
+        "date": "2021-01-26",
+        "code": "REG-32",
+        "n_dose1": 6467,
+        "n_cum_dose1": 93769
+    },
+    {
+        "date": "2020-12-18",
+        "code": "REG-44",
+        "n_dose1": 1,
+        "n_cum_dose1": 1
+    },
+    {
+        "date": "2020-12-31",
+        "code": "REG-44",
+        "n_dose1": 9,
+        "n_cum_dose1": 10
+    },
+    {
+        "date": "2021-01-04",
+        "code": "REG-44",
+        "n_dose1": 202,
+        "n_cum_dose1": 212
+    },
+    {
+        "date": "2021-01-05",
+        "code": "REG-44",
+        "n_dose1": 750,
+        "n_cum_dose1": 962
+    },
+    {
+        "date": "2021-01-06",
+        "code": "REG-44",
+        "n_dose1": 1217,
+        "n_cum_dose1": 2179
+    },
+    {
+        "date": "2021-01-07",
+        "code": "REG-44",
+        "n_dose1": 2227,
+        "n_cum_dose1": 4406
+    },
+    {
+        "date": "2021-01-08",
+        "code": "REG-44",
+        "n_dose1": 2769,
+        "n_cum_dose1": 7175
+    },
+    {
+        "date": "2021-01-09",
+        "code": "REG-44",
+        "n_dose1": 838,
+        "n_cum_dose1": 8013
+    },
+    {
+        "date": "2021-01-10",
+        "code": "REG-44",
+        "n_dose1": 203,
+        "n_cum_dose1": 8216
+    },
+    {
+        "date": "2021-01-11",
+        "code": "REG-44",
+        "n_dose1": 2712,
+        "n_cum_dose1": 10928
+    },
+    {
+        "date": "2021-01-12",
+        "code": "REG-44",
+        "n_dose1": 4680,
+        "n_cum_dose1": 15608
+    },
+    {
+        "date": "2021-01-13",
+        "code": "REG-44",
+        "n_dose1": 6893,
+        "n_cum_dose1": 22501
+    },
+    {
+        "date": "2021-01-14",
+        "code": "REG-44",
+        "n_dose1": 7870,
+        "n_cum_dose1": 30371
+    },
+    {
+        "date": "2021-01-15",
+        "code": "REG-44",
+        "n_dose1": 5800,
+        "n_cum_dose1": 36171
+    },
+    {
+        "date": "2021-01-16",
+        "code": "REG-44",
+        "n_dose1": 1564,
+        "n_cum_dose1": 37735
+    },
+    {
+        "date": "2021-01-17",
+        "code": "REG-44",
+        "n_dose1": 869,
+        "n_cum_dose1": 38604
+    },
+    {
+        "date": "2021-01-18",
+        "code": "REG-44",
+        "n_dose1": 8181,
+        "n_cum_dose1": 46785
+    },
+    {
+        "date": "2021-01-19",
+        "code": "REG-44",
+        "n_dose1": 9819,
+        "n_cum_dose1": 56604
+    },
+    {
+        "date": "2021-01-20",
+        "code": "REG-44",
+        "n_dose1": 10187,
+        "n_cum_dose1": 66791
+    },
+    {
+        "date": "2021-01-21",
+        "code": "REG-44",
+        "n_dose1": 10520,
+        "n_cum_dose1": 77311
+    },
+    {
+        "date": "2021-01-22",
+        "code": "REG-44",
+        "n_dose1": 8828,
+        "n_cum_dose1": 86139
+    },
+    {
+        "date": "2021-01-23",
+        "code": "REG-44",
+        "n_dose1": 2967,
+        "n_cum_dose1": 89106
+    },
+    {
+        "date": "2021-01-24",
+        "code": "REG-44",
+        "n_dose1": 1492,
+        "n_cum_dose1": 90598
+    },
+    {
+        "date": "2021-01-25",
+        "code": "REG-44",
+        "n_dose1": 5958,
+        "n_cum_dose1": 96556
+    },
+    {
+        "date": "2021-01-26",
+        "code": "REG-44",
+        "n_dose1": 5185,
+        "n_cum_dose1": 101741
+    },
+    {
+        "date": "2021-01-03",
+        "code": "REG-52",
+        "n_dose1": 1,
+        "n_cum_dose1": 1
+    },
+    {
+        "date": "2021-01-04",
+        "code": "REG-52",
+        "n_dose1": 34,
+        "n_cum_dose1": 35
+    },
+    {
+        "date": "2021-01-05",
+        "code": "REG-52",
+        "n_dose1": 162,
+        "n_cum_dose1": 197
+    },
+    {
+        "date": "2021-01-06",
+        "code": "REG-52",
+        "n_dose1": 295,
+        "n_cum_dose1": 492
+    },
+    {
+        "date": "2021-01-07",
+        "code": "REG-52",
+        "n_dose1": 740,
+        "n_cum_dose1": 1232
+    },
+    {
+        "date": "2021-01-08",
+        "code": "REG-52",
+        "n_dose1": 1395,
+        "n_cum_dose1": 2627
+    },
+    {
+        "date": "2021-01-09",
+        "code": "REG-52",
+        "n_dose1": 1042,
+        "n_cum_dose1": 3669
+    },
+    {
+        "date": "2021-01-10",
+        "code": "REG-52",
+        "n_dose1": 638,
+        "n_cum_dose1": 4307
+    },
+    {
+        "date": "2021-01-11",
+        "code": "REG-52",
+        "n_dose1": 2052,
+        "n_cum_dose1": 6359
+    },
+    {
+        "date": "2021-01-12",
+        "code": "REG-52",
+        "n_dose1": 2859,
+        "n_cum_dose1": 9218
+    },
+    {
+        "date": "2021-01-13",
+        "code": "REG-52",
+        "n_dose1": 2720,
+        "n_cum_dose1": 11938
+    },
+    {
+        "date": "2021-01-14",
+        "code": "REG-52",
+        "n_dose1": 3019,
+        "n_cum_dose1": 14957
+    },
+    {
+        "date": "2021-01-15",
+        "code": "REG-52",
+        "n_dose1": 2682,
+        "n_cum_dose1": 17639
+    },
+    {
+        "date": "2021-01-16",
+        "code": "REG-52",
+        "n_dose1": 813,
+        "n_cum_dose1": 18452
+    },
+    {
+        "date": "2021-01-17",
+        "code": "REG-52",
+        "n_dose1": 485,
+        "n_cum_dose1": 18937
+    },
+    {
+        "date": "2021-01-18",
+        "code": "REG-52",
+        "n_dose1": 3101,
+        "n_cum_dose1": 22038
+    },
+    {
+        "date": "2021-01-19",
+        "code": "REG-52",
+        "n_dose1": 5867,
+        "n_cum_dose1": 27905
+    },
+    {
+        "date": "2021-01-20",
+        "code": "REG-52",
+        "n_dose1": 7505,
+        "n_cum_dose1": 35410
+    },
+    {
+        "date": "2021-01-21",
+        "code": "REG-52",
+        "n_dose1": 11047,
+        "n_cum_dose1": 46457
+    },
+    {
+        "date": "2021-01-22",
+        "code": "REG-52",
+        "n_dose1": 6789,
+        "n_cum_dose1": 53246
+    },
+    {
+        "date": "2021-01-23",
+        "code": "REG-52",
+        "n_dose1": 1660,
+        "n_cum_dose1": 54906
+    },
+    {
+        "date": "2021-01-24",
+        "code": "REG-52",
+        "n_dose1": 174,
+        "n_cum_dose1": 55080
+    },
+    {
+        "date": "2021-01-25",
+        "code": "REG-52",
+        "n_dose1": 2887,
+        "n_cum_dose1": 57967
+    },
+    {
+        "date": "2021-01-26",
+        "code": "REG-52",
+        "n_dose1": 6274,
+        "n_cum_dose1": 64241
+    },
+    {
+        "date": "2021-01-02",
+        "code": "REG-53",
+        "n_dose1": 1,
+        "n_cum_dose1": 1
+    },
+    {
+        "date": "2021-01-04",
+        "code": "REG-53",
+        "n_dose1": 39,
+        "n_cum_dose1": 40
+    },
+    {
+        "date": "2021-01-05",
+        "code": "REG-53",
+        "n_dose1": 198,
+        "n_cum_dose1": 238
+    },
+    {
+        "date": "2021-01-06",
+        "code": "REG-53",
+        "n_dose1": 322,
+        "n_cum_dose1": 560
+    },
+    {
+        "date": "2021-01-07",
+        "code": "REG-53",
+        "n_dose1": 817,
+        "n_cum_dose1": 1377
+    },
+    {
+        "date": "2021-01-08",
+        "code": "REG-53",
+        "n_dose1": 1196,
+        "n_cum_dose1": 2573
+    },
+    {
+        "date": "2021-01-09",
+        "code": "REG-53",
+        "n_dose1": 33,
+        "n_cum_dose1": 2606
+    },
+    {
+        "date": "2021-01-11",
+        "code": "REG-53",
+        "n_dose1": 1596,
+        "n_cum_dose1": 4202
+    },
+    {
+        "date": "2021-01-12",
+        "code": "REG-53",
+        "n_dose1": 3032,
+        "n_cum_dose1": 7234
+    },
+    {
+        "date": "2021-01-13",
+        "code": "REG-53",
+        "n_dose1": 3084,
+        "n_cum_dose1": 10318
+    },
+    {
+        "date": "2021-01-14",
+        "code": "REG-53",
+        "n_dose1": 3404,
+        "n_cum_dose1": 13722
+    },
+    {
+        "date": "2021-01-15",
+        "code": "REG-53",
+        "n_dose1": 3025,
+        "n_cum_dose1": 16747
+    },
+    {
+        "date": "2021-01-16",
+        "code": "REG-53",
+        "n_dose1": 679,
+        "n_cum_dose1": 17426
+    },
+    {
+        "date": "2021-01-17",
+        "code": "REG-53",
+        "n_dose1": 180,
+        "n_cum_dose1": 17606
+    },
+    {
+        "date": "2021-01-18",
+        "code": "REG-53",
+        "n_dose1": 3124,
+        "n_cum_dose1": 20730
+    },
+    {
+        "date": "2021-01-19",
+        "code": "REG-53",
+        "n_dose1": 7632,
+        "n_cum_dose1": 28362
+    },
+    {
+        "date": "2021-01-20",
+        "code": "REG-53",
+        "n_dose1": 6544,
+        "n_cum_dose1": 34906
+    },
+    {
+        "date": "2021-01-21",
+        "code": "REG-53",
+        "n_dose1": 10009,
+        "n_cum_dose1": 44915
+    },
+    {
+        "date": "2021-01-22",
+        "code": "REG-53",
+        "n_dose1": 7271,
+        "n_cum_dose1": 52186
+    },
+    {
+        "date": "2021-01-23",
+        "code": "REG-53",
+        "n_dose1": 1454,
+        "n_cum_dose1": 53640
+    },
+    {
+        "date": "2021-01-24",
+        "code": "REG-53",
+        "n_dose1": 252,
+        "n_cum_dose1": 53892
+    },
+    {
+        "date": "2021-01-25",
+        "code": "REG-53",
+        "n_dose1": 3016,
+        "n_cum_dose1": 56908
+    },
+    {
+        "date": "2021-01-26",
+        "code": "REG-53",
+        "n_dose1": 3932,
+        "n_cum_dose1": 60840
+    },
+    {
+        "date": "2020-12-29",
+        "code": "REG-75",
+        "n_dose1": 2,
+        "n_cum_dose1": 2
+    },
+    {
+        "date": "2021-01-04",
+        "code": "REG-75",
+        "n_dose1": 85,
+        "n_cum_dose1": 87
+    },
+    {
+        "date": "2021-01-05",
+        "code": "REG-75",
+        "n_dose1": 90,
+        "n_cum_dose1": 177
+    },
+    {
+        "date": "2021-01-06",
+        "code": "REG-75",
+        "n_dose1": 701,
+        "n_cum_dose1": 878
+    },
+    {
+        "date": "2021-01-07",
+        "code": "REG-75",
+        "n_dose1": 4594,
+        "n_cum_dose1": 5472
+    },
+    {
+        "date": "2021-01-08",
+        "code": "REG-75",
+        "n_dose1": 4966,
+        "n_cum_dose1": 10438
+    },
+    {
+        "date": "2021-01-09",
+        "code": "REG-75",
+        "n_dose1": 826,
+        "n_cum_dose1": 11264
+    },
+    {
+        "date": "2021-01-10",
+        "code": "REG-75",
+        "n_dose1": 473,
+        "n_cum_dose1": 11737
+    },
+    {
+        "date": "2021-01-11",
+        "code": "REG-75",
+        "n_dose1": 3193,
+        "n_cum_dose1": 14930
+    },
+    {
+        "date": "2021-01-12",
+        "code": "REG-75",
+        "n_dose1": 5569,
+        "n_cum_dose1": 20499
+    },
+    {
+        "date": "2021-01-13",
+        "code": "REG-75",
+        "n_dose1": 6085,
+        "n_cum_dose1": 26584
+    },
+    {
+        "date": "2021-01-14",
+        "code": "REG-75",
+        "n_dose1": 7500,
+        "n_cum_dose1": 34084
+    },
+    {
+        "date": "2021-01-15",
+        "code": "REG-75",
+        "n_dose1": 6770,
+        "n_cum_dose1": 40854
+    },
+    {
+        "date": "2021-01-16",
+        "code": "REG-75",
+        "n_dose1": 1472,
+        "n_cum_dose1": 42326
+    },
+    {
+        "date": "2021-01-17",
+        "code": "REG-75",
+        "n_dose1": 405,
+        "n_cum_dose1": 42731
+    },
+    {
+        "date": "2021-01-18",
+        "code": "REG-75",
+        "n_dose1": 6371,
+        "n_cum_dose1": 49102
+    },
+    {
+        "date": "2021-01-19",
+        "code": "REG-75",
+        "n_dose1": 13137,
+        "n_cum_dose1": 62239
+    },
+    {
+        "date": "2021-01-20",
+        "code": "REG-75",
+        "n_dose1": 14143,
+        "n_cum_dose1": 76382
+    },
+    {
+        "date": "2021-01-21",
+        "code": "REG-75",
+        "n_dose1": 15745,
+        "n_cum_dose1": 92127
+    },
+    {
+        "date": "2021-01-22",
+        "code": "REG-75",
+        "n_dose1": 12157,
+        "n_cum_dose1": 104284
+    },
+    {
+        "date": "2021-01-23",
+        "code": "REG-75",
+        "n_dose1": 4299,
+        "n_cum_dose1": 108583
+    },
+    {
+        "date": "2021-01-24",
+        "code": "REG-75",
+        "n_dose1": 672,
+        "n_cum_dose1": 109255
+    },
+    {
+        "date": "2021-01-25",
+        "code": "REG-75",
+        "n_dose1": 8530,
+        "n_cum_dose1": 117785
+    },
+    {
+        "date": "2021-01-26",
+        "code": "REG-75",
+        "n_dose1": 10391,
+        "n_cum_dose1": 128176
+    },
+    {
+        "date": "2020-12-31",
+        "code": "REG-76",
+        "n_dose1": 1,
+        "n_cum_dose1": 1
+    },
+    {
+        "date": "2021-01-03",
+        "code": "REG-76",
+        "n_dose1": 1,
+        "n_cum_dose1": 2
+    },
+    {
+        "date": "2021-01-04",
+        "code": "REG-76",
+        "n_dose1": 58,
+        "n_cum_dose1": 60
+    },
+    {
+        "date": "2021-01-05",
+        "code": "REG-76",
+        "n_dose1": 461,
+        "n_cum_dose1": 521
+    },
+    {
+        "date": "2021-01-06",
+        "code": "REG-76",
+        "n_dose1": 740,
+        "n_cum_dose1": 1261
+    },
+    {
+        "date": "2021-01-07",
+        "code": "REG-76",
+        "n_dose1": 2421,
+        "n_cum_dose1": 3682
+    },
+    {
+        "date": "2021-01-08",
+        "code": "REG-76",
+        "n_dose1": 3014,
+        "n_cum_dose1": 6696
+    },
+    {
+        "date": "2021-01-09",
+        "code": "REG-76",
+        "n_dose1": 1459,
+        "n_cum_dose1": 8155
+    },
+    {
+        "date": "2021-01-10",
+        "code": "REG-76",
+        "n_dose1": 461,
+        "n_cum_dose1": 8616
+    },
+    {
+        "date": "2021-01-11",
+        "code": "REG-76",
+        "n_dose1": 3237,
+        "n_cum_dose1": 11853
+    },
+    {
+        "date": "2021-01-12",
+        "code": "REG-76",
+        "n_dose1": 5215,
+        "n_cum_dose1": 17068
+    },
+    {
+        "date": "2021-01-13",
+        "code": "REG-76",
+        "n_dose1": 5863,
+        "n_cum_dose1": 22931
+    },
+    {
+        "date": "2021-01-14",
+        "code": "REG-76",
+        "n_dose1": 8208,
+        "n_cum_dose1": 31139
+    },
+    {
+        "date": "2021-01-15",
+        "code": "REG-76",
+        "n_dose1": 6594,
+        "n_cum_dose1": 37733
+    },
+    {
+        "date": "2021-01-16",
+        "code": "REG-76",
+        "n_dose1": 1854,
+        "n_cum_dose1": 39587
+    },
+    {
+        "date": "2021-01-17",
+        "code": "REG-76",
+        "n_dose1": 664,
+        "n_cum_dose1": 40251
+    },
+    {
+        "date": "2021-01-18",
+        "code": "REG-76",
+        "n_dose1": 7142,
+        "n_cum_dose1": 47393
+    },
+    {
+        "date": "2021-01-19",
+        "code": "REG-76",
+        "n_dose1": 10521,
+        "n_cum_dose1": 57914
+    },
+    {
+        "date": "2021-01-20",
+        "code": "REG-76",
+        "n_dose1": 12847,
+        "n_cum_dose1": 70761
+    },
+    {
+        "date": "2021-01-21",
+        "code": "REG-76",
+        "n_dose1": 15343,
+        "n_cum_dose1": 86104
+    },
+    {
+        "date": "2021-01-22",
+        "code": "REG-76",
+        "n_dose1": 11009,
+        "n_cum_dose1": 97113
+    },
+    {
+        "date": "2021-01-23",
+        "code": "REG-76",
+        "n_dose1": 3797,
+        "n_cum_dose1": 100910
+    },
+    {
+        "date": "2021-01-24",
+        "code": "REG-76",
+        "n_dose1": 707,
+        "n_cum_dose1": 101617
+    },
+    {
+        "date": "2021-01-25",
+        "code": "REG-76",
+        "n_dose1": 7458,
+        "n_cum_dose1": 109075
+    },
+    {
+        "date": "2021-01-26",
+        "code": "REG-76",
+        "n_dose1": 9030,
+        "n_cum_dose1": 118105
+    },
+    {
+        "date": "2020-12-28",
+        "code": "REG-84",
+        "n_dose1": 6,
+        "n_cum_dose1": 6
+    },
+    {
+        "date": "2020-12-29",
+        "code": "REG-84",
+        "n_dose1": 5,
+        "n_cum_dose1": 11
+    },
+    {
+        "date": "2020-12-30",
+        "code": "REG-84",
+        "n_dose1": 5,
+        "n_cum_dose1": 16
+    },
+    {
+        "date": "2020-12-31",
+        "code": "REG-84",
+        "n_dose1": 11,
+        "n_cum_dose1": 27
+    },
+    {
+        "date": "2021-01-02",
+        "code": "REG-84",
+        "n_dose1": 1,
+        "n_cum_dose1": 28
+    },
+    {
+        "date": "2021-01-04",
+        "code": "REG-84",
+        "n_dose1": 172,
+        "n_cum_dose1": 200
+    },
+    {
+        "date": "2021-01-05",
+        "code": "REG-84",
+        "n_dose1": 394,
+        "n_cum_dose1": 594
+    },
+    {
+        "date": "2021-01-06",
+        "code": "REG-84",
+        "n_dose1": 1019,
+        "n_cum_dose1": 1613
+    },
+    {
+        "date": "2021-01-07",
+        "code": "REG-84",
+        "n_dose1": 2504,
+        "n_cum_dose1": 4117
+    },
+    {
+        "date": "2021-01-08",
+        "code": "REG-84",
+        "n_dose1": 2662,
+        "n_cum_dose1": 6779
+    },
+    {
+        "date": "2021-01-09",
+        "code": "REG-84",
+        "n_dose1": 465,
+        "n_cum_dose1": 7244
+    },
+    {
+        "date": "2021-01-10",
+        "code": "REG-84",
+        "n_dose1": 152,
+        "n_cum_dose1": 7396
+    },
+    {
+        "date": "2021-01-11",
+        "code": "REG-84",
+        "n_dose1": 3683,
+        "n_cum_dose1": 11079
+    },
+    {
+        "date": "2021-01-12",
+        "code": "REG-84",
+        "n_dose1": 5509,
+        "n_cum_dose1": 16588
+    },
+    {
+        "date": "2021-01-13",
+        "code": "REG-84",
+        "n_dose1": 6386,
+        "n_cum_dose1": 22974
+    },
+    {
+        "date": "2021-01-14",
+        "code": "REG-84",
+        "n_dose1": 7808,
+        "n_cum_dose1": 30782
+    },
+    {
+        "date": "2021-01-15",
+        "code": "REG-84",
+        "n_dose1": 6425,
+        "n_cum_dose1": 37207
+    },
+    {
+        "date": "2021-01-16",
+        "code": "REG-84",
+        "n_dose1": 2697,
+        "n_cum_dose1": 39904
+    },
+    {
+        "date": "2021-01-17",
+        "code": "REG-84",
+        "n_dose1": 870,
+        "n_cum_dose1": 40774
+    },
+    {
+        "date": "2021-01-18",
+        "code": "REG-84",
+        "n_dose1": 7975,
+        "n_cum_dose1": 48749
+    },
+    {
+        "date": "2021-01-19",
+        "code": "REG-84",
+        "n_dose1": 12986,
+        "n_cum_dose1": 61735
+    },
+    {
+        "date": "2021-01-20",
+        "code": "REG-84",
+        "n_dose1": 13756,
+        "n_cum_dose1": 75491
+    },
+    {
+        "date": "2021-01-21",
+        "code": "REG-84",
+        "n_dose1": 12891,
+        "n_cum_dose1": 88382
+    },
+    {
+        "date": "2021-01-22",
+        "code": "REG-84",
+        "n_dose1": 11028,
+        "n_cum_dose1": 99410
+    },
+    {
+        "date": "2021-01-23",
+        "code": "REG-84",
+        "n_dose1": 4581,
+        "n_cum_dose1": 103991
+    },
+    {
+        "date": "2021-01-24",
+        "code": "REG-84",
+        "n_dose1": 798,
+        "n_cum_dose1": 104789
+    },
+    {
+        "date": "2021-01-25",
+        "code": "REG-84",
+        "n_dose1": 7531,
+        "n_cum_dose1": 112320
+    },
+    {
+        "date": "2021-01-26",
+        "code": "REG-84",
+        "n_dose1": 10087,
+        "n_cum_dose1": 122407
+    },
+    {
+        "date": "2020-12-31",
+        "code": "REG-93",
+        "n_dose1": 19,
+        "n_cum_dose1": 19
+    },
+    {
+        "date": "2021-01-04",
+        "code": "REG-93",
+        "n_dose1": 115,
+        "n_cum_dose1": 134
+    },
+    {
+        "date": "2021-01-05",
+        "code": "REG-93",
+        "n_dose1": 185,
+        "n_cum_dose1": 319
+    },
+    {
+        "date": "2021-01-06",
+        "code": "REG-93",
+        "n_dose1": 327,
+        "n_cum_dose1": 646
+    },
+    {
+        "date": "2021-01-07",
+        "code": "REG-93",
+        "n_dose1": 1066,
+        "n_cum_dose1": 1712
+    },
+    {
+        "date": "2021-01-08",
+        "code": "REG-93",
+        "n_dose1": 1043,
+        "n_cum_dose1": 2755
+    },
+    {
+        "date": "2021-01-09",
+        "code": "REG-93",
+        "n_dose1": 233,
+        "n_cum_dose1": 2988
+    },
+    {
+        "date": "2021-01-10",
+        "code": "REG-93",
+        "n_dose1": 2,
+        "n_cum_dose1": 2990
+    },
+    {
+        "date": "2021-01-11",
+        "code": "REG-93",
+        "n_dose1": 1645,
+        "n_cum_dose1": 4635
+    },
+    {
+        "date": "2021-01-12",
+        "code": "REG-93",
+        "n_dose1": 4191,
+        "n_cum_dose1": 8826
+    },
+    {
+        "date": "2021-01-13",
+        "code": "REG-93",
+        "n_dose1": 3678,
+        "n_cum_dose1": 12504
+    },
+    {
+        "date": "2021-01-14",
+        "code": "REG-93",
+        "n_dose1": 4182,
+        "n_cum_dose1": 16686
+    },
+    {
+        "date": "2021-01-15",
+        "code": "REG-93",
+        "n_dose1": 3341,
+        "n_cum_dose1": 20027
+    },
+    {
+        "date": "2021-01-16",
+        "code": "REG-93",
+        "n_dose1": 934,
+        "n_cum_dose1": 20961
+    },
+    {
+        "date": "2021-01-17",
+        "code": "REG-93",
+        "n_dose1": 59,
+        "n_cum_dose1": 21020
+    },
+    {
+        "date": "2021-01-18",
+        "code": "REG-93",
+        "n_dose1": 5112,
+        "n_cum_dose1": 26132
+    },
+    {
+        "date": "2021-01-19",
+        "code": "REG-93",
+        "n_dose1": 11060,
+        "n_cum_dose1": 37192
+    },
+    {
+        "date": "2021-01-20",
+        "code": "REG-93",
+        "n_dose1": 9408,
+        "n_cum_dose1": 46600
+    },
+    {
+        "date": "2021-01-21",
+        "code": "REG-93",
+        "n_dose1": 9757,
+        "n_cum_dose1": 56357
+    },
+    {
+        "date": "2021-01-22",
+        "code": "REG-93",
+        "n_dose1": 8076,
+        "n_cum_dose1": 64433
+    },
+    {
+        "date": "2021-01-23",
+        "code": "REG-93",
+        "n_dose1": 2427,
+        "n_cum_dose1": 66860
+    },
+    {
+        "date": "2021-01-24",
+        "code": "REG-93",
+        "n_dose1": 504,
+        "n_cum_dose1": 67364
+    },
+    {
+        "date": "2021-01-25",
+        "code": "REG-93",
+        "n_dose1": 5791,
+        "n_cum_dose1": 73155
+    },
+    {
+        "date": "2021-01-26",
+        "code": "REG-93",
+        "n_dose1": 7664,
+        "n_cum_dose1": 80819
+    },
+    {
+        "date": "2021-01-04",
+        "code": "REG-94",
+        "n_dose1": 2,
+        "n_cum_dose1": 2
+    },
+    {
+        "date": "2021-01-06",
+        "code": "REG-94",
+        "n_dose1": 53,
+        "n_cum_dose1": 55
+    },
+    {
+        "date": "2021-01-07",
+        "code": "REG-94",
+        "n_dose1": 325,
+        "n_cum_dose1": 380
+    },
+    {
+        "date": "2021-01-08",
+        "code": "REG-94",
+        "n_dose1": 280,
+        "n_cum_dose1": 660
+    },
+    {
+        "date": "2021-01-09",
+        "code": "REG-94",
+        "n_dose1": 75,
+        "n_cum_dose1": 735
+    },
+    {
+        "date": "2021-01-10",
+        "code": "REG-94",
+        "n_dose1": 33,
+        "n_cum_dose1": 768
+    },
+    {
+        "date": "2021-01-11",
+        "code": "REG-94",
+        "n_dose1": 123,
+        "n_cum_dose1": 891
+    },
+    {
+        "date": "2021-01-12",
+        "code": "REG-94",
+        "n_dose1": 196,
+        "n_cum_dose1": 1087
+    },
+    {
+        "date": "2021-01-13",
+        "code": "REG-94",
+        "n_dose1": 184,
+        "n_cum_dose1": 1271
+    },
+    {
+        "date": "2021-01-14",
+        "code": "REG-94",
+        "n_dose1": 246,
+        "n_cum_dose1": 1517
+    },
+    {
+        "date": "2021-01-15",
+        "code": "REG-94",
+        "n_dose1": 359,
+        "n_cum_dose1": 1876
+    },
+    {
+        "date": "2021-01-16",
+        "code": "REG-94",
+        "n_dose1": 195,
+        "n_cum_dose1": 2071
+    },
+    {
+        "date": "2021-01-17",
+        "code": "REG-94",
+        "n_dose1": 59,
+        "n_cum_dose1": 2130
+    },
+    {
+        "date": "2021-01-18",
+        "code": "REG-94",
+        "n_dose1": 460,
+        "n_cum_dose1": 2590
+    },
+    {
+        "date": "2021-01-19",
+        "code": "REG-94",
+        "n_dose1": 882,
+        "n_cum_dose1": 3472
+    },
+    {
+        "date": "2021-01-20",
+        "code": "REG-94",
+        "n_dose1": 786,
+        "n_cum_dose1": 4258
+    },
+    {
+        "date": "2021-01-21",
+        "code": "REG-94",
+        "n_dose1": 786,
+        "n_cum_dose1": 5044
+    },
+    {
+        "date": "2021-01-22",
+        "code": "REG-94",
+        "n_dose1": 691,
+        "n_cum_dose1": 5735
+    },
+    {
+        "date": "2021-01-23",
+        "code": "REG-94",
+        "n_dose1": 241,
+        "n_cum_dose1": 5976
+    },
+    {
+        "date": "2021-01-24",
+        "code": "REG-94",
+        "n_dose1": 144,
+        "n_cum_dose1": 6120
+    },
+    {
+        "date": "2021-01-25",
+        "code": "REG-94",
+        "n_dose1": 354,
+        "n_cum_dose1": 6474
+    },
+    {
+        "date": "2021-01-26",
+        "code": "REG-94",
+        "n_dose1": 771,
+        "n_cum_dose1": 7245
+    }
+]
