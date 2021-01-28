@@ -25,6 +25,12 @@ def csv_to_json_fra(df):
 
 
 ## REGIONS
+def ajouterZeroNumeroRegion(num):
+  if len(num) == 1:
+    return "0" + str(num)
+  else:
+    return num
+
 def download_reg_data():
   url = "https://www.data.gouv.fr/fr/datasets/r/735b0df8-51b4-4dd2-8a2d-8e46d77d60d8"
   data = requests.get(url)
@@ -37,21 +43,28 @@ def import_reg_data():
   return df
 
 def csv_to_json_reg(df):
+  pop_reg = pd.read_csv("data/input/reg-pop.csv", sep=";")
+
   list_json = []
-  regions = df.reg.unique().tolist()
+  regions = df.reg[df.reg != 7].unique().tolist()
 
   for reg in regions:
     df_reg = df[df.reg == reg].sort_values(by="jour").reset_index()
-    dict_json = {}
-    df_reg["n_dose1_moyenne7j"] = df_reg["n_dose1"].rolling(window=7).mean().fillna(0)
+    
+    df_reg["n_dose1_cumsum"] = df_reg["n_dose1"].cumsum()
+    df_reg["n_dose1_cumsum_moyenne7j"] = df_reg["n_dose1"].rolling(window=7).mean().fillna(0)
+
+    pop = pop_reg[pop_reg.reg == reg]["population"].tolist()[0]
 
     for i in range(len(df_reg)):
+      dict_json = {}
       dict_json["date"] = df_reg.loc[i,"jour"]
-      dict_json["code"] = "REG-" + str(df_reg.loc[i,"reg"])
-      dict_json["n_dose1"] = int(df_reg.loc[i, "n_dose1"])
-      dict_json["n_dose1_moyenne7j"] = df_reg.loc[i, "n_dose1_moyenne7j"]
+      dict_json["code"] = "REG-" + ajouterZeroNumeroRegion(str(df_reg.loc[i,"reg"]))
+      dict_json["n_dose1_cumsum"] = int(df_reg.loc[i, "n_dose1_cumsum"])
+      dict_json["n_dose1_cumsum_moyenne7j"] = df_reg.loc[i, "n_dose1_cumsum_moyenne7j"]
+      dict_json["n_dose1_pourcent_pop"] = round(dict_json["n_dose1_cumsum"]/pop*100, 1)
 
-    list_json += [dict_json]
+      list_json += [dict_json]
 
   with open("data/output/vacsi-reg.json", "w") as outfile: 
     outfile.write(json.dumps(list_json, indent=4))

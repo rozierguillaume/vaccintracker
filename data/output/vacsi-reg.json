@@ -1,116 +1,2767 @@
 [
     {
-        "date": "2021-01-27",
-        "code": "REG-1",
-        "n_dose1": 109,
-        "n_dose1_moyenne7j": 59.857142857142854
+        "date": "2021-01-12",
+        "code": "REG-01",
+        "n_dose1_cumsum": 20,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
     },
     {
-        "date": "2021-01-27",
-        "code": "REG-2",
-        "n_dose1": 154,
-        "n_dose1_moyenne7j": 133.0
+        "date": "2021-01-13",
+        "code": "REG-01",
+        "n_dose1_cumsum": 26,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
     },
     {
-        "date": "2021-01-27",
-        "code": "REG-3",
-        "n_dose1": 103,
-        "n_dose1_moyenne7j": 97.85714285714286
+        "date": "2021-01-14",
+        "code": "REG-01",
+        "n_dose1_cumsum": 50,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
     },
     {
-        "date": "2021-01-27",
-        "code": "REG-4",
-        "n_dose1": 248,
-        "n_dose1_moyenne7j": 302.7142857142857
-    },
-    {
-        "date": "2021-01-27",
-        "code": "REG-6",
-        "n_dose1": 90,
-        "n_dose1_moyenne7j": 0.0
+        "date": "2021-01-15",
+        "code": "REG-01",
+        "n_dose1_cumsum": 74,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
     },
     {
         "date": "2021-01-18",
-        "code": "REG-7",
-        "n_dose1": 1,
-        "n_dose1_moyenne7j": 0.0
+        "code": "REG-01",
+        "n_dose1_cumsum": 103,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-19",
+        "code": "REG-01",
+        "n_dose1_cumsum": 151,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-20",
+        "code": "REG-01",
+        "n_dose1_cumsum": 193,
+        "n_dose1_cumsum_moyenne7j": 27.571428571428573,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-21",
+        "code": "REG-01",
+        "n_dose1_cumsum": 249,
+        "n_dose1_cumsum_moyenne7j": 32.714285714285715,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-22",
+        "code": "REG-01",
+        "n_dose1_cumsum": 284,
+        "n_dose1_cumsum_moyenne7j": 36.857142857142854,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-25",
+        "code": "REG-01",
+        "n_dose1_cumsum": 352,
+        "n_dose1_cumsum_moyenne7j": 43.142857142857146,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-26",
+        "code": "REG-01",
+        "n_dose1_cumsum": 413,
+        "n_dose1_cumsum_moyenne7j": 48.42857142857143,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-27",
+        "code": "REG-01",
+        "n_dose1_cumsum": 522,
+        "n_dose1_cumsum_moyenne7j": 59.857142857142854,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-06",
+        "code": "REG-02",
+        "n_dose1_cumsum": 5,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-07",
+        "code": "REG-02",
+        "n_dose1_cumsum": 35,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-08",
+        "code": "REG-02",
+        "n_dose1_cumsum": 111,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-09",
+        "code": "REG-02",
+        "n_dose1_cumsum": 131,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-11",
+        "code": "REG-02",
+        "n_dose1_cumsum": 242,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-12",
+        "code": "REG-02",
+        "n_dose1_cumsum": 317,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-13",
+        "code": "REG-02",
+        "n_dose1_cumsum": 376,
+        "n_dose1_cumsum_moyenne7j": 53.714285714285715,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-14",
+        "code": "REG-02",
+        "n_dose1_cumsum": 456,
+        "n_dose1_cumsum_moyenne7j": 64.42857142857143,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-15",
+        "code": "REG-02",
+        "n_dose1_cumsum": 574,
+        "n_dose1_cumsum_moyenne7j": 77.0,
+        "n_dose1_pourcent_pop": 0.2
+    },
+    {
+        "date": "2021-01-16",
+        "code": "REG-02",
+        "n_dose1_cumsum": 623,
+        "n_dose1_cumsum_moyenne7j": 73.14285714285714,
+        "n_dose1_pourcent_pop": 0.2
+    },
+    {
+        "date": "2021-01-18",
+        "code": "REG-02",
+        "n_dose1_cumsum": 768,
+        "n_dose1_cumsum_moyenne7j": 91.0,
+        "n_dose1_pourcent_pop": 0.2
+    },
+    {
+        "date": "2021-01-19",
+        "code": "REG-02",
+        "n_dose1_cumsum": 891,
+        "n_dose1_cumsum_moyenne7j": 92.71428571428571,
+        "n_dose1_pourcent_pop": 0.2
+    },
+    {
+        "date": "2021-01-20",
+        "code": "REG-02",
+        "n_dose1_cumsum": 1047,
+        "n_dose1_cumsum_moyenne7j": 104.28571428571429,
+        "n_dose1_pourcent_pop": 0.3
+    },
+    {
+        "date": "2021-01-21",
+        "code": "REG-02",
+        "n_dose1_cumsum": 1208,
+        "n_dose1_cumsum_moyenne7j": 118.85714285714286,
+        "n_dose1_pourcent_pop": 0.3
+    },
+    {
+        "date": "2021-01-22",
+        "code": "REG-02",
+        "n_dose1_cumsum": 1355,
+        "n_dose1_cumsum_moyenne7j": 128.42857142857142,
+        "n_dose1_pourcent_pop": 0.4
+    },
+    {
+        "date": "2021-01-23",
+        "code": "REG-02",
+        "n_dose1_cumsum": 1411,
+        "n_dose1_cumsum_moyenne7j": 119.57142857142857,
+        "n_dose1_pourcent_pop": 0.4
+    },
+    {
+        "date": "2021-01-25",
+        "code": "REG-02",
+        "n_dose1_cumsum": 1557,
+        "n_dose1_cumsum_moyenne7j": 133.42857142857142,
+        "n_dose1_pourcent_pop": 0.4
+    },
+    {
+        "date": "2021-01-26",
+        "code": "REG-02",
+        "n_dose1_cumsum": 1668,
+        "n_dose1_cumsum_moyenne7j": 128.57142857142858,
+        "n_dose1_pourcent_pop": 0.5
+    },
+    {
+        "date": "2021-01-27",
+        "code": "REG-02",
+        "n_dose1_cumsum": 1822,
+        "n_dose1_cumsum_moyenne7j": 133.0,
+        "n_dose1_pourcent_pop": 0.5
+    },
+    {
+        "date": "2021-01-13",
+        "code": "REG-03",
+        "n_dose1_cumsum": 29,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-14",
+        "code": "REG-03",
+        "n_dose1_cumsum": 75,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-15",
+        "code": "REG-03",
+        "n_dose1_cumsum": 109,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-16",
+        "code": "REG-03",
+        "n_dose1_cumsum": 126,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-18",
+        "code": "REG-03",
+        "n_dose1_cumsum": 187,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-19",
+        "code": "REG-03",
+        "n_dose1_cumsum": 328,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-20",
+        "code": "REG-03",
+        "n_dose1_cumsum": 447,
+        "n_dose1_cumsum_moyenne7j": 63.857142857142854,
+        "n_dose1_pourcent_pop": 0.2
+    },
+    {
+        "date": "2021-01-21",
+        "code": "REG-03",
+        "n_dose1_cumsum": 554,
+        "n_dose1_cumsum_moyenne7j": 75.0,
+        "n_dose1_pourcent_pop": 0.2
+    },
+    {
+        "date": "2021-01-22",
+        "code": "REG-03",
+        "n_dose1_cumsum": 617,
+        "n_dose1_cumsum_moyenne7j": 77.42857142857143,
+        "n_dose1_pourcent_pop": 0.2
+    },
+    {
+        "date": "2021-01-25",
+        "code": "REG-03",
+        "n_dose1_cumsum": 673,
+        "n_dose1_cumsum_moyenne7j": 80.57142857142857,
+        "n_dose1_pourcent_pop": 0.2
+    },
+    {
+        "date": "2021-01-26",
+        "code": "REG-03",
+        "n_dose1_cumsum": 769,
+        "n_dose1_cumsum_moyenne7j": 91.85714285714286,
+        "n_dose1_pourcent_pop": 0.3
+    },
+    {
+        "date": "2021-01-27",
+        "code": "REG-03",
+        "n_dose1_cumsum": 872,
+        "n_dose1_cumsum_moyenne7j": 97.85714285714286,
+        "n_dose1_pourcent_pop": 0.3
+    },
+    {
+        "date": "2021-01-05",
+        "code": "REG-04",
+        "n_dose1_cumsum": 1,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-15",
+        "code": "REG-04",
+        "n_dose1_cumsum": 126,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-16",
+        "code": "REG-04",
+        "n_dose1_cumsum": 146,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-18",
+        "code": "REG-04",
+        "n_dose1_cumsum": 195,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-19",
+        "code": "REG-04",
+        "n_dose1_cumsum": 561,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-20",
+        "code": "REG-04",
+        "n_dose1_cumsum": 908,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-21",
+        "code": "REG-04",
+        "n_dose1_cumsum": 1418,
+        "n_dose1_cumsum_moyenne7j": 202.57142857142858,
+        "n_dose1_pourcent_pop": 0.2
+    },
+    {
+        "date": "2021-01-22",
+        "code": "REG-04",
+        "n_dose1_cumsum": 1788,
+        "n_dose1_cumsum_moyenne7j": 255.28571428571428,
+        "n_dose1_pourcent_pop": 0.2
+    },
+    {
+        "date": "2021-01-23",
+        "code": "REG-04",
+        "n_dose1_cumsum": 1860,
+        "n_dose1_cumsum_moyenne7j": 247.71428571428572,
+        "n_dose1_pourcent_pop": 0.2
+    },
+    {
+        "date": "2021-01-25",
+        "code": "REG-04",
+        "n_dose1_cumsum": 2093,
+        "n_dose1_cumsum_moyenne7j": 278.14285714285717,
+        "n_dose1_pourcent_pop": 0.2
+    },
+    {
+        "date": "2021-01-26",
+        "code": "REG-04",
+        "n_dose1_cumsum": 2432,
+        "n_dose1_cumsum_moyenne7j": 319.57142857142856,
+        "n_dose1_pourcent_pop": 0.3
+    },
+    {
+        "date": "2021-01-27",
+        "code": "REG-04",
+        "n_dose1_cumsum": 2680,
+        "n_dose1_cumsum_moyenne7j": 302.7142857142857,
+        "n_dose1_pourcent_pop": 0.3
+    },
+    {
+        "date": "2021-01-25",
+        "code": "REG-06",
+        "n_dose1_cumsum": 49,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-26",
+        "code": "REG-06",
+        "n_dose1_cumsum": 83,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-27",
+        "code": "REG-06",
+        "n_dose1_cumsum": 173,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2020-12-27",
+        "code": "REG-11",
+        "n_dose1_cumsum": 9,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2020-12-29",
+        "code": "REG-11",
+        "n_dose1_cumsum": 28,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2020-12-30",
+        "code": "REG-11",
+        "n_dose1_cumsum": 91,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2020-12-31",
+        "code": "REG-11",
+        "n_dose1_cumsum": 127,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-01",
+        "code": "REG-11",
+        "n_dose1_cumsum": 136,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-02",
+        "code": "REG-11",
+        "n_dose1_cumsum": 176,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-03",
+        "code": "REG-11",
+        "n_dose1_cumsum": 248,
+        "n_dose1_cumsum_moyenne7j": 35.42857142857143,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-04",
+        "code": "REG-11",
+        "n_dose1_cumsum": 767,
+        "n_dose1_cumsum_moyenne7j": 108.28571428571429,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-05",
+        "code": "REG-11",
+        "n_dose1_cumsum": 2423,
+        "n_dose1_cumsum_moyenne7j": 342.14285714285717,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-06",
+        "code": "REG-11",
+        "n_dose1_cumsum": 4729,
+        "n_dose1_cumsum_moyenne7j": 662.5714285714286,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-07",
+        "code": "REG-11",
+        "n_dose1_cumsum": 8651,
+        "n_dose1_cumsum_moyenne7j": 1217.7142857142858,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-08",
+        "code": "REG-11",
+        "n_dose1_cumsum": 13716,
+        "n_dose1_cumsum_moyenne7j": 1940.0,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-09",
+        "code": "REG-11",
+        "n_dose1_cumsum": 15432,
+        "n_dose1_cumsum_moyenne7j": 2179.4285714285716,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-10",
+        "code": "REG-11",
+        "n_dose1_cumsum": 16982,
+        "n_dose1_cumsum_moyenne7j": 2390.5714285714284,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-11",
+        "code": "REG-11",
+        "n_dose1_cumsum": 21882,
+        "n_dose1_cumsum_moyenne7j": 3016.4285714285716,
+        "n_dose1_pourcent_pop": 0.2
+    },
+    {
+        "date": "2021-01-12",
+        "code": "REG-11",
+        "n_dose1_cumsum": 28427,
+        "n_dose1_cumsum_moyenne7j": 3714.8571428571427,
+        "n_dose1_pourcent_pop": 0.2
+    },
+    {
+        "date": "2021-01-13",
+        "code": "REG-11",
+        "n_dose1_cumsum": 34849,
+        "n_dose1_cumsum_moyenne7j": 4302.857142857143,
+        "n_dose1_pourcent_pop": 0.3
+    },
+    {
+        "date": "2021-01-14",
+        "code": "REG-11",
+        "n_dose1_cumsum": 41950,
+        "n_dose1_cumsum_moyenne7j": 4757.0,
+        "n_dose1_pourcent_pop": 0.3
+    },
+    {
+        "date": "2021-01-15",
+        "code": "REG-11",
+        "n_dose1_cumsum": 47899,
+        "n_dose1_cumsum_moyenne7j": 4883.285714285715,
+        "n_dose1_pourcent_pop": 0.4
+    },
+    {
+        "date": "2021-01-16",
+        "code": "REG-11",
+        "n_dose1_cumsum": 49460,
+        "n_dose1_cumsum_moyenne7j": 4861.142857142857,
+        "n_dose1_pourcent_pop": 0.4
+    },
+    {
+        "date": "2021-01-17",
+        "code": "REG-11",
+        "n_dose1_cumsum": 50084,
+        "n_dose1_cumsum_moyenne7j": 4728.857142857143,
+        "n_dose1_pourcent_pop": 0.4
+    },
+    {
+        "date": "2021-01-18",
+        "code": "REG-11",
+        "n_dose1_cumsum": 59847,
+        "n_dose1_cumsum_moyenne7j": 5423.571428571428,
+        "n_dose1_pourcent_pop": 0.5
+    },
+    {
+        "date": "2021-01-19",
+        "code": "REG-11",
+        "n_dose1_cumsum": 73129,
+        "n_dose1_cumsum_moyenne7j": 6386.0,
+        "n_dose1_pourcent_pop": 0.6
+    },
+    {
+        "date": "2021-01-20",
+        "code": "REG-11",
+        "n_dose1_cumsum": 88427,
+        "n_dose1_cumsum_moyenne7j": 7654.0,
+        "n_dose1_pourcent_pop": 0.7
+    },
+    {
+        "date": "2021-01-21",
+        "code": "REG-11",
+        "n_dose1_cumsum": 106784,
+        "n_dose1_cumsum_moyenne7j": 9262.0,
+        "n_dose1_pourcent_pop": 0.9
+    },
+    {
+        "date": "2021-01-22",
+        "code": "REG-11",
+        "n_dose1_cumsum": 121141,
+        "n_dose1_cumsum_moyenne7j": 10463.142857142857,
+        "n_dose1_pourcent_pop": 1.0
+    },
+    {
+        "date": "2021-01-23",
+        "code": "REG-11",
+        "n_dose1_cumsum": 125486,
+        "n_dose1_cumsum_moyenne7j": 10860.857142857143,
+        "n_dose1_pourcent_pop": 1.0
+    },
+    {
+        "date": "2021-01-24",
+        "code": "REG-11",
+        "n_dose1_cumsum": 126448,
+        "n_dose1_cumsum_moyenne7j": 10909.142857142857,
+        "n_dose1_pourcent_pop": 1.0
+    },
+    {
+        "date": "2021-01-25",
+        "code": "REG-11",
+        "n_dose1_cumsum": 134227,
+        "n_dose1_cumsum_moyenne7j": 10625.714285714286,
+        "n_dose1_pourcent_pop": 1.1
+    },
+    {
+        "date": "2021-01-26",
+        "code": "REG-11",
+        "n_dose1_cumsum": 145061,
+        "n_dose1_cumsum_moyenne7j": 10276.0,
+        "n_dose1_pourcent_pop": 1.2
     },
     {
         "date": "2021-01-27",
         "code": "REG-11",
-        "n_dose1": 13362,
-        "n_dose1_moyenne7j": 9999.42857142857
+        "n_dose1_cumsum": 158423,
+        "n_dose1_cumsum_moyenne7j": 9999.42857142857,
+        "n_dose1_pourcent_pop": 1.3
+    },
+    {
+        "date": "2020-12-28",
+        "code": "REG-24",
+        "n_dose1_cumsum": 7,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2020-12-29",
+        "code": "REG-24",
+        "n_dose1_cumsum": 14,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-04",
+        "code": "REG-24",
+        "n_dose1_cumsum": 18,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-05",
+        "code": "REG-24",
+        "n_dose1_cumsum": 181,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-06",
+        "code": "REG-24",
+        "n_dose1_cumsum": 489,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-07",
+        "code": "REG-24",
+        "n_dose1_cumsum": 948,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-08",
+        "code": "REG-24",
+        "n_dose1_cumsum": 1860,
+        "n_dose1_cumsum_moyenne7j": 265.7142857142857,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-09",
+        "code": "REG-24",
+        "n_dose1_cumsum": 2356,
+        "n_dose1_cumsum_moyenne7j": 335.57142857142856,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-10",
+        "code": "REG-24",
+        "n_dose1_cumsum": 2749,
+        "n_dose1_cumsum_moyenne7j": 390.7142857142857,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-11",
+        "code": "REG-24",
+        "n_dose1_cumsum": 4001,
+        "n_dose1_cumsum_moyenne7j": 569.0,
+        "n_dose1_pourcent_pop": 0.2
+    },
+    {
+        "date": "2021-01-12",
+        "code": "REG-24",
+        "n_dose1_cumsum": 6530,
+        "n_dose1_cumsum_moyenne7j": 907.0,
+        "n_dose1_pourcent_pop": 0.3
+    },
+    {
+        "date": "2021-01-13",
+        "code": "REG-24",
+        "n_dose1_cumsum": 8582,
+        "n_dose1_cumsum_moyenne7j": 1156.142857142857,
+        "n_dose1_pourcent_pop": 0.3
+    },
+    {
+        "date": "2021-01-14",
+        "code": "REG-24",
+        "n_dose1_cumsum": 10985,
+        "n_dose1_cumsum_moyenne7j": 1433.857142857143,
+        "n_dose1_pourcent_pop": 0.4
+    },
+    {
+        "date": "2021-01-15",
+        "code": "REG-24",
+        "n_dose1_cumsum": 12970,
+        "n_dose1_cumsum_moyenne7j": 1587.142857142857,
+        "n_dose1_pourcent_pop": 0.5
+    },
+    {
+        "date": "2021-01-16",
+        "code": "REG-24",
+        "n_dose1_cumsum": 13703,
+        "n_dose1_cumsum_moyenne7j": 1621.0,
+        "n_dose1_pourcent_pop": 0.5
+    },
+    {
+        "date": "2021-01-17",
+        "code": "REG-24",
+        "n_dose1_cumsum": 14015,
+        "n_dose1_cumsum_moyenne7j": 1609.4285714285713,
+        "n_dose1_pourcent_pop": 0.5
+    },
+    {
+        "date": "2021-01-18",
+        "code": "REG-24",
+        "n_dose1_cumsum": 17158,
+        "n_dose1_cumsum_moyenne7j": 1879.5714285714287,
+        "n_dose1_pourcent_pop": 0.7
+    },
+    {
+        "date": "2021-01-19",
+        "code": "REG-24",
+        "n_dose1_cumsum": 23095,
+        "n_dose1_cumsum_moyenne7j": 2366.4285714285716,
+        "n_dose1_pourcent_pop": 0.9
+    },
+    {
+        "date": "2021-01-20",
+        "code": "REG-24",
+        "n_dose1_cumsum": 29826,
+        "n_dose1_cumsum_moyenne7j": 3034.8571428571427,
+        "n_dose1_pourcent_pop": 1.2
+    },
+    {
+        "date": "2021-01-21",
+        "code": "REG-24",
+        "n_dose1_cumsum": 36991,
+        "n_dose1_cumsum_moyenne7j": 3715.1428571428573,
+        "n_dose1_pourcent_pop": 1.4
+    },
+    {
+        "date": "2021-01-22",
+        "code": "REG-24",
+        "n_dose1_cumsum": 41856,
+        "n_dose1_cumsum_moyenne7j": 4126.571428571428,
+        "n_dose1_pourcent_pop": 1.6
+    },
+    {
+        "date": "2021-01-23",
+        "code": "REG-24",
+        "n_dose1_cumsum": 43043,
+        "n_dose1_cumsum_moyenne7j": 4191.428571428572,
+        "n_dose1_pourcent_pop": 1.7
+    },
+    {
+        "date": "2021-01-24",
+        "code": "REG-24",
+        "n_dose1_cumsum": 43266,
+        "n_dose1_cumsum_moyenne7j": 4178.714285714285,
+        "n_dose1_pourcent_pop": 1.7
+    },
+    {
+        "date": "2021-01-25",
+        "code": "REG-24",
+        "n_dose1_cumsum": 46105,
+        "n_dose1_cumsum_moyenne7j": 4135.285714285715,
+        "n_dose1_pourcent_pop": 1.8
+    },
+    {
+        "date": "2021-01-26",
+        "code": "REG-24",
+        "n_dose1_cumsum": 50495,
+        "n_dose1_cumsum_moyenne7j": 3914.285714285714,
+        "n_dose1_pourcent_pop": 2.0
     },
     {
         "date": "2021-01-27",
         "code": "REG-24",
-        "n_dose1": 4592,
-        "n_dose1_moyenne7j": 3608.714285714286
+        "n_dose1_cumsum": 55087,
+        "n_dose1_cumsum_moyenne7j": 3608.714285714286,
+        "n_dose1_pourcent_pop": 2.2
+    },
+    {
+        "date": "2020-12-27",
+        "code": "REG-27",
+        "n_dose1_cumsum": 4,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2020-12-29",
+        "code": "REG-27",
+        "n_dose1_cumsum": 23,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2020-12-30",
+        "code": "REG-27",
+        "n_dose1_cumsum": 43,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-04",
+        "code": "REG-27",
+        "n_dose1_cumsum": 60,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-05",
+        "code": "REG-27",
+        "n_dose1_cumsum": 318,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-06",
+        "code": "REG-27",
+        "n_dose1_cumsum": 961,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-07",
+        "code": "REG-27",
+        "n_dose1_cumsum": 2416,
+        "n_dose1_cumsum_moyenne7j": 345.14285714285717,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-08",
+        "code": "REG-27",
+        "n_dose1_cumsum": 4104,
+        "n_dose1_cumsum_moyenne7j": 585.7142857142857,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-09",
+        "code": "REG-27",
+        "n_dose1_cumsum": 4779,
+        "n_dose1_cumsum_moyenne7j": 679.4285714285714,
+        "n_dose1_pourcent_pop": 0.2
+    },
+    {
+        "date": "2021-01-10",
+        "code": "REG-27",
+        "n_dose1_cumsum": 4781,
+        "n_dose1_cumsum_moyenne7j": 676.8571428571429,
+        "n_dose1_pourcent_pop": 0.2
+    },
+    {
+        "date": "2021-01-11",
+        "code": "REG-27",
+        "n_dose1_cumsum": 7026,
+        "n_dose1_cumsum_moyenne7j": 995.1428571428571,
+        "n_dose1_pourcent_pop": 0.3
+    },
+    {
+        "date": "2021-01-12",
+        "code": "REG-27",
+        "n_dose1_cumsum": 10464,
+        "n_dose1_cumsum_moyenne7j": 1449.4285714285713,
+        "n_dose1_pourcent_pop": 0.4
+    },
+    {
+        "date": "2021-01-13",
+        "code": "REG-27",
+        "n_dose1_cumsum": 13791,
+        "n_dose1_cumsum_moyenne7j": 1832.857142857143,
+        "n_dose1_pourcent_pop": 0.5
+    },
+    {
+        "date": "2021-01-14",
+        "code": "REG-27",
+        "n_dose1_cumsum": 17946,
+        "n_dose1_cumsum_moyenne7j": 2218.5714285714284,
+        "n_dose1_pourcent_pop": 0.6
+    },
+    {
+        "date": "2021-01-15",
+        "code": "REG-27",
+        "n_dose1_cumsum": 21026,
+        "n_dose1_cumsum_moyenne7j": 2417.4285714285716,
+        "n_dose1_pourcent_pop": 0.8
+    },
+    {
+        "date": "2021-01-16",
+        "code": "REG-27",
+        "n_dose1_cumsum": 21795,
+        "n_dose1_cumsum_moyenne7j": 2430.8571428571427,
+        "n_dose1_pourcent_pop": 0.8
+    },
+    {
+        "date": "2021-01-17",
+        "code": "REG-27",
+        "n_dose1_cumsum": 21911,
+        "n_dose1_cumsum_moyenne7j": 2447.1428571428573,
+        "n_dose1_pourcent_pop": 0.8
+    },
+    {
+        "date": "2021-01-18",
+        "code": "REG-27",
+        "n_dose1_cumsum": 27365,
+        "n_dose1_cumsum_moyenne7j": 2905.5714285714284,
+        "n_dose1_pourcent_pop": 1.0
+    },
+    {
+        "date": "2021-01-19",
+        "code": "REG-27",
+        "n_dose1_cumsum": 34928,
+        "n_dose1_cumsum_moyenne7j": 3494.8571428571427,
+        "n_dose1_pourcent_pop": 1.3
+    },
+    {
+        "date": "2021-01-20",
+        "code": "REG-27",
+        "n_dose1_cumsum": 42217,
+        "n_dose1_cumsum_moyenne7j": 4060.8571428571427,
+        "n_dose1_pourcent_pop": 1.5
+    },
+    {
+        "date": "2021-01-21",
+        "code": "REG-27",
+        "n_dose1_cumsum": 50748,
+        "n_dose1_cumsum_moyenne7j": 4686.0,
+        "n_dose1_pourcent_pop": 1.8
+    },
+    {
+        "date": "2021-01-22",
+        "code": "REG-27",
+        "n_dose1_cumsum": 57836,
+        "n_dose1_cumsum_moyenne7j": 5258.571428571428,
+        "n_dose1_pourcent_pop": 2.1
+    },
+    {
+        "date": "2021-01-23",
+        "code": "REG-27",
+        "n_dose1_cumsum": 60724,
+        "n_dose1_cumsum_moyenne7j": 5561.285714285715,
+        "n_dose1_pourcent_pop": 2.2
+    },
+    {
+        "date": "2021-01-24",
+        "code": "REG-27",
+        "n_dose1_cumsum": 61052,
+        "n_dose1_cumsum_moyenne7j": 5591.571428571428,
+        "n_dose1_pourcent_pop": 2.2
+    },
+    {
+        "date": "2021-01-25",
+        "code": "REG-27",
+        "n_dose1_cumsum": 65751,
+        "n_dose1_cumsum_moyenne7j": 5483.714285714285,
+        "n_dose1_pourcent_pop": 2.4
+    },
+    {
+        "date": "2021-01-26",
+        "code": "REG-27",
+        "n_dose1_cumsum": 72494,
+        "n_dose1_cumsum_moyenne7j": 5366.571428571428,
+        "n_dose1_pourcent_pop": 2.6
     },
     {
         "date": "2021-01-27",
         "code": "REG-27",
-        "n_dose1": 6399,
-        "n_dose1_moyenne7j": 5239.428571428572
+        "n_dose1_cumsum": 78893,
+        "n_dose1_cumsum_moyenne7j": 5239.428571428572,
+        "n_dose1_pourcent_pop": 2.8
+    },
+    {
+        "date": "2020-12-31",
+        "code": "REG-28",
+        "n_dose1_cumsum": 1,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-04",
+        "code": "REG-28",
+        "n_dose1_cumsum": 17,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-05",
+        "code": "REG-28",
+        "n_dose1_cumsum": 183,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-06",
+        "code": "REG-28",
+        "n_dose1_cumsum": 1513,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-07",
+        "code": "REG-28",
+        "n_dose1_cumsum": 3976,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-08",
+        "code": "REG-28",
+        "n_dose1_cumsum": 7177,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.2
+    },
+    {
+        "date": "2021-01-09",
+        "code": "REG-28",
+        "n_dose1_cumsum": 8489,
+        "n_dose1_cumsum_moyenne7j": 1212.7142857142858,
+        "n_dose1_pourcent_pop": 0.3
+    },
+    {
+        "date": "2021-01-10",
+        "code": "REG-28",
+        "n_dose1_cumsum": 9184,
+        "n_dose1_cumsum_moyenne7j": 1311.857142857143,
+        "n_dose1_pourcent_pop": 0.3
+    },
+    {
+        "date": "2021-01-11",
+        "code": "REG-28",
+        "n_dose1_cumsum": 12122,
+        "n_dose1_cumsum_moyenne7j": 1729.2857142857142,
+        "n_dose1_pourcent_pop": 0.4
+    },
+    {
+        "date": "2021-01-12",
+        "code": "REG-28",
+        "n_dose1_cumsum": 15839,
+        "n_dose1_cumsum_moyenne7j": 2236.5714285714284,
+        "n_dose1_pourcent_pop": 0.5
+    },
+    {
+        "date": "2021-01-13",
+        "code": "REG-28",
+        "n_dose1_cumsum": 19861,
+        "n_dose1_cumsum_moyenne7j": 2621.1428571428573,
+        "n_dose1_pourcent_pop": 0.6
+    },
+    {
+        "date": "2021-01-14",
+        "code": "REG-28",
+        "n_dose1_cumsum": 27101,
+        "n_dose1_cumsum_moyenne7j": 3303.5714285714284,
+        "n_dose1_pourcent_pop": 0.8
+    },
+    {
+        "date": "2021-01-15",
+        "code": "REG-28",
+        "n_dose1_cumsum": 32894,
+        "n_dose1_cumsum_moyenne7j": 3673.8571428571427,
+        "n_dose1_pourcent_pop": 1.0
+    },
+    {
+        "date": "2021-01-16",
+        "code": "REG-28",
+        "n_dose1_cumsum": 34927,
+        "n_dose1_cumsum_moyenne7j": 3776.8571428571427,
+        "n_dose1_pourcent_pop": 1.1
+    },
+    {
+        "date": "2021-01-17",
+        "code": "REG-28",
+        "n_dose1_cumsum": 38772,
+        "n_dose1_cumsum_moyenne7j": 4226.857142857143,
+        "n_dose1_pourcent_pop": 1.2
+    },
+    {
+        "date": "2021-01-18",
+        "code": "REG-28",
+        "n_dose1_cumsum": 46923,
+        "n_dose1_cumsum_moyenne7j": 4971.571428571428,
+        "n_dose1_pourcent_pop": 1.4
+    },
+    {
+        "date": "2021-01-19",
+        "code": "REG-28",
+        "n_dose1_cumsum": 53607,
+        "n_dose1_cumsum_moyenne7j": 5395.428571428572,
+        "n_dose1_pourcent_pop": 1.6
+    },
+    {
+        "date": "2021-01-20",
+        "code": "REG-28",
+        "n_dose1_cumsum": 59588,
+        "n_dose1_cumsum_moyenne7j": 5675.285714285715,
+        "n_dose1_pourcent_pop": 1.8
+    },
+    {
+        "date": "2021-01-21",
+        "code": "REG-28",
+        "n_dose1_cumsum": 65282,
+        "n_dose1_cumsum_moyenne7j": 5454.428571428572,
+        "n_dose1_pourcent_pop": 2.0
+    },
+    {
+        "date": "2021-01-22",
+        "code": "REG-28",
+        "n_dose1_cumsum": 70497,
+        "n_dose1_cumsum_moyenne7j": 5371.857142857143,
+        "n_dose1_pourcent_pop": 2.1
+    },
+    {
+        "date": "2021-01-23",
+        "code": "REG-28",
+        "n_dose1_cumsum": 72468,
+        "n_dose1_cumsum_moyenne7j": 5363.0,
+        "n_dose1_pourcent_pop": 2.2
+    },
+    {
+        "date": "2021-01-24",
+        "code": "REG-28",
+        "n_dose1_cumsum": 73889,
+        "n_dose1_cumsum_moyenne7j": 5016.714285714285,
+        "n_dose1_pourcent_pop": 2.2
+    },
+    {
+        "date": "2021-01-25",
+        "code": "REG-28",
+        "n_dose1_cumsum": 79673,
+        "n_dose1_cumsum_moyenne7j": 4678.571428571428,
+        "n_dose1_pourcent_pop": 2.4
+    },
+    {
+        "date": "2021-01-26",
+        "code": "REG-28",
+        "n_dose1_cumsum": 83900,
+        "n_dose1_cumsum_moyenne7j": 4327.571428571428,
+        "n_dose1_pourcent_pop": 2.5
     },
     {
         "date": "2021-01-27",
         "code": "REG-28",
-        "n_dose1": 3732,
-        "n_dose1_moyenne7j": 4006.285714285714
+        "n_dose1_cumsum": 87632,
+        "n_dose1_cumsum_moyenne7j": 4006.285714285714,
+        "n_dose1_pourcent_pop": 2.7
+    },
+    {
+        "date": "2020-12-28",
+        "code": "REG-32",
+        "n_dose1_cumsum": 25,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2020-12-29",
+        "code": "REG-32",
+        "n_dose1_cumsum": 37,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-04",
+        "code": "REG-32",
+        "n_dose1_cumsum": 116,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-05",
+        "code": "REG-32",
+        "n_dose1_cumsum": 408,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-06",
+        "code": "REG-32",
+        "n_dose1_cumsum": 1177,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-07",
+        "code": "REG-32",
+        "n_dose1_cumsum": 3457,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-08",
+        "code": "REG-32",
+        "n_dose1_cumsum": 6338,
+        "n_dose1_cumsum_moyenne7j": 905.4285714285714,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-09",
+        "code": "REG-32",
+        "n_dose1_cumsum": 7270,
+        "n_dose1_cumsum_moyenne7j": 1035.0,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-10",
+        "code": "REG-32",
+        "n_dose1_cumsum": 7901,
+        "n_dose1_cumsum_moyenne7j": 1123.4285714285713,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-11",
+        "code": "REG-32",
+        "n_dose1_cumsum": 10852,
+        "n_dose1_cumsum_moyenne7j": 1533.7142857142858,
+        "n_dose1_pourcent_pop": 0.2
+    },
+    {
+        "date": "2021-01-12",
+        "code": "REG-32",
+        "n_dose1_cumsum": 15278,
+        "n_dose1_cumsum_moyenne7j": 2124.285714285714,
+        "n_dose1_pourcent_pop": 0.3
+    },
+    {
+        "date": "2021-01-13",
+        "code": "REG-32",
+        "n_dose1_cumsum": 19691,
+        "n_dose1_cumsum_moyenne7j": 2644.8571428571427,
+        "n_dose1_pourcent_pop": 0.3
+    },
+    {
+        "date": "2021-01-14",
+        "code": "REG-32",
+        "n_dose1_cumsum": 24684,
+        "n_dose1_cumsum_moyenne7j": 3032.4285714285716,
+        "n_dose1_pourcent_pop": 0.4
+    },
+    {
+        "date": "2021-01-15",
+        "code": "REG-32",
+        "n_dose1_cumsum": 29296,
+        "n_dose1_cumsum_moyenne7j": 3279.714285714286,
+        "n_dose1_pourcent_pop": 0.5
+    },
+    {
+        "date": "2021-01-16",
+        "code": "REG-32",
+        "n_dose1_cumsum": 30846,
+        "n_dose1_cumsum_moyenne7j": 3368.0,
+        "n_dose1_pourcent_pop": 0.5
+    },
+    {
+        "date": "2021-01-17",
+        "code": "REG-32",
+        "n_dose1_cumsum": 31699,
+        "n_dose1_cumsum_moyenne7j": 3399.714285714286,
+        "n_dose1_pourcent_pop": 0.5
+    },
+    {
+        "date": "2021-01-18",
+        "code": "REG-32",
+        "n_dose1_cumsum": 38137,
+        "n_dose1_cumsum_moyenne7j": 3897.8571428571427,
+        "n_dose1_pourcent_pop": 0.6
+    },
+    {
+        "date": "2021-01-19",
+        "code": "REG-32",
+        "n_dose1_cumsum": 47370,
+        "n_dose1_cumsum_moyenne7j": 4584.571428571428,
+        "n_dose1_pourcent_pop": 0.8
+    },
+    {
+        "date": "2021-01-20",
+        "code": "REG-32",
+        "n_dose1_cumsum": 56841,
+        "n_dose1_cumsum_moyenne7j": 5307.142857142857,
+        "n_dose1_pourcent_pop": 1.0
+    },
+    {
+        "date": "2021-01-21",
+        "code": "REG-32",
+        "n_dose1_cumsum": 68543,
+        "n_dose1_cumsum_moyenne7j": 6265.571428571428,
+        "n_dose1_pourcent_pop": 1.1
+    },
+    {
+        "date": "2021-01-22",
+        "code": "REG-32",
+        "n_dose1_cumsum": 77698,
+        "n_dose1_cumsum_moyenne7j": 6914.571428571428,
+        "n_dose1_pourcent_pop": 1.3
+    },
+    {
+        "date": "2021-01-23",
+        "code": "REG-32",
+        "n_dose1_cumsum": 80774,
+        "n_dose1_cumsum_moyenne7j": 7132.571428571428,
+        "n_dose1_pourcent_pop": 1.4
+    },
+    {
+        "date": "2021-01-24",
+        "code": "REG-32",
+        "n_dose1_cumsum": 81725,
+        "n_dose1_cumsum_moyenne7j": 7146.571428571428,
+        "n_dose1_pourcent_pop": 1.4
+    },
+    {
+        "date": "2021-01-25",
+        "code": "REG-32",
+        "n_dose1_cumsum": 88047,
+        "n_dose1_cumsum_moyenne7j": 7130.0,
+        "n_dose1_pourcent_pop": 1.5
+    },
+    {
+        "date": "2021-01-26",
+        "code": "REG-32",
+        "n_dose1_cumsum": 94774,
+        "n_dose1_cumsum_moyenne7j": 6772.0,
+        "n_dose1_pourcent_pop": 1.6
     },
     {
         "date": "2021-01-27",
         "code": "REG-32",
-        "n_dose1": 4379,
-        "n_dose1_moyenne7j": 6044.571428571428
+        "n_dose1_cumsum": 99153,
+        "n_dose1_cumsum_moyenne7j": 6044.571428571428,
+        "n_dose1_pourcent_pop": 1.7
+    },
+    {
+        "date": "2020-12-31",
+        "code": "REG-44",
+        "n_dose1_cumsum": 10,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-04",
+        "code": "REG-44",
+        "n_dose1_cumsum": 213,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-05",
+        "code": "REG-44",
+        "n_dose1_cumsum": 963,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-06",
+        "code": "REG-44",
+        "n_dose1_cumsum": 2182,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-07",
+        "code": "REG-44",
+        "n_dose1_cumsum": 4464,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-08",
+        "code": "REG-44",
+        "n_dose1_cumsum": 7288,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-09",
+        "code": "REG-44",
+        "n_dose1_cumsum": 8127,
+        "n_dose1_cumsum_moyenne7j": 1161.0,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-10",
+        "code": "REG-44",
+        "n_dose1_cumsum": 8330,
+        "n_dose1_cumsum_moyenne7j": 1188.5714285714287,
+        "n_dose1_pourcent_pop": 0.2
+    },
+    {
+        "date": "2021-01-11",
+        "code": "REG-44",
+        "n_dose1_cumsum": 11071,
+        "n_dose1_cumsum_moyenne7j": 1551.142857142857,
+        "n_dose1_pourcent_pop": 0.2
+    },
+    {
+        "date": "2021-01-12",
+        "code": "REG-44",
+        "n_dose1_cumsum": 15826,
+        "n_dose1_cumsum_moyenne7j": 2123.285714285714,
+        "n_dose1_pourcent_pop": 0.3
+    },
+    {
+        "date": "2021-01-13",
+        "code": "REG-44",
+        "n_dose1_cumsum": 22784,
+        "n_dose1_cumsum_moyenne7j": 2943.1428571428573,
+        "n_dose1_pourcent_pop": 0.4
+    },
+    {
+        "date": "2021-01-14",
+        "code": "REG-44",
+        "n_dose1_cumsum": 30824,
+        "n_dose1_cumsum_moyenne7j": 3765.714285714286,
+        "n_dose1_pourcent_pop": 0.6
+    },
+    {
+        "date": "2021-01-15",
+        "code": "REG-44",
+        "n_dose1_cumsum": 36665,
+        "n_dose1_cumsum_moyenne7j": 4196.714285714285,
+        "n_dose1_pourcent_pop": 0.7
+    },
+    {
+        "date": "2021-01-16",
+        "code": "REG-44",
+        "n_dose1_cumsum": 38229,
+        "n_dose1_cumsum_moyenne7j": 4300.285714285715,
+        "n_dose1_pourcent_pop": 0.7
+    },
+    {
+        "date": "2021-01-17",
+        "code": "REG-44",
+        "n_dose1_cumsum": 39098,
+        "n_dose1_cumsum_moyenne7j": 4395.428571428572,
+        "n_dose1_pourcent_pop": 0.7
+    },
+    {
+        "date": "2021-01-18",
+        "code": "REG-44",
+        "n_dose1_cumsum": 47302,
+        "n_dose1_cumsum_moyenne7j": 5175.857142857143,
+        "n_dose1_pourcent_pop": 0.9
+    },
+    {
+        "date": "2021-01-19",
+        "code": "REG-44",
+        "n_dose1_cumsum": 57177,
+        "n_dose1_cumsum_moyenne7j": 5907.285714285715,
+        "n_dose1_pourcent_pop": 1.0
+    },
+    {
+        "date": "2021-01-20",
+        "code": "REG-44",
+        "n_dose1_cumsum": 67377,
+        "n_dose1_cumsum_moyenne7j": 6370.428571428572,
+        "n_dose1_pourcent_pop": 1.2
+    },
+    {
+        "date": "2021-01-21",
+        "code": "REG-44",
+        "n_dose1_cumsum": 78007,
+        "n_dose1_cumsum_moyenne7j": 6740.428571428572,
+        "n_dose1_pourcent_pop": 1.4
+    },
+    {
+        "date": "2021-01-22",
+        "code": "REG-44",
+        "n_dose1_cumsum": 86919,
+        "n_dose1_cumsum_moyenne7j": 7179.142857142857,
+        "n_dose1_pourcent_pop": 1.6
+    },
+    {
+        "date": "2021-01-23",
+        "code": "REG-44",
+        "n_dose1_cumsum": 89957,
+        "n_dose1_cumsum_moyenne7j": 7389.714285714285,
+        "n_dose1_pourcent_pop": 1.6
+    },
+    {
+        "date": "2021-01-24",
+        "code": "REG-44",
+        "n_dose1_cumsum": 91510,
+        "n_dose1_cumsum_moyenne7j": 7487.428571428572,
+        "n_dose1_pourcent_pop": 1.7
+    },
+    {
+        "date": "2021-01-25",
+        "code": "REG-44",
+        "n_dose1_cumsum": 97555,
+        "n_dose1_cumsum_moyenne7j": 7179.0,
+        "n_dose1_pourcent_pop": 1.8
+    },
+    {
+        "date": "2021-01-26",
+        "code": "REG-44",
+        "n_dose1_cumsum": 102845,
+        "n_dose1_cumsum_moyenne7j": 6524.0,
+        "n_dose1_pourcent_pop": 1.9
     },
     {
         "date": "2021-01-27",
         "code": "REG-44",
-        "n_dose1": 6551,
-        "n_dose1_moyenne7j": 6002.714285714285
+        "n_dose1_cumsum": 109396,
+        "n_dose1_cumsum_moyenne7j": 6002.714285714285,
+        "n_dose1_pourcent_pop": 2.0
+    },
+    {
+        "date": "2021-01-03",
+        "code": "REG-52",
+        "n_dose1_cumsum": 1,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-04",
+        "code": "REG-52",
+        "n_dose1_cumsum": 35,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-05",
+        "code": "REG-52",
+        "n_dose1_cumsum": 197,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-06",
+        "code": "REG-52",
+        "n_dose1_cumsum": 492,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-07",
+        "code": "REG-52",
+        "n_dose1_cumsum": 1232,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-08",
+        "code": "REG-52",
+        "n_dose1_cumsum": 2631,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-09",
+        "code": "REG-52",
+        "n_dose1_cumsum": 3673,
+        "n_dose1_cumsum_moyenne7j": 524.7142857142857,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-10",
+        "code": "REG-52",
+        "n_dose1_cumsum": 4311,
+        "n_dose1_cumsum_moyenne7j": 615.7142857142857,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-11",
+        "code": "REG-52",
+        "n_dose1_cumsum": 6366,
+        "n_dose1_cumsum_moyenne7j": 904.4285714285714,
+        "n_dose1_pourcent_pop": 0.2
+    },
+    {
+        "date": "2021-01-12",
+        "code": "REG-52",
+        "n_dose1_cumsum": 9275,
+        "n_dose1_cumsum_moyenne7j": 1296.857142857143,
+        "n_dose1_pourcent_pop": 0.2
+    },
+    {
+        "date": "2021-01-13",
+        "code": "REG-52",
+        "n_dose1_cumsum": 12003,
+        "n_dose1_cumsum_moyenne7j": 1644.4285714285713,
+        "n_dose1_pourcent_pop": 0.3
+    },
+    {
+        "date": "2021-01-14",
+        "code": "REG-52",
+        "n_dose1_cumsum": 15022,
+        "n_dose1_cumsum_moyenne7j": 1970.0,
+        "n_dose1_pourcent_pop": 0.4
+    },
+    {
+        "date": "2021-01-15",
+        "code": "REG-52",
+        "n_dose1_cumsum": 17771,
+        "n_dose1_cumsum_moyenne7j": 2162.8571428571427,
+        "n_dose1_pourcent_pop": 0.5
+    },
+    {
+        "date": "2021-01-16",
+        "code": "REG-52",
+        "n_dose1_cumsum": 18584,
+        "n_dose1_cumsum_moyenne7j": 2130.1428571428573,
+        "n_dose1_pourcent_pop": 0.5
+    },
+    {
+        "date": "2021-01-17",
+        "code": "REG-52",
+        "n_dose1_cumsum": 19069,
+        "n_dose1_cumsum_moyenne7j": 2108.285714285714,
+        "n_dose1_pourcent_pop": 0.5
+    },
+    {
+        "date": "2021-01-18",
+        "code": "REG-52",
+        "n_dose1_cumsum": 22173,
+        "n_dose1_cumsum_moyenne7j": 2258.1428571428573,
+        "n_dose1_pourcent_pop": 0.6
+    },
+    {
+        "date": "2021-01-19",
+        "code": "REG-52",
+        "n_dose1_cumsum": 28051,
+        "n_dose1_cumsum_moyenne7j": 2682.285714285714,
+        "n_dose1_pourcent_pop": 0.7
+    },
+    {
+        "date": "2021-01-20",
+        "code": "REG-52",
+        "n_dose1_cumsum": 35561,
+        "n_dose1_cumsum_moyenne7j": 3365.4285714285716,
+        "n_dose1_pourcent_pop": 0.9
+    },
+    {
+        "date": "2021-01-21",
+        "code": "REG-52",
+        "n_dose1_cumsum": 46624,
+        "n_dose1_cumsum_moyenne7j": 4514.571428571428,
+        "n_dose1_pourcent_pop": 1.2
+    },
+    {
+        "date": "2021-01-22",
+        "code": "REG-52",
+        "n_dose1_cumsum": 53429,
+        "n_dose1_cumsum_moyenne7j": 5094.0,
+        "n_dose1_pourcent_pop": 1.4
+    },
+    {
+        "date": "2021-01-23",
+        "code": "REG-52",
+        "n_dose1_cumsum": 55089,
+        "n_dose1_cumsum_moyenne7j": 5215.0,
+        "n_dose1_pourcent_pop": 1.4
+    },
+    {
+        "date": "2021-01-24",
+        "code": "REG-52",
+        "n_dose1_cumsum": 55263,
+        "n_dose1_cumsum_moyenne7j": 5170.571428571428,
+        "n_dose1_pourcent_pop": 1.5
+    },
+    {
+        "date": "2021-01-25",
+        "code": "REG-52",
+        "n_dose1_cumsum": 58150,
+        "n_dose1_cumsum_moyenne7j": 5139.571428571428,
+        "n_dose1_pourcent_pop": 1.5
+    },
+    {
+        "date": "2021-01-26",
+        "code": "REG-52",
+        "n_dose1_cumsum": 64505,
+        "n_dose1_cumsum_moyenne7j": 5207.714285714285,
+        "n_dose1_pourcent_pop": 1.7
     },
     {
         "date": "2021-01-27",
         "code": "REG-52",
-        "n_dose1": 6354,
-        "n_dose1_moyenne7j": 5042.571428571428
+        "n_dose1_cumsum": 70859,
+        "n_dose1_cumsum_moyenne7j": 5042.571428571428,
+        "n_dose1_pourcent_pop": 1.9
+    },
+    {
+        "date": "2021-01-02",
+        "code": "REG-53",
+        "n_dose1_cumsum": 1,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-04",
+        "code": "REG-53",
+        "n_dose1_cumsum": 41,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-05",
+        "code": "REG-53",
+        "n_dose1_cumsum": 239,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-06",
+        "code": "REG-53",
+        "n_dose1_cumsum": 565,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-07",
+        "code": "REG-53",
+        "n_dose1_cumsum": 1382,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-08",
+        "code": "REG-53",
+        "n_dose1_cumsum": 2579,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-09",
+        "code": "REG-53",
+        "n_dose1_cumsum": 2612,
+        "n_dose1_cumsum_moyenne7j": 373.14285714285717,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-11",
+        "code": "REG-53",
+        "n_dose1_cumsum": 4208,
+        "n_dose1_cumsum_moyenne7j": 601.0,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-12",
+        "code": "REG-53",
+        "n_dose1_cumsum": 7240,
+        "n_dose1_cumsum_moyenne7j": 1028.4285714285713,
+        "n_dose1_pourcent_pop": 0.2
+    },
+    {
+        "date": "2021-01-13",
+        "code": "REG-53",
+        "n_dose1_cumsum": 10324,
+        "n_dose1_cumsum_moyenne7j": 1440.7142857142858,
+        "n_dose1_pourcent_pop": 0.3
+    },
+    {
+        "date": "2021-01-14",
+        "code": "REG-53",
+        "n_dose1_cumsum": 13753,
+        "n_dose1_cumsum_moyenne7j": 1884.0,
+        "n_dose1_pourcent_pop": 0.4
+    },
+    {
+        "date": "2021-01-15",
+        "code": "REG-53",
+        "n_dose1_cumsum": 16801,
+        "n_dose1_cumsum_moyenne7j": 2202.714285714286,
+        "n_dose1_pourcent_pop": 0.5
+    },
+    {
+        "date": "2021-01-16",
+        "code": "REG-53",
+        "n_dose1_cumsum": 17480,
+        "n_dose1_cumsum_moyenne7j": 2128.714285714286,
+        "n_dose1_pourcent_pop": 0.5
+    },
+    {
+        "date": "2021-01-17",
+        "code": "REG-53",
+        "n_dose1_cumsum": 17660,
+        "n_dose1_cumsum_moyenne7j": 2149.714285714286,
+        "n_dose1_pourcent_pop": 0.5
+    },
+    {
+        "date": "2021-01-18",
+        "code": "REG-53",
+        "n_dose1_cumsum": 20802,
+        "n_dose1_cumsum_moyenne7j": 2370.5714285714284,
+        "n_dose1_pourcent_pop": 0.6
+    },
+    {
+        "date": "2021-01-19",
+        "code": "REG-53",
+        "n_dose1_cumsum": 28434,
+        "n_dose1_cumsum_moyenne7j": 3027.714285714286,
+        "n_dose1_pourcent_pop": 0.9
+    },
+    {
+        "date": "2021-01-20",
+        "code": "REG-53",
+        "n_dose1_cumsum": 35000,
+        "n_dose1_cumsum_moyenne7j": 3525.1428571428573,
+        "n_dose1_pourcent_pop": 1.0
+    },
+    {
+        "date": "2021-01-21",
+        "code": "REG-53",
+        "n_dose1_cumsum": 45087,
+        "n_dose1_cumsum_moyenne7j": 4476.285714285715,
+        "n_dose1_pourcent_pop": 1.3
+    },
+    {
+        "date": "2021-01-22",
+        "code": "REG-53",
+        "n_dose1_cumsum": 52377,
+        "n_dose1_cumsum_moyenne7j": 5082.285714285715,
+        "n_dose1_pourcent_pop": 1.6
+    },
+    {
+        "date": "2021-01-23",
+        "code": "REG-53",
+        "n_dose1_cumsum": 53831,
+        "n_dose1_cumsum_moyenne7j": 5193.0,
+        "n_dose1_pourcent_pop": 1.6
+    },
+    {
+        "date": "2021-01-24",
+        "code": "REG-53",
+        "n_dose1_cumsum": 54083,
+        "n_dose1_cumsum_moyenne7j": 5203.285714285715,
+        "n_dose1_pourcent_pop": 1.6
+    },
+    {
+        "date": "2021-01-25",
+        "code": "REG-53",
+        "n_dose1_cumsum": 57101,
+        "n_dose1_cumsum_moyenne7j": 5185.571428571428,
+        "n_dose1_pourcent_pop": 1.7
+    },
+    {
+        "date": "2021-01-26",
+        "code": "REG-53",
+        "n_dose1_cumsum": 61046,
+        "n_dose1_cumsum_moyenne7j": 4658.857142857143,
+        "n_dose1_pourcent_pop": 1.8
     },
     {
         "date": "2021-01-27",
         "code": "REG-53",
-        "n_dose1": 6386,
-        "n_dose1_moyenne7j": 4633.142857142857
+        "n_dose1_cumsum": 67432,
+        "n_dose1_cumsum_moyenne7j": 4633.142857142857,
+        "n_dose1_pourcent_pop": 2.0
+    },
+    {
+        "date": "2020-12-29",
+        "code": "REG-75",
+        "n_dose1_cumsum": 2,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-04",
+        "code": "REG-75",
+        "n_dose1_cumsum": 87,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-05",
+        "code": "REG-75",
+        "n_dose1_cumsum": 177,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-06",
+        "code": "REG-75",
+        "n_dose1_cumsum": 880,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-07",
+        "code": "REG-75",
+        "n_dose1_cumsum": 5515,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-08",
+        "code": "REG-75",
+        "n_dose1_cumsum": 10543,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.2
+    },
+    {
+        "date": "2021-01-09",
+        "code": "REG-75",
+        "n_dose1_cumsum": 11369,
+        "n_dose1_cumsum_moyenne7j": 1624.142857142857,
+        "n_dose1_pourcent_pop": 0.2
+    },
+    {
+        "date": "2021-01-10",
+        "code": "REG-75",
+        "n_dose1_cumsum": 11842,
+        "n_dose1_cumsum_moyenne7j": 1691.4285714285713,
+        "n_dose1_pourcent_pop": 0.2
+    },
+    {
+        "date": "2021-01-11",
+        "code": "REG-75",
+        "n_dose1_cumsum": 15077,
+        "n_dose1_cumsum_moyenne7j": 2141.4285714285716,
+        "n_dose1_pourcent_pop": 0.3
+    },
+    {
+        "date": "2021-01-12",
+        "code": "REG-75",
+        "n_dose1_cumsum": 20668,
+        "n_dose1_cumsum_moyenne7j": 2927.285714285714,
+        "n_dose1_pourcent_pop": 0.3
+    },
+    {
+        "date": "2021-01-13",
+        "code": "REG-75",
+        "n_dose1_cumsum": 26791,
+        "n_dose1_cumsum_moyenne7j": 3701.5714285714284,
+        "n_dose1_pourcent_pop": 0.4
+    },
+    {
+        "date": "2021-01-14",
+        "code": "REG-75",
+        "n_dose1_cumsum": 34320,
+        "n_dose1_cumsum_moyenne7j": 4115.0,
+        "n_dose1_pourcent_pop": 0.6
+    },
+    {
+        "date": "2021-01-15",
+        "code": "REG-75",
+        "n_dose1_cumsum": 41124,
+        "n_dose1_cumsum_moyenne7j": 4368.714285714285,
+        "n_dose1_pourcent_pop": 0.7
+    },
+    {
+        "date": "2021-01-16",
+        "code": "REG-75",
+        "n_dose1_cumsum": 42597,
+        "n_dose1_cumsum_moyenne7j": 4461.142857142857,
+        "n_dose1_pourcent_pop": 0.7
+    },
+    {
+        "date": "2021-01-17",
+        "code": "REG-75",
+        "n_dose1_cumsum": 43002,
+        "n_dose1_cumsum_moyenne7j": 4451.428571428572,
+        "n_dose1_pourcent_pop": 0.7
+    },
+    {
+        "date": "2021-01-18",
+        "code": "REG-75",
+        "n_dose1_cumsum": 49386,
+        "n_dose1_cumsum_moyenne7j": 4901.285714285715,
+        "n_dose1_pourcent_pop": 0.8
+    },
+    {
+        "date": "2021-01-19",
+        "code": "REG-75",
+        "n_dose1_cumsum": 62587,
+        "n_dose1_cumsum_moyenne7j": 5988.428571428572,
+        "n_dose1_pourcent_pop": 1.0
+    },
+    {
+        "date": "2021-01-20",
+        "code": "REG-75",
+        "n_dose1_cumsum": 76876,
+        "n_dose1_cumsum_moyenne7j": 7155.0,
+        "n_dose1_pourcent_pop": 1.3
+    },
+    {
+        "date": "2021-01-21",
+        "code": "REG-75",
+        "n_dose1_cumsum": 92697,
+        "n_dose1_cumsum_moyenne7j": 8339.57142857143,
+        "n_dose1_pourcent_pop": 1.5
+    },
+    {
+        "date": "2021-01-22",
+        "code": "REG-75",
+        "n_dose1_cumsum": 104992,
+        "n_dose1_cumsum_moyenne7j": 9124.0,
+        "n_dose1_pourcent_pop": 1.7
+    },
+    {
+        "date": "2021-01-23",
+        "code": "REG-75",
+        "n_dose1_cumsum": 109294,
+        "n_dose1_cumsum_moyenne7j": 9528.142857142857,
+        "n_dose1_pourcent_pop": 1.8
+    },
+    {
+        "date": "2021-01-24",
+        "code": "REG-75",
+        "n_dose1_cumsum": 109966,
+        "n_dose1_cumsum_moyenne7j": 9566.285714285714,
+        "n_dose1_pourcent_pop": 1.8
+    },
+    {
+        "date": "2021-01-25",
+        "code": "REG-75",
+        "n_dose1_cumsum": 118506,
+        "n_dose1_cumsum_moyenne7j": 9874.285714285714,
+        "n_dose1_pourcent_pop": 2.0
+    },
+    {
+        "date": "2021-01-26",
+        "code": "REG-75",
+        "n_dose1_cumsum": 129164,
+        "n_dose1_cumsum_moyenne7j": 9511.0,
+        "n_dose1_pourcent_pop": 2.2
     },
     {
         "date": "2021-01-27",
         "code": "REG-75",
-        "n_dose1": 11107,
-        "n_dose1_moyenne7j": 9056.42857142857
+        "n_dose1_cumsum": 140271,
+        "n_dose1_cumsum_moyenne7j": 9056.42857142857,
+        "n_dose1_pourcent_pop": 2.3
+    },
+    {
+        "date": "2020-12-31",
+        "code": "REG-76",
+        "n_dose1_cumsum": 1,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-03",
+        "code": "REG-76",
+        "n_dose1_cumsum": 2,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-04",
+        "code": "REG-76",
+        "n_dose1_cumsum": 60,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-05",
+        "code": "REG-76",
+        "n_dose1_cumsum": 521,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-06",
+        "code": "REG-76",
+        "n_dose1_cumsum": 1278,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-07",
+        "code": "REG-76",
+        "n_dose1_cumsum": 3701,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-08",
+        "code": "REG-76",
+        "n_dose1_cumsum": 6716,
+        "n_dose1_cumsum_moyenne7j": 959.4285714285714,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-09",
+        "code": "REG-76",
+        "n_dose1_cumsum": 8175,
+        "n_dose1_cumsum_moyenne7j": 1167.7142857142858,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-10",
+        "code": "REG-76",
+        "n_dose1_cumsum": 8636,
+        "n_dose1_cumsum_moyenne7j": 1233.4285714285713,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-11",
+        "code": "REG-76",
+        "n_dose1_cumsum": 11874,
+        "n_dose1_cumsum_moyenne7j": 1687.7142857142858,
+        "n_dose1_pourcent_pop": 0.2
+    },
+    {
+        "date": "2021-01-12",
+        "code": "REG-76",
+        "n_dose1_cumsum": 17089,
+        "n_dose1_cumsum_moyenne7j": 2366.8571428571427,
+        "n_dose1_pourcent_pop": 0.3
+    },
+    {
+        "date": "2021-01-13",
+        "code": "REG-76",
+        "n_dose1_cumsum": 23007,
+        "n_dose1_cumsum_moyenne7j": 3104.1428571428573,
+        "n_dose1_pourcent_pop": 0.4
+    },
+    {
+        "date": "2021-01-14",
+        "code": "REG-76",
+        "n_dose1_cumsum": 31291,
+        "n_dose1_cumsum_moyenne7j": 3941.4285714285716,
+        "n_dose1_pourcent_pop": 0.5
+    },
+    {
+        "date": "2021-01-15",
+        "code": "REG-76",
+        "n_dose1_cumsum": 37904,
+        "n_dose1_cumsum_moyenne7j": 4455.428571428572,
+        "n_dose1_pourcent_pop": 0.6
+    },
+    {
+        "date": "2021-01-16",
+        "code": "REG-76",
+        "n_dose1_cumsum": 39758,
+        "n_dose1_cumsum_moyenne7j": 4511.857142857143,
+        "n_dose1_pourcent_pop": 0.7
+    },
+    {
+        "date": "2021-01-17",
+        "code": "REG-76",
+        "n_dose1_cumsum": 40422,
+        "n_dose1_cumsum_moyenne7j": 4540.857142857143,
+        "n_dose1_pourcent_pop": 0.7
+    },
+    {
+        "date": "2021-01-18",
+        "code": "REG-76",
+        "n_dose1_cumsum": 47616,
+        "n_dose1_cumsum_moyenne7j": 5106.0,
+        "n_dose1_pourcent_pop": 0.8
+    },
+    {
+        "date": "2021-01-19",
+        "code": "REG-76",
+        "n_dose1_cumsum": 58157,
+        "n_dose1_cumsum_moyenne7j": 5866.857142857143,
+        "n_dose1_pourcent_pop": 1.0
+    },
+    {
+        "date": "2021-01-20",
+        "code": "REG-76",
+        "n_dose1_cumsum": 71038,
+        "n_dose1_cumsum_moyenne7j": 6861.571428571428,
+        "n_dose1_pourcent_pop": 1.2
+    },
+    {
+        "date": "2021-01-21",
+        "code": "REG-76",
+        "n_dose1_cumsum": 86437,
+        "n_dose1_cumsum_moyenne7j": 7878.0,
+        "n_dose1_pourcent_pop": 1.5
+    },
+    {
+        "date": "2021-01-22",
+        "code": "REG-76",
+        "n_dose1_cumsum": 97487,
+        "n_dose1_cumsum_moyenne7j": 8511.857142857143,
+        "n_dose1_pourcent_pop": 1.6
+    },
+    {
+        "date": "2021-01-23",
+        "code": "REG-76",
+        "n_dose1_cumsum": 101284,
+        "n_dose1_cumsum_moyenne7j": 8789.42857142857,
+        "n_dose1_pourcent_pop": 1.7
+    },
+    {
+        "date": "2021-01-24",
+        "code": "REG-76",
+        "n_dose1_cumsum": 101991,
+        "n_dose1_cumsum_moyenne7j": 8795.57142857143,
+        "n_dose1_pourcent_pop": 1.7
+    },
+    {
+        "date": "2021-01-25",
+        "code": "REG-76",
+        "n_dose1_cumsum": 109476,
+        "n_dose1_cumsum_moyenne7j": 8837.142857142857,
+        "n_dose1_pourcent_pop": 1.8
+    },
+    {
+        "date": "2021-01-26",
+        "code": "REG-76",
+        "n_dose1_cumsum": 118664,
+        "n_dose1_cumsum_moyenne7j": 8643.857142857143,
+        "n_dose1_pourcent_pop": 2.0
     },
     {
         "date": "2021-01-27",
         "code": "REG-76",
-        "n_dose1": 9586,
-        "n_dose1_moyenne7j": 8173.142857142857
+        "n_dose1_cumsum": 128250,
+        "n_dose1_cumsum_moyenne7j": 8173.142857142857,
+        "n_dose1_pourcent_pop": 2.2
+    },
+    {
+        "date": "2020-12-28",
+        "code": "REG-84",
+        "n_dose1_cumsum": 6,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2020-12-29",
+        "code": "REG-84",
+        "n_dose1_cumsum": 11,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2020-12-30",
+        "code": "REG-84",
+        "n_dose1_cumsum": 16,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2020-12-31",
+        "code": "REG-84",
+        "n_dose1_cumsum": 27,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-02",
+        "code": "REG-84",
+        "n_dose1_cumsum": 28,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-04",
+        "code": "REG-84",
+        "n_dose1_cumsum": 200,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-05",
+        "code": "REG-84",
+        "n_dose1_cumsum": 622,
+        "n_dose1_cumsum_moyenne7j": 88.85714285714286,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-06",
+        "code": "REG-84",
+        "n_dose1_cumsum": 1667,
+        "n_dose1_cumsum_moyenne7j": 237.28571428571428,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-07",
+        "code": "REG-84",
+        "n_dose1_cumsum": 4210,
+        "n_dose1_cumsum_moyenne7j": 599.8571428571429,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-08",
+        "code": "REG-84",
+        "n_dose1_cumsum": 6989,
+        "n_dose1_cumsum_moyenne7j": 996.1428571428571,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-09",
+        "code": "REG-84",
+        "n_dose1_cumsum": 7454,
+        "n_dose1_cumsum_moyenne7j": 1061.0,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-10",
+        "code": "REG-84",
+        "n_dose1_cumsum": 7606,
+        "n_dose1_cumsum_moyenne7j": 1082.5714285714287,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-11",
+        "code": "REG-84",
+        "n_dose1_cumsum": 11402,
+        "n_dose1_cumsum_moyenne7j": 1600.2857142857142,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-12",
+        "code": "REG-84",
+        "n_dose1_cumsum": 16991,
+        "n_dose1_cumsum_moyenne7j": 2338.4285714285716,
+        "n_dose1_pourcent_pop": 0.2
+    },
+    {
+        "date": "2021-01-13",
+        "code": "REG-84",
+        "n_dose1_cumsum": 23401,
+        "n_dose1_cumsum_moyenne7j": 3104.8571428571427,
+        "n_dose1_pourcent_pop": 0.3
+    },
+    {
+        "date": "2021-01-14",
+        "code": "REG-84",
+        "n_dose1_cumsum": 31367,
+        "n_dose1_cumsum_moyenne7j": 3879.5714285714284,
+        "n_dose1_pourcent_pop": 0.4
+    },
+    {
+        "date": "2021-01-15",
+        "code": "REG-84",
+        "n_dose1_cumsum": 37921,
+        "n_dose1_cumsum_moyenne7j": 4418.857142857143,
+        "n_dose1_pourcent_pop": 0.5
+    },
+    {
+        "date": "2021-01-16",
+        "code": "REG-84",
+        "n_dose1_cumsum": 40664,
+        "n_dose1_cumsum_moyenne7j": 4744.285714285715,
+        "n_dose1_pourcent_pop": 0.5
+    },
+    {
+        "date": "2021-01-17",
+        "code": "REG-84",
+        "n_dose1_cumsum": 41534,
+        "n_dose1_cumsum_moyenne7j": 4846.857142857143,
+        "n_dose1_pourcent_pop": 0.5
+    },
+    {
+        "date": "2021-01-18",
+        "code": "REG-84",
+        "n_dose1_cumsum": 49629,
+        "n_dose1_cumsum_moyenne7j": 5461.0,
+        "n_dose1_pourcent_pop": 0.6
+    },
+    {
+        "date": "2021-01-19",
+        "code": "REG-84",
+        "n_dose1_cumsum": 62741,
+        "n_dose1_cumsum_moyenne7j": 6535.714285714285,
+        "n_dose1_pourcent_pop": 0.8
+    },
+    {
+        "date": "2021-01-20",
+        "code": "REG-84",
+        "n_dose1_cumsum": 76815,
+        "n_dose1_cumsum_moyenne7j": 7630.571428571428,
+        "n_dose1_pourcent_pop": 1.0
+    },
+    {
+        "date": "2021-01-21",
+        "code": "REG-84",
+        "n_dose1_cumsum": 89754,
+        "n_dose1_cumsum_moyenne7j": 8341.0,
+        "n_dose1_pourcent_pop": 1.1
+    },
+    {
+        "date": "2021-01-22",
+        "code": "REG-84",
+        "n_dose1_cumsum": 100815,
+        "n_dose1_cumsum_moyenne7j": 8984.857142857143,
+        "n_dose1_pourcent_pop": 1.3
+    },
+    {
+        "date": "2021-01-23",
+        "code": "REG-84",
+        "n_dose1_cumsum": 105431,
+        "n_dose1_cumsum_moyenne7j": 9252.42857142857,
+        "n_dose1_pourcent_pop": 1.3
+    },
+    {
+        "date": "2021-01-24",
+        "code": "REG-84",
+        "n_dose1_cumsum": 106229,
+        "n_dose1_cumsum_moyenne7j": 9242.142857142857,
+        "n_dose1_pourcent_pop": 1.3
+    },
+    {
+        "date": "2021-01-25",
+        "code": "REG-84",
+        "n_dose1_cumsum": 113912,
+        "n_dose1_cumsum_moyenne7j": 9183.285714285714,
+        "n_dose1_pourcent_pop": 1.4
+    },
+    {
+        "date": "2021-01-26",
+        "code": "REG-84",
+        "n_dose1_cumsum": 124376,
+        "n_dose1_cumsum_moyenne7j": 8805.0,
+        "n_dose1_pourcent_pop": 1.5
     },
     {
         "date": "2021-01-27",
         "code": "REG-84",
-        "n_dose1": 10403,
-        "n_dose1_moyenne7j": 8280.57142857143
+        "n_dose1_cumsum": 134779,
+        "n_dose1_cumsum_moyenne7j": 8280.57142857143,
+        "n_dose1_pourcent_pop": 1.7
+    },
+    {
+        "date": "2020-12-31",
+        "code": "REG-93",
+        "n_dose1_cumsum": 19,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-04",
+        "code": "REG-93",
+        "n_dose1_cumsum": 134,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-05",
+        "code": "REG-93",
+        "n_dose1_cumsum": 349,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-06",
+        "code": "REG-93",
+        "n_dose1_cumsum": 705,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-07",
+        "code": "REG-93",
+        "n_dose1_cumsum": 1814,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-08",
+        "code": "REG-93",
+        "n_dose1_cumsum": 2955,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-09",
+        "code": "REG-93",
+        "n_dose1_cumsum": 3189,
+        "n_dose1_cumsum_moyenne7j": 455.57142857142856,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-10",
+        "code": "REG-93",
+        "n_dose1_cumsum": 3191,
+        "n_dose1_cumsum_moyenne7j": 453.14285714285717,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-11",
+        "code": "REG-93",
+        "n_dose1_cumsum": 4866,
+        "n_dose1_cumsum_moyenne7j": 676.0,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-12",
+        "code": "REG-93",
+        "n_dose1_cumsum": 9133,
+        "n_dose1_cumsum_moyenne7j": 1254.857142857143,
+        "n_dose1_pourcent_pop": 0.2
+    },
+    {
+        "date": "2021-01-13",
+        "code": "REG-93",
+        "n_dose1_cumsum": 12869,
+        "n_dose1_cumsum_moyenne7j": 1737.7142857142858,
+        "n_dose1_pourcent_pop": 0.3
+    },
+    {
+        "date": "2021-01-14",
+        "code": "REG-93",
+        "n_dose1_cumsum": 17130,
+        "n_dose1_cumsum_moyenne7j": 2188.0,
+        "n_dose1_pourcent_pop": 0.3
+    },
+    {
+        "date": "2021-01-15",
+        "code": "REG-93",
+        "n_dose1_cumsum": 20729,
+        "n_dose1_cumsum_moyenne7j": 2539.1428571428573,
+        "n_dose1_pourcent_pop": 0.4
+    },
+    {
+        "date": "2021-01-16",
+        "code": "REG-93",
+        "n_dose1_cumsum": 21880,
+        "n_dose1_cumsum_moyenne7j": 2670.1428571428573,
+        "n_dose1_pourcent_pop": 0.4
+    },
+    {
+        "date": "2021-01-17",
+        "code": "REG-93",
+        "n_dose1_cumsum": 21976,
+        "n_dose1_cumsum_moyenne7j": 2683.5714285714284,
+        "n_dose1_pourcent_pop": 0.4
+    },
+    {
+        "date": "2021-01-18",
+        "code": "REG-93",
+        "n_dose1_cumsum": 27254,
+        "n_dose1_cumsum_moyenne7j": 3198.285714285714,
+        "n_dose1_pourcent_pop": 0.5
+    },
+    {
+        "date": "2021-01-19",
+        "code": "REG-93",
+        "n_dose1_cumsum": 38487,
+        "n_dose1_cumsum_moyenne7j": 4193.428571428572,
+        "n_dose1_pourcent_pop": 0.8
+    },
+    {
+        "date": "2021-01-20",
+        "code": "REG-93",
+        "n_dose1_cumsum": 48060,
+        "n_dose1_cumsum_moyenne7j": 5027.285714285715,
+        "n_dose1_pourcent_pop": 1.0
+    },
+    {
+        "date": "2021-01-21",
+        "code": "REG-93",
+        "n_dose1_cumsum": 58005,
+        "n_dose1_cumsum_moyenne7j": 5839.285714285715,
+        "n_dose1_pourcent_pop": 1.1
+    },
+    {
+        "date": "2021-01-22",
+        "code": "REG-93",
+        "n_dose1_cumsum": 66233,
+        "n_dose1_cumsum_moyenne7j": 6500.571428571428,
+        "n_dose1_pourcent_pop": 1.3
+    },
+    {
+        "date": "2021-01-23",
+        "code": "REG-93",
+        "n_dose1_cumsum": 68679,
+        "n_dose1_cumsum_moyenne7j": 6685.571428571428,
+        "n_dose1_pourcent_pop": 1.4
+    },
+    {
+        "date": "2021-01-24",
+        "code": "REG-93",
+        "n_dose1_cumsum": 69183,
+        "n_dose1_cumsum_moyenne7j": 6743.857142857143,
+        "n_dose1_pourcent_pop": 1.4
+    },
+    {
+        "date": "2021-01-25",
+        "code": "REG-93",
+        "n_dose1_cumsum": 75111,
+        "n_dose1_cumsum_moyenne7j": 6836.714285714285,
+        "n_dose1_pourcent_pop": 1.5
+    },
+    {
+        "date": "2021-01-26",
+        "code": "REG-93",
+        "n_dose1_cumsum": 83003,
+        "n_dose1_cumsum_moyenne7j": 6359.428571428572,
+        "n_dose1_pourcent_pop": 1.6
     },
     {
         "date": "2021-01-27",
         "code": "REG-93",
-        "n_dose1": 7597,
-        "n_dose1_moyenne7j": 6077.142857142857
+        "n_dose1_cumsum": 90600,
+        "n_dose1_cumsum_moyenne7j": 6077.142857142857,
+        "n_dose1_pourcent_pop": 1.8
+    },
+    {
+        "date": "2021-01-04",
+        "code": "REG-94",
+        "n_dose1_cumsum": 2,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-06",
+        "code": "REG-94",
+        "n_dose1_cumsum": 55,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.0
+    },
+    {
+        "date": "2021-01-07",
+        "code": "REG-94",
+        "n_dose1_cumsum": 381,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.1
+    },
+    {
+        "date": "2021-01-08",
+        "code": "REG-94",
+        "n_dose1_cumsum": 661,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.2
+    },
+    {
+        "date": "2021-01-09",
+        "code": "REG-94",
+        "n_dose1_cumsum": 737,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.2
+    },
+    {
+        "date": "2021-01-10",
+        "code": "REG-94",
+        "n_dose1_cumsum": 770,
+        "n_dose1_cumsum_moyenne7j": 0.0,
+        "n_dose1_pourcent_pop": 0.2
+    },
+    {
+        "date": "2021-01-11",
+        "code": "REG-94",
+        "n_dose1_cumsum": 893,
+        "n_dose1_cumsum_moyenne7j": 127.57142857142857,
+        "n_dose1_pourcent_pop": 0.3
+    },
+    {
+        "date": "2021-01-12",
+        "code": "REG-94",
+        "n_dose1_cumsum": 1089,
+        "n_dose1_cumsum_moyenne7j": 155.28571428571428,
+        "n_dose1_pourcent_pop": 0.3
+    },
+    {
+        "date": "2021-01-13",
+        "code": "REG-94",
+        "n_dose1_cumsum": 1274,
+        "n_dose1_cumsum_moyenne7j": 174.14285714285714,
+        "n_dose1_pourcent_pop": 0.4
+    },
+    {
+        "date": "2021-01-14",
+        "code": "REG-94",
+        "n_dose1_cumsum": 1520,
+        "n_dose1_cumsum_moyenne7j": 162.71428571428572,
+        "n_dose1_pourcent_pop": 0.4
+    },
+    {
+        "date": "2021-01-15",
+        "code": "REG-94",
+        "n_dose1_cumsum": 1879,
+        "n_dose1_cumsum_moyenne7j": 174.0,
+        "n_dose1_pourcent_pop": 0.5
+    },
+    {
+        "date": "2021-01-16",
+        "code": "REG-94",
+        "n_dose1_cumsum": 2074,
+        "n_dose1_cumsum_moyenne7j": 191.0,
+        "n_dose1_pourcent_pop": 0.6
+    },
+    {
+        "date": "2021-01-17",
+        "code": "REG-94",
+        "n_dose1_cumsum": 2133,
+        "n_dose1_cumsum_moyenne7j": 194.71428571428572,
+        "n_dose1_pourcent_pop": 0.6
+    },
+    {
+        "date": "2021-01-18",
+        "code": "REG-94",
+        "n_dose1_cumsum": 2593,
+        "n_dose1_cumsum_moyenne7j": 242.85714285714286,
+        "n_dose1_pourcent_pop": 0.8
+    },
+    {
+        "date": "2021-01-19",
+        "code": "REG-94",
+        "n_dose1_cumsum": 3475,
+        "n_dose1_cumsum_moyenne7j": 340.85714285714283,
+        "n_dose1_pourcent_pop": 1.0
+    },
+    {
+        "date": "2021-01-20",
+        "code": "REG-94",
+        "n_dose1_cumsum": 4272,
+        "n_dose1_cumsum_moyenne7j": 428.2857142857143,
+        "n_dose1_pourcent_pop": 1.2
+    },
+    {
+        "date": "2021-01-21",
+        "code": "REG-94",
+        "n_dose1_cumsum": 5060,
+        "n_dose1_cumsum_moyenne7j": 505.7142857142857,
+        "n_dose1_pourcent_pop": 1.5
+    },
+    {
+        "date": "2021-01-22",
+        "code": "REG-94",
+        "n_dose1_cumsum": 5761,
+        "n_dose1_cumsum_moyenne7j": 554.5714285714286,
+        "n_dose1_pourcent_pop": 1.7
+    },
+    {
+        "date": "2021-01-23",
+        "code": "REG-94",
+        "n_dose1_cumsum": 6002,
+        "n_dose1_cumsum_moyenne7j": 561.1428571428571,
+        "n_dose1_pourcent_pop": 1.7
+    },
+    {
+        "date": "2021-01-24",
+        "code": "REG-94",
+        "n_dose1_cumsum": 6146,
+        "n_dose1_cumsum_moyenne7j": 573.2857142857143,
+        "n_dose1_pourcent_pop": 1.8
+    },
+    {
+        "date": "2021-01-25",
+        "code": "REG-94",
+        "n_dose1_cumsum": 6500,
+        "n_dose1_cumsum_moyenne7j": 558.1428571428571,
+        "n_dose1_pourcent_pop": 1.9
+    },
+    {
+        "date": "2021-01-26",
+        "code": "REG-94",
+        "n_dose1_cumsum": 7271,
+        "n_dose1_cumsum_moyenne7j": 542.2857142857143,
+        "n_dose1_pourcent_pop": 2.1
     },
     {
         "date": "2021-01-27",
         "code": "REG-94",
-        "n_dose1": 615,
-        "n_dose1_moyenne7j": 516.2857142857143
+        "n_dose1_cumsum": 7886,
+        "n_dose1_cumsum_moyenne7j": 516.2857142857143,
+        "n_dose1_pourcent_pop": 2.3
     }
 ]
