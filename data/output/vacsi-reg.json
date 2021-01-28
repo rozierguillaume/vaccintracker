@@ -27,13 +27,13 @@
         "date": "2021-01-27",
         "code": "REG-6",
         "n_dose1": 90,
-        "n_dose1_moyenne7j": NaN
+        "n_dose1_moyenne7j": 0.0
     },
     {
         "date": "2021-01-18",
         "code": "REG-7",
         "n_dose1": 1,
-        "n_dose1_moyenne7j": NaN
+        "n_dose1_moyenne7j": 0.0
     },
     {
         "date": "2021-01-27",
