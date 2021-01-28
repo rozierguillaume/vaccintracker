@@ -89,12 +89,15 @@ def import_dep_data():
 def csv_to_json_dep(df):
   df = df[df["clage_vacsi"]==0]
   deps = df["dep"].unique().tolist()
+  pop_dep = pd.read_csv('data/input/dep-pop.csv', sep=';')
+  df = df.merge(pop_dep, left_on="dep", right_on="dep")
 
   dict_json = {"departements": deps}
 
   for dep in deps:
     df_dep = df[df.dep == dep].sort_values(by="jour")
-    dict_json[dep] = {"dates": df_dep.jour.tolist(), "n_dose1": df_dep.n_dose1.tolist()}
+    df_dep["n_dose1_cumsum"] = df_dep["n_dose1"].cumsum()
+    dict_json[dep] = {"dates": df_dep.jour.tolist(), "n_dose1_cumsum": df_dep.n_dose1_cumsum.tolist(), "n_dose1_cumsum_pop": round((df_dep.n_dose1_cumsum.values[-1] / df_dep["departmentPopulation"].values[-1]) * 100, 2)}
 
   with open("data/output/vacsi-dep.json", "w") as outfile: 
     outfile.write(json.dumps(dict_json, indent=4))

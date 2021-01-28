@@ -1,0 +1,102 @@
+﻿dep;departementName;population
+01;Ain;662 412
+02;Aisne;525 739
+03;Allier;331 947
+04;Alpes-de-Haute-Provence;165 767
+05;Hautes-Alpes;140 074
+06;Alpes-Maritimes;1 089 447
+07;Ardèche;327 878
+08;Ardennes;265 213
+09;Ariège;153 122
+10;Aube;310 222
+11;Aude;377 716
+12;Aveyron;279 168
+13;Bouches-du-Rhône;2 048 660
+14;Calvados;692 932
+15;Cantal;143 366
+16;Charente;349 158
+17;Charente-Maritime;652 541
+18;Cher;296 919
+19;Corrèze;239 019
+2A;Corse-du-Sud;162 747
+2B;Haute-Corse;186 526
+21;Côte-d'Or;532 266
+22;Côtes-d'Armor;599 149
+23;Creuse;114 490
+24;Dordogne;410 786
+25;Doubs;543 538
+26;Drôme;523 191
+27;Eure;595 218
+28;Eure-et-Loir;428 333
+29;Finistère;914 376
+30;Gard;750 776
+31;Haute-Garonne;1 424 864
+32;Gers;191 439
+33;Gironde;1 654 372
+34;Hérault;1 196 536
+35;Ille-et-Vilaine;1 094 677
+36;Indre;216 867
+37;Indre-et-Loire;609 628
+38;Isère;1 271 577
+39;Jura;258 023
+40;Landes;416 832
+41;Loir-et-Cher;326 489
+42;Loire;765 297
+43;Haute-Loire;227 650
+44;Loire-Atlantique;1 459 116
+45;Loiret;684 195
+46;Lot;174 232
+47;Lot-et-Garonne;329 960
+48;Lozère;76 557
+49;Maine-et-Loire;819 824
+50;Manche;491 532
+51;Marne;561 972
+52;Haute-Marne;168 316
+53;Mayenne;305 521
+54;Meurthe-et-Moselle;730 036
+55;Meuse;179 154
+56;Morbihan;763 095
+57;Moselle;1 038 901
+58;Nièvre;199 659
+59;Nord;2 598 803
+60;Oise;830 002
+61;Orne;275 186
+62;Pas-de-Calais;1 455 508
+63;Puy-de-Dôme;669 648
+64;Pyrénées-Atlantiques;688 627
+65;Hautes-Pyrénées;229 315
+66;Pyrénées-Orientales;480 318
+67;Bas-Rhin;1 147 820
+68;Haut-Rhin;764 044
+69;Rhône;1 893 147
+70;Haute-Saône;233 508
+71;Saône-et-Loire;547 409
+72;Sarthe;562 301
+73;Savoie;437 711
+74;Haute-Savoie;838 774
+75;Paris;2 142 903
+76;Seine-Maritime;1 251 224
+77;Seine-et-Marne;1 432 577
+78;Yvelines;1 453 311
+79;Deux-Sèvres;374 461
+80;Somme;567 410
+81;Tarn;389 443
+82;Tarn-et-Garonne;262 265
+83;Var;1 084 899
+84;Vaucluse;560 814
+85;Vendée;691 298
+86;Vienne;439 004
+87;Haute-Vienne;370 517
+88;Vosges;359 139
+89;Yonne;333 182
+90;Territoire de Belfort;138 620
+91;Essonne;1 315 683
+92;Hauts-de-Seine;1 633 217
+93;Seine-Saint-Denis;1 669 509
+94;Val-de-Marne;1 418 960
+95;Val-d'Oise;1 260 269
+971;Guadeloupe ;375 857
+972;Martinique ;355 094
+973;Guyane;294 071
+974;La Réunion;858 450
+976;Mayotte;288 926
