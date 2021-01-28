@@ -18,6 +18,7 @@ def csv_to_json_fra(df):
   dict_json = {}
   dict_json["dates"] = df["jour"].tolist()
   dict_json["n_dose1"] = df["n_dose1"].tolist()
+  dict_json["n_dose1_moyenne7j"] = df["n_dose1"].rolling(window=7).mean().tolist()
 
   with open("data/output/vacsi-fra.json", "w") as outfile: 
     outfile.write(json.dumps(dict_json))
@@ -37,13 +38,18 @@ def import_reg_data():
 
 def csv_to_json_reg(df):
   list_json = []
+  regions = df.reg.unique().tolist()
 
-  for i in range(len(df)):
+  for reg in regions:
+    df_reg = df[df.reg == reg].sort_values(by="jour").reset_index()
     dict_json = {}
-    dict_json["date"] = df.loc[i,"jour"]
-    dict_json["code"] = "REG-" + str(df.loc[i,"reg"])
-    dict_json["n_dose1"] = int(df.loc[i, "n_dose1"])
-    #dict_json["n_cum_dose1"] = int(df.loc[i, "n_cum_dose1"])
+    df_reg["n_dose1_moyenne7j"] = df_reg["n_dose1"].rolling(window=7).mean()
+
+    for i in range(len(df_reg)):
+      dict_json["date"] = df_reg.loc[i,"jour"]
+      dict_json["code"] = "REG-" + str(df_reg.loc[i,"reg"])
+      dict_json["n_dose1"] = int(df_reg.loc[i, "n_dose1"])
+      dict_json["n_dose1_moyenne7j"] = df_reg.loc[i, "n_dose1_moyenne7j"]
 
     list_json += [dict_json]
 
