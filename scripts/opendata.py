@@ -33,6 +33,9 @@ def ajouterZeroNumeroRegion(num):
     return "0" + str(num)
   else:
     return num
+def prepare_reg_data(df):
+  df_noms = pd.read_csv('data/input/reg-noms.csv', sep=',')
+  return df.merge(df_noms, left_on="reg", right_on="reg")
 
 def download_reg_data():
   url = "https://www.data.gouv.fr/fr/datasets/r/735b0df8-51b4-4dd2-8a2d-8e46d77d60d8"
@@ -43,7 +46,7 @@ def download_reg_data():
 
 def import_reg_data():
   df = pd.read_csv('data/input/vacsi-reg.csv', sep=';')
-  return df
+  return prepare_reg_data(df)
 
 def csv_to_json_reg(df):
   pop_reg = pd.read_csv("data/input/reg-pop.csv", sep=";")
@@ -63,6 +66,7 @@ def csv_to_json_reg(df):
       dict_json = {}
       dict_json["date"] = df_reg.loc[i,"jour"]
       dict_json["code"] = "REG-" + ajouterZeroNumeroRegion(str(df_reg.loc[i,"reg"]))
+      dict_json["nom"] = df_reg.loc[i, "libelle"]
       dict_json["n_dose1_cumsum"] = int(df_reg.loc[i, "n_dose1_cumsum"])
       dict_json["n_dose1_cumsum_moyenne7j"] = df_reg.loc[i, "n_dose1_cumsum_moyenne7j"]
       dict_json["n_dose1_pourcent_pop"] = round(dict_json["n_dose1_cumsum"]/pop*100, 1)
