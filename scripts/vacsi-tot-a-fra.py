@@ -11,17 +11,18 @@ def download_fra_data():
           f.write(data.content)
           
 def prepare_data(df):
+  df=df[df["clage_vacsi"] != 0]
   df_clage_vacsi = pd.read_csv('data/input/clage_spf.csv', sep=';')
   df = df.merge(df_clage_vacsi, left_on="clage_vacsi", right_on="code_spf").groupby(["jour", "categorie-large"]).sum().reset_index()
   return df
 
 def import_fra_data():
-  df = pd.read_csv('data/input/vacsi-tot-a-fra.csv', sep=';')
+  df = pd.read_csv('data/input/vacsi-tot-a-fra.csv', sep=',')
   return prepare_data(df)
 
 def csv_to_json_fra(df):
   jour_max = df.jour.max()
-  df = df[(df.clage_vacsi != 0) & (df.jour == jour_max)]
+  df = df[(df.jour == jour_max)]
   df = df.sort_values(by="categorie-large")
 
   dict_json = {"age": df["categorie-large"].tolist(), 

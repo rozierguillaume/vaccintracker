@@ -11,7 +11,7 @@ def download_fra_data():
           f.write(data.content)
 
 def import_fra_data():
-  df = pd.read_csv('data/input/vacsi-fra.csv', sep=';')
+  df = pd.read_csv('data/input/vacsi-fra.csv', sep=',')
   return df
 
 def csv_to_json_fra(df):
@@ -45,7 +45,7 @@ def download_reg_data():
           f.write(data.content)
 
 def import_reg_data():
-  df = pd.read_csv('data/input/vacsi-reg.csv', sep=';')
+  df = pd.read_csv('data/input/vacsi-reg.csv', sep=',')
   return prepare_reg_data(df)
 
 def csv_to_json_reg(df):
@@ -86,7 +86,7 @@ def download_dep_data():
           f.write(data.content)
 
 def import_dep_data():
-  df = pd.read_csv('data/input/vacsi-a-dep.csv', sep=';')
+  df = pd.read_csv('data/input/vacsi-a-dep.csv', sep=',')
   return df
 
 def csv_to_json_dep(df):
@@ -99,11 +99,12 @@ def csv_to_json_dep(df):
 
   for dep in deps:
     df_dep = df[df.dep == dep].sort_values(by="jour")
-    df_dep["n_dose1_cumsum"] = df_dep["n_dose1"].cumsum()
-    dict_json[dep] = {"dates": df_dep.jour.tolist(), 
-                      "n_dose1_cumsum": df_dep.n_dose1_cumsum.tolist(), 
-                      "n_dose1_cumsum_pop": round((df_dep.n_dose1_cumsum.values[-1] / df_dep["departmentPopulation"].values[-1]) * 100, 2)
-                      }
+    if(len(df_dep)):
+      df_dep["n_dose1_cumsum"] = df_dep["n_dose1"].cumsum()
+      dict_json[dep] = {"dates": df_dep.jour.tolist(), 
+                        "n_dose1_cumsum": df_dep.n_dose1_cumsum.tolist(), 
+                        "n_dose1_cumsum_pop": round((df_dep.n_dose1_cumsum.values[-1] / df_dep["departmentPopulation"].values[-1]) * 100, 2)
+                        }
 
   with open("data/output/vacsi-dep.json", "w") as outfile: 
     outfile.write(json.dumps(dict_json, indent=4))
@@ -119,4 +120,5 @@ csv_to_json_reg(df)
 
 download_dep_data()
 df = import_dep_data()
+print(df)
 csv_to_json_dep(df)
