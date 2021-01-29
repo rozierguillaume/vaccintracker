@@ -19,7 +19,7 @@ def csv_to_json_fra(df):
   df = df[(df.clage_vacsi != 0) & (df.jour == jour_max)]
   df = df.sort_values(by="clage_vacsi")
 
-  dict_json = {"age": df.clage_vacsi.tolist(), "n_dose1": df.n_tot_dose1.tolist(), "n_dose2": df.n_tot_dose2.tolist()}
+  dict_json = {"age": [str(age) + " ans" for age in df.clage_vacsi.tolist()], "n_dose1": df.n_tot_dose1.tolist(), "n_dose2": df.n_tot_dose2.tolist()}
 
   with open("data/output/vacsi-tot-a-fra_lastday.json", "w") as outfile:
     outfile.write(json.dumps(dict_json))
