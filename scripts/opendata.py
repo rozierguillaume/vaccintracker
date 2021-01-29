@@ -74,7 +74,7 @@ def csv_to_json_reg(df):
       list_json += [dict_json]
 
   with open("data/output/vacsi-reg.json", "w") as outfile: 
-    outfile.write(json.dumps(list_json, indent=4))
+    outfile.write(json.dumps(list_json))
 
 
 ## DEPARTEMENTS
