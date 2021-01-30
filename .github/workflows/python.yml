@@ -33,8 +33,8 @@ jobs:
         
     - name: Données Vaccin France
       run: |
-        python scripts/opendata.py
         python scripts/vacsi-tot-a-fra.py
+        python scripts/opendata.py
         
     # Commit changes 
     - uses: stefanzweifel/git-auto-commit-action@v4
