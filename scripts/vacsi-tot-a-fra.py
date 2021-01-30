@@ -1,6 +1,7 @@
 import json
 import pandas as pd
 import requests
+import numpy as np
 
 ## FRANCE
 def download_fra_data():
@@ -28,8 +29,8 @@ def csv_to_json_fra(df):
   dict_json = {"age": df["categorie-large"].tolist(), 
               "n_dose1": df.n_tot_dose1.tolist(), 
               "n_dose2": df.n_tot_dose2.tolist(),
-              "n_dose1_pop": list(df.n_tot_dose1.values/df.population.values*100),
-              "n_dose2_pop": list(df.n_tot_dose2.values/df.population.values*100)}
+              "n_dose1_pop": list(np.round(df.n_tot_dose1.values/df.population.values*100, 2)),
+              "n_dose2_pop": list(np.round(df.n_tot_dose2.values/df.population.values*100, 2))}
 
   with open("data/output/vacsi-tot-a-fra_lastday.json", "w") as outfile:
     outfile.write(json.dumps(dict_json))
