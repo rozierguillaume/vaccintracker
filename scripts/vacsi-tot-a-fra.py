@@ -26,7 +26,8 @@ def csv_to_json_fra(df):
   df = df[(df.jour == jour_max)]
   df = df.sort_values(by="categorie-large")
 
-  dict_json = {"age": df["categorie-large"].tolist(), 
+  dict_json = {"date": jour_max,
+              "age": df["categorie-large"].tolist(), 
               "n_dose1": df.n_tot_dose1.tolist(), 
               "n_dose2": df.n_tot_dose2.tolist(),
               "n_dose1_pop": list(np.round(df.n_tot_dose1.values/df.population.values*100, 2)),
