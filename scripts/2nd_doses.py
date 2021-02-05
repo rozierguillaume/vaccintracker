@@ -14,6 +14,9 @@ def download_vacsi_tot_fra():
 def import_vacsi_tot_fra():
     return pd.read_csv('data/input/vacsi-tot-fra.csv')
 
+def import_vacsi_fra():
+    return pd.read_csv('data/input/vacsi-fra.csv')
+
 def import_last_output_data():
     with open('data/output/vacsi-fra-2doses.json') as f:
         data = json.load(f)
@@ -35,9 +38,28 @@ def export_json(dict_data):
     with open("data/output/vacsi-fra-2doses.json", "w") as outfile:
         outfile.write(json.dumps(dict_data))
 
+def export_json_doses(dict_data):
+    with open("data/output/somme-doses-rolling.json", "w") as outfile:
+        outfile.write(json.dumps(dict_data))
+
+def rolling_mean_doses(df_fra, dict_data):
+    df_2nd = pd.DataFrame()
+    df_2nd["jour"] = dict_data["jour"]
+    df_2nd["n_dose2"] = dict_data["n_dose2"]
+
+    df = df_fra.merge(df_2nd, left_on="jour", right_on="jour", how="outer").fillna(0)
+    df["rolling_doses"] = (df.n_dose1 + df.n_dose2).rolling(window=7, center=True).mean().round()
+    return {"jour": list(df.dropna().jour), "n_dose_rolling": list(df.dropna().rolling_doses)}
+
+
 download_vacsi_tot_fra()
 df = import_vacsi_tot_fra()
 dict_data = import_last_output_data()
 merged_file = merge_files(df, dict_data)
-print(merged_file)
+merged_file
 export_json(merged_file)
+
+df_fra = import_vacsi_fra()
+dict_data_doses = rolling_mean_doses(df_fra, dict_data)
+export_json_doses(dict_data_doses)
+
