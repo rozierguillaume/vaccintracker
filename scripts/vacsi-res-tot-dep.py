@@ -22,7 +22,7 @@ def export_json(df):
 
     for dep in deps:
         df_dep = df[df.dep == dep]
-        dict_json[dep] = {'res_couv_tot_dose1': list(df_dep['res_couv_tot_dose1']), 'res_couv_tot_dose2': list(df_dep['res_couv_tot_dose2'])}
+        dict_json[dep] = {'res_couv_tot_dose1': list(df_dep['res_couv_tot_dose1'])[0], 'res_couv_tot_dose2': list(df_dep['res_couv_tot_dose2'])[0]}
         
     with open("data/output/vacsi-res-tot-dep.json", "w") as outfile:
         outfile.write(json.dumps(dict_json))
