@@ -21,7 +21,7 @@ def import_fra_data():
 
 def csv_to_json_fra(df):
   types_vaccins = [1, 2, 3]
-  noms_vaccins = ["Pfizer/BioNTech", "Moderna", "AstraZeneka"]
+  noms_vaccins = ["Pfizer/BioNTech", "Moderna", "AstraZeneca"]
   dict_json = {"types_vaccins": types_vaccins, "noms_vaccins": noms_vaccins}
 
   for type_vaccin in types_vaccins:
