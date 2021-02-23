@@ -33,7 +33,7 @@ def csv_to_json_fra(df):
       "n_cum_dose1": list(df_temp.n_cum_dose1)
     }
 
-  with open("data/output/vacsi-tot-v-fra.json", "w") as outfile:
+  with open("data/output/vacsi-v-fra.json", "w") as outfile:
     outfile.write(json.dumps(dict_json))
 
 
