@@ -73,11 +73,38 @@ def import_data():
   df_flux_astrazeneca = pd.read_csv('data/input/flux-astrazeneca-nat.csv', sep=',')
   return prepare_data(df_flux_a_pfizer, df_flux_b_pfizer, df_flux_moderna, df_flux_astrazeneca)
 
+def import_data_flux_separes():
+  df_flux_a_pfizer = pd.read_csv('data/input/flux-a-pfizer-nat.csv', sep=',')
+  df_flux_b_pfizer = pd.read_csv('data/input/flux-b-pfizer-nat.csv', sep=',')
+  df_flux_pfizer = df_flux_a_pfizer.merge(df_flux_b_pfizer, left_on="date_debut_semaine", right_on="date_debut_semaine")
+  df_flux_pfizer["nb_doses"] = df_flux_pfizer.nb_doses_x + df_flux_pfizer.nb_doses_y
+
+  df_flux_moderna = pd.read_csv('data/input/flux-moderna-nat.csv', sep=',')
+  df_flux_astrazeneca = pd.read_csv('data/input/flux-astrazeneca-nat.csv', sep=',')
+  return df_flux_pfizer, df_flux_moderna, df_flux_astrazeneca
+
+
 def csv_to_json(df):
   dict_json = {"jour": list(df.date_debut_semaine),
               "nb_doses_tot_cumsum": list(df.nb_doses_tot_cumsum)}
 
   with open("data/output/livraisons.json", "w") as outfile:
+    outfile.write(json.dumps(dict_json))
+
+def csv_to_json_flux_separes(df_flux_pfizer, df_flux_moderna, df_flux_astrazeneca):
+  
+  dict_json_pfizer = {"jour": list(df_flux_pfizer.date_debut_semaine),
+              "nb_doses_tot_cumsum": list(df_flux_pfizer.nb_doses.cumsum())}
+
+  dict_json_moderna = {"jour": list(df_flux_moderna.date_debut_semaine),
+              "nb_doses_tot_cumsum": list(df_flux_moderna.nb_doses.cumsum())}
+
+  dict_json_astrazeneca = {"jour": list(df_flux_astrazeneca.date_debut_semaine),
+              "nb_doses_tot_cumsum": list(df_flux_astrazeneca.nb_doses.cumsum())}
+
+  dict_json={1: dict_json_pfizer, 2: dict_json_moderna, 3: dict_json_astrazeneca}
+
+  with open("data/output/livraisons-v.json", "w") as outfile:
     outfile.write(json.dumps(dict_json))
 
 
@@ -88,3 +115,6 @@ csv_to_json(df)
 download_tot_nat()
 df = import_tot_nat()
 csv_to_json_tot_nat(df)
+
+df_flux_pfizer, df_flux_moderna, df_flux_astrazeneca = import_data_flux_separes()
+csv_to_json_flux_separes(df_flux_pfizer, df_flux_moderna, df_flux_astrazeneca)
