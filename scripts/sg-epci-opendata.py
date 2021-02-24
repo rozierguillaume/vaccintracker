@@ -26,7 +26,7 @@ def csv_to_json_fra(df):
   dict_json = {}
 
   for epci in liste_epci:
-    dict_json[str(epci)] = df[df["epci2020"] == epci]["ti_classe"].fillna(0).values[0]
+    dict_json[str(epci)] = df[df["epci2020"] == epci]["ti_classe"].fillna("0").values[0]
 
   with open("data/output/sg-epci.json", "w") as outfile:
     outfile.write(json.dumps(dict_json))
