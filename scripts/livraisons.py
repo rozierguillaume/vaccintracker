@@ -46,7 +46,7 @@ def import_tot_nat():
 
 def csv_to_json_tot_nat(df):
   dict_json = {"jour": list(df.date_debut_semaine),
-              "nb_doses_cumsum": list(df.nb_doses.cumsum())}
+              "nb_doses_tot_cumsum": list(df.nb_doses.cumsum())}
   with open("data/output/flux-tot-nat.json", "w") as outfile:
     outfile.write(json.dumps(dict_json))
 
