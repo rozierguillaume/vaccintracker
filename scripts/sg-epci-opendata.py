@@ -23,14 +23,14 @@ def import_fra_data():
 def csv_to_json_fra(df):
   
   liste_epci = df["epci2020"].unique()
-  dates = sorted(df.jour.unique())[-10:]
+  dates = sorted(df.jour.unique())[-50:]
   dict_json = {"dates": dates}
 
   for date in dates:
     print(date)
     dict_json[date] = {}
     df_temp = df[df["jour"] == date] # Keep last day
-    
+
     for epci in liste_epci:
       dict_json[date][str(epci)] = df_temp[df_temp["epci2020"] == epci]["ti_classe"].fillna("0").values[0]
 
