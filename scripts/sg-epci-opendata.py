@@ -30,6 +30,7 @@ def csv_to_json_fra(df):
     print(date)
     dict_json[date] = {}
     df_temp = df[df["jour"] == date] # Keep last day
+    
     for epci in liste_epci:
       dict_json[date][str(epci)] = df_temp[df_temp["epci2020"] == epci]["ti_classe"].fillna("0").values[0]
 
