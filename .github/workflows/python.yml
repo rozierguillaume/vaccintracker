@@ -39,6 +39,7 @@ jobs:
         python scripts/2nd_doses.py
         python scripts/vacsi-res-tot-dep.py
         python scripts/vacsi-v-fra.py
+	python scripts/livraisons.py
         python scripts/sg-epci-opendata.py 
         
     # Commit changes 
