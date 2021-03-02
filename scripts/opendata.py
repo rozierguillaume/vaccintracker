@@ -16,12 +16,17 @@ def import_fra_data():
 
 def csv_to_json_fra(df):
   df["n_dose1_cumsum"] = df["n_dose1"].cumsum()
+  df["n_dose2_cumsum"] = df["n_dose2"].cumsum()
 
   dict_json = {}
   dict_json["dates"] = df["jour"].tolist()
   dict_json["n_dose1"] = df["n_dose1"].tolist()
   dict_json["n_dose1_cumsum"] = df["n_dose1_cumsum"].tolist()
   dict_json["n_dose1_moyenne7j"] = df["n_dose1"].rolling(window=7).mean().fillna(0).tolist()
+
+  dict_json["n_dose2"] = df["n_dose2"].tolist()
+  dict_json["n_dose2_cumsum"] = df["n_dose2_cumsum"].tolist()
+  dict_json["n_dose2_moyenne7j"] = df["n_dose2"].rolling(window=7).mean().fillna(0).tolist()
 
   with open("data/output/vacsi-fra.json", "w") as outfile: 
     outfile.write(json.dumps(dict_json))
