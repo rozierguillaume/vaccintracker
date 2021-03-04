@@ -12,10 +12,10 @@ def download_vacsi_tot_fra():
         f.write(data.content)
 
 def import_vacsi_tot_fra():
-    return pd.read_csv('data/input/vacsi-tot-fra.csv')
+    return pd.read_csv('data/input/vacsi-tot-fra.csv', sep=";")
 
 def import_vacsi_fra():
-    return pd.read_csv('data/input/vacsi-fra.csv')
+    return pd.read_csv('data/input/vacsi-fra.csv', sep=";")
 
 def import_last_output_data():
     with open('data/output/vacsi-fra-2doses.json') as f:

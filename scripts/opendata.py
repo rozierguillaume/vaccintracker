@@ -11,7 +11,7 @@ def download_fra_data():
           f.write(data.content)
 
 def import_fra_data():
-  df = pd.read_csv('data/input/vacsi-fra.csv', sep=',')
+  df = pd.read_csv('data/input/vacsi-fra.csv', sep=';')
   return df
 
 def csv_to_json_fra(df):
@@ -50,7 +50,7 @@ def download_reg_data():
           f.write(data.content)
 
 def import_reg_data():
-  df = pd.read_csv('data/input/vacsi-reg.csv', sep=',')
+  df = pd.read_csv('data/input/vacsi-reg.csv', sep=';')
   return prepare_reg_data(df)
 
 def csv_to_json_reg(df):
@@ -91,7 +91,7 @@ def download_dep_data():
           f.write(data.content)
 
 def import_dep_data():
-  df = pd.read_csv('data/input/vacsi-a-dep.csv', sep=',')
+  df = pd.read_csv('data/input/vacsi-a-dep.csv', sep=';')
   return df
 
 def csv_to_json_dep(df):

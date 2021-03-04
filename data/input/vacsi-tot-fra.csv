@@ -1,2 +1,2 @@
-fra,jour,n_tot_dose1,n_tot_dose2,couv_tot_dose1,couv_tot_dose2,pop
-FR,2021-03-02,3133478,1705966,4.7,2.5,67114995.0
+fra;jour;n_tot_dose1;n_tot_dose2;couv_tot_dose1;couv_tot_dose2;pop
+FR;2021-03-03;3245517;1771246;4.8;2.6;67114995.0

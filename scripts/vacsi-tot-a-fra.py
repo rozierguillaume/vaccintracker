@@ -14,11 +14,12 @@ def download_fra_data():
 def prepare_data(df):
   df=df[df["clage_vacsi"] != 0]
   df_clage_vacsi = pd.read_csv('data/input/clage_spf.csv', sep=';')
+  print(df_clage_vacsi)
   df = df.merge(df_clage_vacsi, left_on="clage_vacsi", right_on="code_spf").groupby(["jour", "categorie-large"]).sum().reset_index()
   return df
 
 def import_fra_data():
-  df = pd.read_csv('data/input/vacsi-tot-a-fra.csv', sep=',')
+  df = pd.read_csv('data/input/vacsi-tot-a-fra.csv', sep=';')
   return prepare_data(df)
 
 def csv_to_json_fra(df):

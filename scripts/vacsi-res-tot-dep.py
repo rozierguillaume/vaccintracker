@@ -14,7 +14,7 @@ def prepare_data(df):
     return df
 
 def import_vacsi_res_tot_dep():
-    return prepare_data(pd.read_csv('data/input/vacsi-res-tot-dep.csv'))
+    return prepare_data(pd.read_csv('data/input/vacsi-res-tot-dep.csv', sep=";"))
 
 def export_json(df):
     deps = df["dep"].unique().tolist()
