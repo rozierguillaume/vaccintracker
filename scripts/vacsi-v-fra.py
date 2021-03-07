@@ -29,7 +29,9 @@ def csv_to_json_fra(df):
     dict_json[type_vaccin] = {
       "jour" : list(df.jour.unique()),
       "n_dose1": [0] * (abs(len(df_temp)-len(df.jour.unique()))) + list(df_temp.n_dose1),
-      "n_cum_dose1": [0] * (abs(len(df_temp)-len(df.jour.unique()))) + list(df_temp.n_cum_dose1)
+      "n_cum_dose1": [0] * (abs(len(df_temp)-len(df.jour.unique()))) + list(df_temp.n_cum_dose1),
+      "n_dose2": [0] * (abs(len(df_temp)-len(df.jour.unique()))) + list(df_temp.n_dose2),
+      "n_cum_dose2": [0] * (abs(len(df_temp)-len(df.jour.unique()))) + list(df_temp.n_cum_dose2)
     }
 
   with open("data/output/vacsi-v-fra.json", "w") as outfile:
