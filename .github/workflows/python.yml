@@ -46,14 +46,3 @@ jobs:
     #python scripts/livraisons.py
     - uses: stefanzweifel/git-auto-commit-action@v4
     
-    # Push files to covid-data
-    - uses: dmnemec/copy_file_to_another_repo_action@v1.0.4
-      env:
-        API_TOKEN_GITHUB: ${{ secrets.API_REPO_TOKEN }}
-      with:
-        source_file: 'data/output/*'
-        destination_repo: 'CovidTrackerFr/covid-data'
-        destination_folder: 'json/vaccins'
-        destination_branch: 'main'
-        user_email: 'TON_EMAIL'
-        user_name: 'rozierguillaume'
