@@ -41,12 +41,30 @@ def download_tot_nat():
           f.write(data.content)
 
 def import_tot_nat():
-  df = pd.read_csv('data/input/flux-tot-nat.csv', sep=',').groupby("date_debut_semaine").sum().reset_index()
+  df = pd.read_csv('data/input/flux-tot-nat.csv', sep=',')
   return df
 
 def csv_to_json_tot_nat(df):
-  dict_json = {"jour": list(df.date_debut_semaine),
-              "nb_doses_tot_cumsum": list(df.nb_doses.cumsum())}
+  df_tous = df.groupby("date_debut_semaine").sum().reset_index()
+
+  dict_json = {"jour": list(df_tous.date_debut_semaine),
+              "nb_doses_tot_cumsum": list(df_tous.nb_doses.cumsum())}
+
+  df_pfizer = df[df.type_de_vaccin == "Pfizer"]
+  dict_json[1] = {"jour": list(df_pfizer.date_debut_semaine),
+              "nb_doses_tot_cumsum": list(df_pfizer.nb_doses.cumsum())}
+
+  df_moderna = df[df.type_de_vaccin == "Moderna"]
+  dict_json[2] = {"jour": list(df_moderna.date_debut_semaine),
+              "nb_doses_tot_cumsum": list(df_moderna.nb_doses.cumsum())}
+
+  df_astrazeneca = df[df.type_de_vaccin == "AstraZeneca"]
+  dict_json[3] = {"jour": list(df_astrazeneca.date_debut_semaine),
+              "nb_doses_tot_cumsum": list(df_astrazeneca.nb_doses.cumsum())}
+
+  dict_json["types_vaccins"] = [1, 2, 3]
+  dict_json["noms_vaccins"] = ["Pfizer/BioNTech", "Moderna", "AstraZeneca"]
+
   with open("data/output/flux-tot-nat.json", "w") as outfile:
     outfile.write(json.dumps(dict_json))
 
