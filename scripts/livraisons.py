@@ -45,21 +45,21 @@ def import_tot_nat():
   return df
 
 def csv_to_json_tot_nat(df):
-  df_tous = df.groupby("date_debut_semaine").sum().reset_index()
+  df_tous = df.groupby("date_fin_semaine").sum().reset_index()
 
-  dict_json = {"jour": list(df_tous.date_debut_semaine),
+  dict_json = {"jour": list(df_tous.date_fin_semaine),
               "nb_doses_tot_cumsum": list(df_tous.nb_doses.cumsum())}
 
   df_pfizer = df[df.type_de_vaccin == "Pfizer"]
-  dict_json[1] = {"jour": list(df_pfizer.date_debut_semaine),
+  dict_json[1] = {"jour": list(df_pfizer.date_fin_semaine),
               "nb_doses_tot_cumsum": list(df_pfizer.nb_doses.cumsum())}
 
   df_moderna = df[df.type_de_vaccin == "Moderna"]
-  dict_json[2] = {"jour": list(df_moderna.date_debut_semaine),
+  dict_json[2] = {"jour": list(df_moderna.date_fin_semaine),
               "nb_doses_tot_cumsum": list(df_moderna.nb_doses.cumsum())}
 
   df_astrazeneca = df[df.type_de_vaccin == "AstraZeneca"]
-  dict_json[3] = {"jour": list(df_astrazeneca.date_debut_semaine),
+  dict_json[3] = {"jour": list(df_astrazeneca.date_fin_semaine),
               "nb_doses_tot_cumsum": list(df_astrazeneca.nb_doses.cumsum())}
 
   dict_json["types_vaccins"] = [1, 2, 3]
@@ -69,8 +69,7 @@ def csv_to_json_tot_nat(df):
     outfile.write(json.dumps(dict_json))
 
 def prepare_data(df_flux_a_pfizer, df_flux_b_pfizer, df_flux_moderna, df_flux_astrazeneca):
-  date_str = "date_debut_semaine"
-
+  date_str = "date_fin_semaine"
   df_flux_a_pfizer=df_flux_a_pfizer.rename({"nb_doses": "nb_doses_flux_a_pfizer"}, axis=1)
   df_flux_b_pfizer=df_flux_b_pfizer.rename({"nb_doses": "nb_doses_flux_b_pfizer"}, axis=1)
   df_flux_moderna=df_flux_moderna.rename({"nb_doses": "nb_doses_flux_moderna"}, axis=1)
@@ -85,25 +84,25 @@ def prepare_data(df_flux_a_pfizer, df_flux_b_pfizer, df_flux_moderna, df_flux_as
   return df
 
 def import_data():
-  df_flux_a_pfizer = pd.read_csv('data/input/flux-a-pfizer-nat.csv', sep=',')
-  df_flux_b_pfizer = pd.read_csv('data/input/flux-b-pfizer-nat.csv', sep=',')
-  df_flux_moderna = pd.read_csv('data/input/flux-moderna-nat.csv', sep=',')
-  df_flux_astrazeneca = pd.read_csv('data/input/flux-astrazeneca-nat.csv', sep=',')
+  df_flux_a_pfizer = pd.read_csv('data/input/flux-a-pfizer-nat.csv', sep=';')
+  df_flux_b_pfizer = pd.read_csv('data/input/flux-b-pfizer-nat.csv', sep=';')
+  df_flux_moderna = pd.read_csv('data/input/flux-moderna-nat.csv', sep=';')
+  df_flux_astrazeneca = pd.read_csv('data/input/flux-astrazeneca-nat.csv', sep=';')
   return prepare_data(df_flux_a_pfizer, df_flux_b_pfizer, df_flux_moderna, df_flux_astrazeneca)
 
 def import_data_flux_separes():
-  df_flux_a_pfizer = pd.read_csv('data/input/flux-a-pfizer-nat.csv', sep=',')
-  df_flux_b_pfizer = pd.read_csv('data/input/flux-b-pfizer-nat.csv', sep=',')
-  df_flux_pfizer = df_flux_a_pfizer.merge(df_flux_b_pfizer, left_on="date_debut_semaine", right_on="date_debut_semaine")
+  df_flux_a_pfizer = pd.read_csv('data/input/flux-a-pfizer-nat.csv', sep=';')
+  df_flux_b_pfizer = pd.read_csv('data/input/flux-b-pfizer-nat.csv', sep=';')
+  df_flux_pfizer = df_flux_a_pfizer.merge(df_flux_b_pfizer, left_on="date_fin_semaine", right_on="date_fin_semaine")
   df_flux_pfizer["nb_doses"] = df_flux_pfizer.nb_doses_x + df_flux_pfizer.nb_doses_y
 
-  df_flux_moderna = pd.read_csv('data/input/flux-moderna-nat.csv', sep=',')
-  df_flux_astrazeneca = pd.read_csv('data/input/flux-astrazeneca-nat.csv', sep=',')
+  df_flux_moderna = pd.read_csv('data/input/flux-moderna-nat.csv', sep=';')
+  df_flux_astrazeneca = pd.read_csv('data/input/flux-astrazeneca-nat.csv', sep=';')
   return df_flux_pfizer, df_flux_moderna, df_flux_astrazeneca
 
 
 def csv_to_json(df):
-  dict_json = {"jour": list(df.date_debut_semaine),
+  dict_json = {"jour": list(df.date_fin_semaine),
               "nb_doses_tot_cumsum": list(df.nb_doses_tot_cumsum)}
 
   with open("data/output/livraisons.json", "w") as outfile:
@@ -111,13 +110,13 @@ def csv_to_json(df):
 
 def csv_to_json_flux_separes(df_flux_pfizer, df_flux_moderna, df_flux_astrazeneca):
   
-  dict_json_pfizer = {"jour": list(df_flux_pfizer.date_debut_semaine),
+  dict_json_pfizer = {"jour": list(df_flux_pfizer.date_fin_semaine),
               "nb_doses_tot_cumsum": list(df_flux_pfizer.nb_doses.cumsum())}
 
-  dict_json_moderna = {"jour": list(df_flux_moderna.date_debut_semaine),
+  dict_json_moderna = {"jour": list(df_flux_moderna.date_fin_semaine),
               "nb_doses_tot_cumsum": list(df_flux_moderna.nb_doses.cumsum())}
 
-  dict_json_astrazeneca = {"jour": list(df_flux_astrazeneca.date_debut_semaine),
+  dict_json_astrazeneca = {"jour": list(df_flux_astrazeneca.date_fin_semaine),
               "nb_doses_tot_cumsum": list(df_flux_astrazeneca.nb_doses.cumsum())}
 
   dict_json={1: dict_json_pfizer, 2: dict_json_moderna, 3: dict_json_astrazeneca}
