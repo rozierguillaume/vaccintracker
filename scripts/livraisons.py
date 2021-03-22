@@ -50,17 +50,17 @@ def csv_to_json_tot_nat(df):
   dict_json = {"jour": list(df_tous.date_fin_semaine),
               "nb_doses_tot_cumsum": list(df_tous.nb_doses.cumsum())}
 
-  df_pfizer = df[df.type_de_vaccin == "Pfizer"]
+  df_pfizer = df[df.type_de_vaccin == "Pfizer"].merge(df["date_fin_semaine"], left_on="date_fin_semaine", right_on="date_fin_semaine", how="right").groupby("date_fin_semaine").first().reset_index().sort_values(by="date_fin_semaine")
   dict_json[1] = {"jour": list(df_pfizer.date_fin_semaine),
-              "nb_doses_tot_cumsum": list(df_pfizer.nb_doses.cumsum())}
+              "nb_doses_tot_cumsum": list(df_pfizer.nb_doses.fillna(0).cumsum())}
 
-  df_moderna = df[df.type_de_vaccin == "Moderna"]
+  df_moderna = df[df.type_de_vaccin == "Moderna"].merge(df["date_fin_semaine"], left_on="date_fin_semaine", right_on="date_fin_semaine", how="right").groupby("date_fin_semaine").first().reset_index().sort_values(by="date_fin_semaine")
   dict_json[2] = {"jour": list(df_moderna.date_fin_semaine),
-              "nb_doses_tot_cumsum": list(df_moderna.nb_doses.cumsum())}
+              "nb_doses_tot_cumsum": list(df_moderna.nb_doses.fillna(0).cumsum())}
 
-  df_astrazeneca = df[df.type_de_vaccin == "AstraZeneca"]
+  df_astrazeneca = df[df.type_de_vaccin == "AstraZeneca"].merge(df["date_fin_semaine"], left_on="date_fin_semaine", right_on="date_fin_semaine", how="right").groupby("date_fin_semaine").first().reset_index().sort_values(by="date_fin_semaine")
   dict_json[3] = {"jour": list(df_astrazeneca.date_fin_semaine),
-              "nb_doses_tot_cumsum": list(df_astrazeneca.nb_doses.cumsum())}
+              "nb_doses_tot_cumsum": list(df_astrazeneca.nb_doses.fillna(0).cumsum())}
 
   dict_json["types_vaccins"] = [1, 2, 3]
   dict_json["noms_vaccins"] = ["Pfizer/BioNTech", "Moderna", "AstraZeneca"]
