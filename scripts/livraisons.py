@@ -69,7 +69,7 @@ def csv_to_json_tot_nat(df):
     outfile.write(json.dumps(dict_json))
 
 def prepare_data(df_flux_a_pfizer, df_flux_b_pfizer, df_flux_moderna, df_flux_astrazeneca):
-  print(df_flux_a_pfizer)
+  #print(df_flux_a_pfizer)
   date_str = "date_fin_semaine"
   df_flux_a_pfizer=df_flux_a_pfizer.rename({"nb_doses": "nb_doses_flux_a_pfizer"}, axis=1)
   df_flux_b_pfizer=df_flux_b_pfizer.rename({"nb_doses": "nb_doses_flux_b_pfizer"}, axis=1)
