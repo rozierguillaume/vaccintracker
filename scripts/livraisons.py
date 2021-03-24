@@ -69,6 +69,7 @@ def csv_to_json_tot_nat(df):
     outfile.write(json.dumps(dict_json))
 
 def prepare_data(df_flux_a_pfizer, df_flux_b_pfizer, df_flux_moderna, df_flux_astrazeneca):
+  print(df_flux_a_pfizer)
   date_str = "date_fin_semaine"
   df_flux_a_pfizer=df_flux_a_pfizer.rename({"nb_doses": "nb_doses_flux_a_pfizer"}, axis=1)
   df_flux_b_pfizer=df_flux_b_pfizer.rename({"nb_doses": "nb_doses_flux_b_pfizer"}, axis=1)
@@ -84,20 +85,20 @@ def prepare_data(df_flux_a_pfizer, df_flux_b_pfizer, df_flux_moderna, df_flux_as
   return df
 
 def import_data():
-  df_flux_a_pfizer = pd.read_csv('data/input/flux-a-pfizer-nat.csv', sep=';')
-  df_flux_b_pfizer = pd.read_csv('data/input/flux-b-pfizer-nat.csv', sep=';')
-  df_flux_moderna = pd.read_csv('data/input/flux-moderna-nat.csv', sep=';')
-  df_flux_astrazeneca = pd.read_csv('data/input/flux-astrazeneca-nat.csv', sep=';')
+  df_flux_a_pfizer = pd.read_csv('data/input/flux-a-pfizer-nat.csv', sep=',')
+  df_flux_b_pfizer = pd.read_csv('data/input/flux-b-pfizer-nat.csv', sep=',')
+  df_flux_moderna = pd.read_csv('data/input/flux-moderna-nat.csv', sep=',')
+  df_flux_astrazeneca = pd.read_csv('data/input/flux-astrazeneca-nat.csv', sep=',')
   return prepare_data(df_flux_a_pfizer, df_flux_b_pfizer, df_flux_moderna, df_flux_astrazeneca)
 
 def import_data_flux_separes():
-  df_flux_a_pfizer = pd.read_csv('data/input/flux-a-pfizer-nat.csv', sep=';')
-  df_flux_b_pfizer = pd.read_csv('data/input/flux-b-pfizer-nat.csv', sep=';')
+  df_flux_a_pfizer = pd.read_csv('data/input/flux-a-pfizer-nat.csv', sep=',')
+  df_flux_b_pfizer = pd.read_csv('data/input/flux-b-pfizer-nat.csv', sep=',')
   df_flux_pfizer = df_flux_a_pfizer.merge(df_flux_b_pfizer, left_on="date_fin_semaine", right_on="date_fin_semaine")
   df_flux_pfizer["nb_doses"] = df_flux_pfizer.nb_doses_x + df_flux_pfizer.nb_doses_y
 
-  df_flux_moderna = pd.read_csv('data/input/flux-moderna-nat.csv', sep=';')
-  df_flux_astrazeneca = pd.read_csv('data/input/flux-astrazeneca-nat.csv', sep=';')
+  df_flux_moderna = pd.read_csv('data/input/flux-moderna-nat.csv', sep=',')
+  df_flux_astrazeneca = pd.read_csv('data/input/flux-astrazeneca-nat.csv', sep=',')
   return df_flux_pfizer, df_flux_moderna, df_flux_astrazeneca
 
 
