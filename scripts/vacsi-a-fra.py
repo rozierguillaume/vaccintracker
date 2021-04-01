@@ -18,7 +18,7 @@ def prepare_data(df):
   return df
 
 def import_fra_data():
-  df = pd.read_csv('data/input/vacsi-a-fra.csv', sep=';')
+  df = pd.read_csv('data/input/vacsi-a-fra.csv', sep=None, engine='python')
   return prepare_data(df)
 
 def csv_to_json_fra(df):

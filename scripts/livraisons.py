@@ -85,21 +85,21 @@ def prepare_data(df_flux_a_pfizer, df_flux_b_pfizer, df_flux_moderna, df_flux_as
   return df
 
 def import_data():
-  df_flux_a_pfizer = pd.read_csv('data/input/flux-a-pfizer-nat.csv', sep=',')
-  df_flux_b_pfizer = pd.read_csv('data/input/flux-b-pfizer-nat.csv', sep=',')
-  df_flux_moderna = pd.read_csv('data/input/flux-moderna-nat.csv', sep=',')
-  df_flux_astrazeneca = pd.read_csv('data/input/flux-astrazeneca-nat.csv', sep=';')
+  df_flux_a_pfizer = pd.read_csv('data/input/flux-a-pfizer-nat.csv', sep=None, engine='python')
+  df_flux_b_pfizer = pd.read_csv('data/input/flux-b-pfizer-nat.csv', sep=None, engine='python')
+  df_flux_moderna = pd.read_csv('data/input/flux-moderna-nat.csv', sep=None, engine='python')
+  df_flux_astrazeneca = pd.read_csv('data/input/flux-astrazeneca-nat.csv', sep=None, engine='python')
   
   return prepare_data(df_flux_a_pfizer, df_flux_b_pfizer, df_flux_moderna, df_flux_astrazeneca)
 
 def import_data_flux_separes():
-  df_flux_a_pfizer = pd.read_csv('data/input/flux-a-pfizer-nat.csv', sep=',')
-  df_flux_b_pfizer = pd.read_csv('data/input/flux-b-pfizer-nat.csv', sep=',')
+  df_flux_a_pfizer = pd.read_csv('data/input/flux-a-pfizer-nat.csv', sep=None, engine='python')
+  df_flux_b_pfizer = pd.read_csv('data/input/flux-b-pfizer-nat.csv', sep=None, engine='python')
   df_flux_pfizer = df_flux_a_pfizer.merge(df_flux_b_pfizer, left_on="date_fin_semaine", right_on="date_fin_semaine")
   df_flux_pfizer["nb_doses"] = df_flux_pfizer.nb_doses_x + df_flux_pfizer.nb_doses_y
 
-  df_flux_moderna = pd.read_csv('data/input/flux-moderna-nat.csv', sep=',')
-  df_flux_astrazeneca = pd.read_csv('data/input/flux-astrazeneca-nat.csv', sep=';')
+  df_flux_moderna = pd.read_csv('data/input/flux-moderna-nat.csv', sep=None, engine='python')
+  df_flux_astrazeneca = pd.read_csv('data/input/flux-astrazeneca-nat.csv', sep=None, engine='python')
   return df_flux_pfizer, df_flux_moderna, df_flux_astrazeneca
 
 
