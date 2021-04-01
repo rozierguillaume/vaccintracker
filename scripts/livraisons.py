@@ -47,19 +47,19 @@ def import_tot_nat():
 def csv_to_json_tot_nat(df):
   df_tous = df.groupby("date_fin_semaine").sum().reset_index()
 
-  dict_json = {"jour": list(df_tous.date_fin_semaine),
+  dict_json = {"jour": parsedate(list(df_tous.date_fin_semaine)),
               "nb_doses_tot_cumsum": list(df_tous.nb_doses.cumsum())}
 
   df_pfizer = df[df.type_de_vaccin == "Pfizer"].merge(df["date_fin_semaine"], left_on="date_fin_semaine", right_on="date_fin_semaine", how="right").groupby("date_fin_semaine").first().reset_index().sort_values(by="date_fin_semaine")
-  dict_json[1] = {"jour": list(df_pfizer.date_fin_semaine),
+  dict_json[1] = {"jour": parsedate(list(df_pfizer.date_fin_semaine)),
               "nb_doses_tot_cumsum": list(df_pfizer.nb_doses.fillna(0).cumsum())}
 
   df_moderna = df[df.type_de_vaccin == "Moderna"].merge(df["date_fin_semaine"], left_on="date_fin_semaine", right_on="date_fin_semaine", how="right").groupby("date_fin_semaine").first().reset_index().sort_values(by="date_fin_semaine")
-  dict_json[2] = {"jour": list(df_moderna.date_fin_semaine),
+  dict_json[2] = {"jour": parsedate(list(df_moderna.date_fin_semaine)),
               "nb_doses_tot_cumsum": list(df_moderna.nb_doses.fillna(0).cumsum())}
 
   df_astrazeneca = df[df.type_de_vaccin == "AstraZeneca"].merge(df["date_fin_semaine"], left_on="date_fin_semaine", right_on="date_fin_semaine", how="right").groupby("date_fin_semaine").first().reset_index().sort_values(by="date_fin_semaine")
-  dict_json[3] = {"jour": list(df_astrazeneca.date_fin_semaine),
+  dict_json[3] = {"jour": parsedate(list(df_astrazeneca.date_fin_semaine)),
               "nb_doses_tot_cumsum": list(df_astrazeneca.nb_doses.fillna(0).cumsum())}
 
   dict_json["types_vaccins"] = [1, 2, 3]
@@ -102,9 +102,16 @@ def import_data_flux_separes():
   df_flux_astrazeneca = pd.read_csv('data/input/flux-astrazeneca-nat.csv', sep=None, engine='python')
   return df_flux_pfizer, df_flux_moderna, df_flux_astrazeneca
 
+def parsedate(dates):
+  newdates = []
+  for date in dates:
+    if "/" in date:
+      split = date.split("/")
+      newdates += [split[2] + "-" + split[1] + "-" + split[0]]
+  return newdates
 
 def csv_to_json(df):
-  dict_json = {"jour": list(df.date_fin_semaine),
+  dict_json = {"jour": parsedate(list(df.date_fin_semaine)),
               "nb_doses_tot_cumsum": list(df.nb_doses_tot_cumsum)}
 
   with open("data/output/livraisons.json", "w") as outfile:
@@ -118,7 +125,7 @@ def csv_to_json_flux_separes(df_flux_pfizer, df_flux_moderna, df_flux_astrazenec
   dict_json_moderna = {"jour": list(df_flux_moderna.date_fin_semaine),
               "nb_doses_tot_cumsum": list(df_flux_moderna.nb_doses.cumsum())}
 
-  dict_json_astrazeneca = {"jour": list(df_flux_astrazeneca.date_fin_semaine),
+  dict_json_astrazeneca = {"jour": parsedate(list(df_flux_astrazeneca.date_fin_semaine)),
               "nb_doses_tot_cumsum": list(df_flux_astrazeneca.nb_doses.cumsum())}
 
   dict_json={1: dict_json_pfizer, 2: dict_json_moderna, 3: dict_json_astrazeneca}
