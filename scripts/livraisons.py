@@ -41,7 +41,7 @@ def download_tot_nat():
           f.write(data.content)
 
 def import_tot_nat():
-  df = pd.read_csv('data/input/flux-tot-nat.csv', sep=',')
+  df = pd.read_csv('data/input/flux-tot-nat.csv', sep=';')
   return df
 
 def csv_to_json_tot_nat(df):
@@ -88,7 +88,8 @@ def import_data():
   df_flux_a_pfizer = pd.read_csv('data/input/flux-a-pfizer-nat.csv', sep=',')
   df_flux_b_pfizer = pd.read_csv('data/input/flux-b-pfizer-nat.csv', sep=',')
   df_flux_moderna = pd.read_csv('data/input/flux-moderna-nat.csv', sep=',')
-  df_flux_astrazeneca = pd.read_csv('data/input/flux-astrazeneca-nat.csv', sep=',')
+  df_flux_astrazeneca = pd.read_csv('data/input/flux-astrazeneca-nat.csv', sep=';')
+  
   return prepare_data(df_flux_a_pfizer, df_flux_b_pfizer, df_flux_moderna, df_flux_astrazeneca)
 
 def import_data_flux_separes():
@@ -98,7 +99,7 @@ def import_data_flux_separes():
   df_flux_pfizer["nb_doses"] = df_flux_pfizer.nb_doses_x + df_flux_pfizer.nb_doses_y
 
   df_flux_moderna = pd.read_csv('data/input/flux-moderna-nat.csv', sep=',')
-  df_flux_astrazeneca = pd.read_csv('data/input/flux-astrazeneca-nat.csv', sep=',')
+  df_flux_astrazeneca = pd.read_csv('data/input/flux-astrazeneca-nat.csv', sep=';')
   return df_flux_pfizer, df_flux_moderna, df_flux_astrazeneca
 
 
