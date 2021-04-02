@@ -42,9 +42,7 @@ def download_tot_nat():
 
 def import_tot_nat():
   df = pd.read_csv('data/input/flux-tot-nat.csv', sep=';')
-  print(df)
   df["date_fin_semaine"] = parsedate(df.date_fin_semaine)
-  print(df)
   return df
 
 def csv_to_json_tot_nat(df):
@@ -72,7 +70,6 @@ def csv_to_json_tot_nat(df):
     outfile.write(json.dumps(dict_json))
 
 def prepare_data(df_flux_a_pfizer, df_flux_b_pfizer, df_flux_moderna, df_flux_astrazeneca):
-  #print(df_flux_a_pfizer)
   date_str = "date_fin_semaine"
   df_flux_a_pfizer=df_flux_a_pfizer.rename({"nb_doses": "nb_doses_flux_a_pfizer"}, axis=1)
   df_flux_b_pfizer=df_flux_b_pfizer.rename({"nb_doses": "nb_doses_flux_b_pfizer"}, axis=1)
@@ -106,7 +103,6 @@ def import_data_flux_separes():
 
   df_flux_astrazeneca["date_fin_semaine"] = parsedate(df_flux_astrazeneca.date_fin_semaine.tolist())
 
-  #print(df_flux_moderna)
   return df_flux_pfizer, df_flux_moderna, df_flux_astrazeneca
 
 def parsedate(dates):
