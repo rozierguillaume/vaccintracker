@@ -101,7 +101,7 @@ def import_data_flux_separes():
   df_flux_moderna = pd.read_csv('data/input/flux-moderna-nat.csv', sep=None, engine='python')
   df_flux_astrazeneca = pd.read_csv('data/input/flux-astrazeneca-nat.csv', sep=None, engine='python')
 
-  df_flux_astrazeneca["date_fin_semaine"] = parsedate(df_flux_astrazeneca.date_fin_semaine.tolist())
+  df_flux_astrazeneca["date_fin_semaine"] = df_flux_astrazeneca.date_fin_semaine.tolist()
 
   return df_flux_pfizer, df_flux_moderna, df_flux_astrazeneca
 
@@ -117,7 +117,7 @@ def parsedate(dates):
   return newdates
 
 def csv_to_json(df):
-  dict_json = {"jour": parsedate(list(df.date_fin_semaine)),
+  dict_json = {"jour": list(df.date_fin_semaine),
               "nb_doses_tot_cumsum": list(df.nb_doses_tot_cumsum)}
 
   with open("data/output/livraisons.json", "w") as outfile:
