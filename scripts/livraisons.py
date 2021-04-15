@@ -3,35 +3,21 @@ import pandas as pd
 import requests
 import numpy as np
 
+vaccine_flows = {
+  '6c39a8be-cd65-465a-a656-f8c645c839ac': 'flux-a-pfizer-nat',
+  'f93be527-044b-4f33-baea-5e1c2f22e8aa': 'flux-b-pfizer-nat',
+  'fb7ae18e-d49f-4008-9baf-f9af35152544': 'flux-moderna-nat',
+  '6461ff61-3260-4576-b095-a9201dd64131': 'flux-astrazeneca-nat'
+}
+
 ## FRANCE
 def download_data():
-  #Flux a
-  url = "https://www.data.gouv.fr/fr/datasets/r/6c39a8be-cd65-465a-a656-f8c645c839ac"
-  data = requests.get(url)
+  for vflow in vaccine_flows:
+    url = "https://www.data.gouv.fr/fr/datasets/r/{0}".format(vflow)
+    data = requests.get(url)
 
-  with open('data/input/flux-a-pfizer-nat.csv', 'wb') as f:
-          f.write(data.content)
-
-  #Flux b
-  url = "https://www.data.gouv.fr/fr/datasets/r/f93be527-044b-4f33-baea-5e1c2f22e8aa"
-  data = requests.get(url)
-
-  with open('data/input/flux-b-pfizer-nat.csv', 'wb') as f:
-          f.write(data.content)
-  
-  #Moderna
-  url = "https://www.data.gouv.fr/fr/datasets/r/fb7ae18e-d49f-4008-9baf-f9af35152544"
-  data = requests.get(url)
-
-  with open('data/input/flux-moderna-nat.csv', 'wb') as f:
-          f.write(data.content)
-  
-  #AstraZeneca
-  url = "https://www.data.gouv.fr/fr/datasets/r/6461ff61-3260-4576-b095-a9201dd64131"
-  data = requests.get(url)
-
-  with open('data/input/flux-astrazeneca-nat.csv', 'wb') as f:
-          f.write(data.content)
+    with open('data/input/{0}.csv'.format(vaccine_flows[vflow]), 'wb') as f:
+      f.write(data.content)
 
 def download_tot_nat():
   url = "https://www.data.gouv.fr/fr/datasets/r/9c60af86-b974-4dba-bf34-f52686c7ada9"
@@ -139,14 +125,17 @@ def csv_to_json_flux_separes(df_flux_pfizer, df_flux_moderna, df_flux_astrazenec
   with open("data/output/livraisons-v.json", "w") as outfile:
     outfile.write(json.dumps(dict_json))
 
+def main():
+  download_data()
+  df = import_data()
+  csv_to_json(df)
 
-download_data()
-df = import_data()
-csv_to_json(df)
+  download_tot_nat()
+  df = import_tot_nat()
+  csv_to_json_tot_nat(df)
 
-download_tot_nat()
-df = import_tot_nat()
-csv_to_json_tot_nat(df)
+  df_flux_pfizer, df_flux_moderna, df_flux_astrazeneca = import_data_flux_separes()
+  csv_to_json_flux_separes(df_flux_pfizer, df_flux_moderna, df_flux_astrazeneca)
 
-df_flux_pfizer, df_flux_moderna, df_flux_astrazeneca = import_data_flux_separes()
-csv_to_json_flux_separes(df_flux_pfizer, df_flux_moderna, df_flux_astrazeneca)
+if __name__ == "__main__":
+  main()
