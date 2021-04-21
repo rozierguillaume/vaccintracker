@@ -92,6 +92,7 @@ def download_dep_data():
 
 def import_dep_data():
   df = pd.read_csv('data/input/vacsi-a-dep.csv', sep=';')
+  df.dep = df.dep.astype(str)
   return df
 
 def csv_to_json_dep(df):
@@ -101,7 +102,7 @@ def csv_to_json_dep(df):
   df = df.merge(pop_dep, left_on="dep", right_on="dep")
 
   dict_json = {"departements": deps}
-
+  print(deps)
   for dep in deps:
     df_dep = df[df.dep == dep].sort_values(by="jour")
     if(len(df_dep)):
