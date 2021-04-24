@@ -63,8 +63,12 @@ def csv_to_json_tot_nat(df):
   dict_json[3] = {"jour": list(df_astrazeneca.date_fin_semaine),
               "nb_doses_tot_cumsum": list(df_astrazeneca.nb_doses.fillna(0).cumsum())}
 
-  dict_json["types_vaccins"] = [1, 2, 3]
-  dict_json["noms_vaccins"] = ["Pfizer/BioNTech", "Moderna", "AstraZeneca"]
+  df_janssen = df[df.type_de_vaccin == "Janssen"].merge(df["date_fin_semaine"], left_on="date_fin_semaine", right_on="date_fin_semaine", how="right").groupby("date_fin_semaine").first().reset_index().sort_values(by="date_fin_semaine")
+  dict_json[4] = {"jour": list(df_janssen.date_fin_semaine),
+                               "nb_doses_tot_cumsum": list(df_janssen.nb_doses.fillna(0).cumsum())}
+
+  dict_json["types_vaccins"] = [1, 2, 3, 4]
+  dict_json["noms_vaccins"] = ["Pfizer/BioNTech", "Moderna", "AstraZeneca", "Janssen"]
 
   with open("data/output/flux-tot-nat.json", "w") as outfile:
     outfile.write(json.dumps(dict_json))
