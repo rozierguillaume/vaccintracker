@@ -15,18 +15,18 @@ def import_fra_data():
   return df
 
 def csv_to_json_fra(df):
-  df["n_dose1_cumsum"] = df["n_dose1"].cumsum()
-  df["n_dose2_cumsum"] = df["n_dose2"].cumsum()
+  #df["n_dose1_cumsum"] = df["n_dose1"].cumsum()
+  #df["n_dose2_cumsum"] = df["n_dose2"].cumsum()
 
   dict_json = {}
   dict_json["dates"] = df["jour"].tolist()
   dict_json["n_dose1"] = df["n_dose1"].tolist()
-  dict_json["n_dose1_cumsum"] = df["n_dose1_cumsum"].tolist()
+  dict_json["n_dose1_cumsum"] = df["n_cum_dose1"].tolist()
   dict_json["n_dose1_moyenne7j"] = df["n_dose1"].rolling(window=7).mean().fillna(0).tolist()
 
-  dict_json["n_dose2"] = df["n_dose2"].tolist()
-  dict_json["n_dose2_cumsum"] = df["n_dose2_cumsum"].tolist()
-  dict_json["n_dose2_moyenne7j"] = df["n_dose2"].rolling(window=7).mean().fillna(0).tolist()
+  dict_json["n_complet"] = df["n_complet"].tolist()
+  dict_json["n_cum_complet"] = df["n_cum_complet"].tolist()
+  dict_json["n_complet_moyenne7j"] = df["n_complet"].rolling(window=7).mean().fillna(0).tolist()
 
   with open("data/output/vacsi-fra.json", "w") as outfile: 
     outfile.write(json.dumps(dict_json))
@@ -102,7 +102,7 @@ def csv_to_json_dep(df):
   df = df.merge(pop_dep, left_on="dep", right_on="dep")
 
   dict_json = {"departements": deps}
-  print(deps)
+
   for dep in deps:
     df_dep = df[df.dep == dep].sort_values(by="jour")
     if(len(df_dep)):
@@ -126,5 +126,4 @@ csv_to_json_reg(df)
 
 download_dep_data()
 df = import_dep_data()
-print(df)
 csv_to_json_dep(df)

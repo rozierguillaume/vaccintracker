@@ -31,8 +31,8 @@ def csv_to_json_fra(df):
               "n_tot_dose1": df.n_tot_dose1.tolist(), 
               "n_tot_complet": df.n_tot_complet.tolist(),
               #"n_dose2": df.n_tot_dose2.tolist(),
-              "couv_tot_dose1": df.couv_tot_dose1.tolist(),#list(np.round(df.n_tot_dose1.values/df.population.values*100, 2)),
-              "couv_tot_complet": df.couv_tot_complet.tolist(),
+              "couv_tot_dose1": list(np.round(df.n_tot_dose1.values/df.population.values*100, 2)),
+              "couv_tot_complet": list(np.round(df.n_tot_complet.values/df.population.values*100, 2)),
               #"n_dose2_pop": list(np.round(df.n_tot_dose2.values/df.population.values*100, 2))
               }
 
