@@ -26,13 +26,15 @@ def csv_to_json_fra(df):
   jour_max = df.jour.max()
   df = df[(df.jour == jour_max)]
   df = df.sort_values(by="categorie-large")
-
   dict_json = {"date": jour_max,
               "age": df["categorie-large"].tolist(), 
-              "n_dose1": df.n_tot_dose1.tolist(), 
-              "n_dose2": df.n_tot_dose2.tolist(),
-              "n_dose1_pop": list(np.round(df.n_tot_dose1.values/df.population.values*100, 2)),
-              "n_dose2_pop": list(np.round(df.n_tot_dose2.values/df.population.values*100, 2))}
+              "n_tot_dose1": df.n_tot_dose1.tolist(), 
+              "n_tot_complet": df.n_tot_complet.tolist(),
+              #"n_dose2": df.n_tot_dose2.tolist(),
+              "couv_tot_dose1": df.couv_tot_dose1.tolist(),#list(np.round(df.n_tot_dose1.values/df.population.values*100, 2)),
+              "couv_tot_complet": df.couv_tot_complet.tolist(),
+              #"n_dose2_pop": list(np.round(df.n_tot_dose2.values/df.population.values*100, 2))
+              }
 
   with open("data/output/vacsi-tot-a-fra_lastday.json", "w") as outfile:
     outfile.write(json.dumps(dict_json))
