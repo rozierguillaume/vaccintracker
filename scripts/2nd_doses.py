@@ -27,10 +27,10 @@ def merge_files(df, dict_data):
 
     if jour_max not in dict_data["jour"]:
         dict_data["jour"] += [jour_max]
-        dict_data["n_dose2_cumsum"] += [list(df.n_tot_dose2)[-1]]
+        dict_data["n_cum_complet"] += [list(df.n_tot_complet)[-1]]
 
-        dict_data["n_dose2"] = list(pd.Series(dict_data["n_dose2_cumsum"]).diff().fillna(0).astype(int))
-        dict_data["n_dose2"][0] = dict_data["n_dose2_cumsum"][0]
+        dict_data["n_cum_complet"] = list(pd.Series(dict_data["n_cum_complet"]).diff().fillna(0).astype(int))
+        dict_data["n_cum_complet"][0] = dict_data["n_cum_complet"][0]
 
     return dict_data
 
