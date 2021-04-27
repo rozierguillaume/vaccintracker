@@ -1,21 +1,582 @@
-"date_fin_semaine","nb_ucd","nb_doses"
-2020-12-29,0,0
-2021-01-03,0,0
-2021-01-10,1158,5790
-2021-01-17,6948,34740
-2021-01-24,27960,139800
-2021-01-31,23409,117045
-2021-02-07,18414,92070
-2021-02-14,36227,181135
-2021-02-21,27865,139325
-2021-02-28,14986,74930
-2021-03-07,11868,59340
-2021-03-14,8097,40485
-2021-03-21,4615,23075
-2021-03-28,1950,11700
-2021-04-04,12687,63435
-2021-04-11,11070,55350
-2021-04-18,8902,44510
-2021-04-25,13309,68495
-2021-05-02,0,0
-2021-05-09,0,0
+<!DOCTYPE html><html lang="fr">
+  <head>
+    
+
+    
+    
+
+
+
+
+
+<meta charset="utf-8" />
+<title>Accueil - data.gouv.fr</title>
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Accueil - data.gouv.fr" />
+<link rel="author" href="http://www.etalab.gouv.fr/" />
+<meta name="description" content="Partagez, améliorez et réutilisez les données publiques" />
+
+<meta property="og:description" content="Partagez, améliorez et réutilisez les données publiques" />
+<meta property="og:image" content="https://static.data.gouv.fr/_themes/gouvfr/img/logo-social.png?_=2.5.5" />
+<meta name="keywords" content="opendata, udata" />
+<meta name="theme-static-root" content="https://static.data.gouv.fr/_themes/gouvfr/" />
+<meta name="static-root" content="https://static.data.gouv.fr/static/" />
+<meta name="api-root" content="/api/1/" />
+<meta name="admin-root" content="/fr/admin/" />
+<meta name="api-specs" content="https://www.data.gouv.fr/api/1/swagger.json"/>
+<meta name="auth-url" content="/fr/login" />
+<meta name="github" content="https://github.com/etalab/udata" />
+<link rel="alternate" href="/en/datasets/r/6c39a8be-cd65-465a-a656-f8c645c839ac" hreflang="en" /><link rel="alternate" href="/es/datasets/r/6c39a8be-cd65-465a-a656-f8c645c839ac" hreflang="es" />
+
+
+<meta name="sentry" content="https://c7cc17e640424b3385ee0b855a623bc9@sentry.data.gouv.fr/5"
+    data-release=""
+    data-tags="%7B%22udata%22%3A%20%222.6.4%22%2C%20%22udata-ckan%22%3A%20%222.0.0%22%2C%20%22udata-croquemort%22%3A%20%222.0.1%22%2C%20%22udata-data-fair%22%3A%20%220.3.1%22%2C%20%22udata-geoplatform%22%3A%20%222.0.0%22%2C%20%22udata-gouvfr%22%3A%20%222.5.5%22%2C%20%22udata-metrics%22%3A%20%221.0.2%22%2C%20%22udata-ods%22%3A%20%222.1.0%22%2C%20%22udata-piwik%22%3A%20%222.1.2%22%2C%20%22udata-recommendations%22%3A%20%222.2.0%22%2C%20%22udata-schema-gouvfr%22%3A%20%221.2.0%22%2C%20%22udata-tabular-preview%22%3A%20%222.0.2%22%7D"
+/>
+
+<meta name="csrf-token" content="ImIzMTJmNDlmYjZhZjVmYTY3N2JlZTYyNmJhZmUxZmJhY2IyZTk1YjEi.YIhwFg.AGMABrgXFEz2OdtB3CfRD_0l59U" />
+<meta name="site-title" content="data.gouv.fr" />
+
+
+
+<meta name="check-urls" content="true" />
+<meta name="unchecked-types" content="%5B%22api%22%5D" />
+<meta name="territory-enabled" content="true">
+<meta name="delete-me-enabled" content="true">
+<meta name="search-autocomplete-enabled" content="true">
+<meta name="search-autocomplete-debounce" content="600">
+<meta name="dataset-max-resources-uncollapsed" content="6">
+<meta name="markdown-config" content="%7B%22attributes%22%3A%20%7B%22a%22%3A%20%5B%22href%22%2C%20%22title%22%2C%20%22rel%22%2C%20%22data-tooltip%22%5D%2C%20%22abbr%22%3A%20%5B%22title%22%5D%2C%20%22acronym%22%3A%20%5B%22title%22%5D%2C%20%22img%22%3A%20%5B%22src%22%2C%20%22title%22%5D%7D%2C%20%22styles%22%3A%20%5B%5D%2C%20%22tags%22%3A%20%5B%22a%22%2C%20%22abbr%22%2C%20%22acronym%22%2C%20%22b%22%2C%20%22br%22%2C%20%22blockquote%22%2C%20%22code%22%2C%20%22dd%22%2C%20%22del%22%2C%20%22dl%22%2C%20%22dt%22%2C%20%22em%22%2C%20%22h1%22%2C%20%22h2%22%2C%20%22h3%22%2C%20%22h4%22%2C%20%22h5%22%2C%20%22h6%22%2C%20%22hr%22%2C%20%22i%22%2C%20%22img%22%2C%20%22li%22%2C%20%22ol%22%2C%20%22p%22%2C%20%22pre%22%2C%20%22small%22%2C%20%22span%22%2C%20%22strong%22%2C%20%22ul%22%2C%20%22sup%22%2C%20%22sub%22%2C%20%22table%22%2C%20%22td%22%2C%20%22th%22%2C%20%22tr%22%2C%20%22tbody%22%2C%20%22thead%22%2C%20%22tfooter%22%5D%7D" />
+
+<meta name="map-config" content="%7B%22init%22%3A%20%7B%22center%22%3A%20%5B42%2C%202.4%5D%2C%20%22level%22%3A%200%2C%20%22zoom%22%3A%204%7D%2C%20%22tiles%22%3A%20%7B%22config%22%3A%20%7B%22attribution%22%3A%20%22%26copy%3B%3Ca%20href%3D%5C%22http%3A//openstreetmap.org/copyright%5C%22%3EOpenStreetMap%3C/a%3E/%3Ca%20href%3D%5C%22https%3A//cartodb.com/attributions%5C%22%3ECartoDB%3C/a%3E%22%2C%20%22subdomains%22%3A%20%22abcd%22%7D%2C%20%22hidpi%22%3A%20%22https%3A//static.data.gouv.fr/tiles/light_all/%7Bz%7D/%7Bx%7D/%7By%7D%402x.png%22%2C%20%22url%22%3A%20%22https%3A//static.data.gouv.fr/tiles/light_all/%7Bz%7D/%7Bx%7D/%7By%7D.png%22%7D%7D" />
+<meta name="tags-config" content="%7B%22MAX_LENGTH%22%3A%2096%2C%20%22MIN_LENGTH%22%3A%203%7D" />
+<meta name="read-only-enabled" content="false">
+
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://static.data.gouv.fr/static/common.8d0d560b186410ec6260fa773b80edc7.css">
+    
+    <link rel="stylesheet" href="https://static.data.gouv.fr/static/site.d41d8cd98f00b204e9800998ecf8427e.css">
+    
+    
+    
+
+<link href="https://static.data.gouv.fr/_themes/gouvfr/theme.4003be7dde159f705ff6d541a863779e.css" rel="stylesheet">
+
+    
+    <link href="/fr/datasets/recent.atom"
+        rel="alternate" type="application/atom+xml"
+        title="Jeux de données recents" />
+
+    <link href="/fr/reuses/recent.atom"
+        rel="alternate" type="application/atom+xml"
+        title="Réutilisations récentes" />
+
+    
+
+    
+
+    
+<link rel="shortcut icon" href="https://static.data.gouv.fr/_themes/gouvfr/img/favicon.png?_=2.5.5">
+
+
+  </head>
+
+  <body class=" theme-default">
+    
+    <section class="header">
+    <!--[if lte IE 8]>
+    <div class="iewarning">
+        Internet Explorer 8 et en dessous ne sont plus supportés. Mettez à jour ou changez de navigateur pour accéder à ce site. <a href="http://browsehappy.com/">Plus d'informations →</a>
+    </div>
+    <![endif]-->
+
+    
+
+    
+
+    <div class="container">
+        <nav class="navbar navbar-default navbar-static-top">
+            <header class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target=".navbar-collapse, .subnav-collapse, .sidebg-collapse">
+                    <span class="sr-only">Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/fr/">data.gouv.fr</a>
+                <p class="navbar-text pull-right">Plateforme ouverte des données publiques françaises</p>
+            </header>
+        </nav>
+    </div>
+</section>
+
+<section class="topmenu collapse navbar-collapse">
+    <div class="container">
+        <nav class="navbar navbar-default navbar-static-top">
+            <ul class="nav navbar-nav links">
+                
+                <li >
+                    <a href="/fr/datasets/">Données</a>
+                    
+                </li>
+                
+                <li >
+                    <a href="/fr/reuses/">Réutilisations</a>
+                    
+                </li>
+                
+                <li >
+                    <a href="/fr/organizations/">Organisations</a>
+                    
+                </li>
+                
+                <li >
+                    <a href="/fr/dashboard/">Tableau de bord</a>
+                    
+                </li>
+                
+                <li class="dropdown dropdown-hover">
+                    <a href="https://doc.data.gouv.fr">Documentation</a>
+                    
+                    <ul class="dropdown-menu" role="menu">
+                        
+                        <li><a href="https://doc.data.gouv.fr">Documentation technique</a></li>
+                        
+                        <li><a href="https://guides.etalab.gouv.fr">Guides de l’Open Data</a></li>
+                        
+                    </ul>
+                    
+                </li>
+                
+                <li >
+                    <a href="/fr/posts/">Actualités</a>
+                    
+                </li>
+                
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                
+                <li class="dropdown language">
+                    <button class="btn btn-link dropdown-toggle" data-toggle="dropdown">
+                        <img src="https://static.data.gouv.fr/_themes/gouvfr/img/flags/fr.png?_=2.5.5"
+                            alt="Current locale flag"
+                            width="16" height="16" />
+                    </button>
+                    <ul class="dropdown-menu">
+                        
+                        <li>
+                            <a href="https://www.data.gouv.fr/en/datasets/r/6c39a8be-cd65-465a-a656-f8c645c839ac">
+                                <img src="https://static.data.gouv.fr/_themes/gouvfr/img/flags/en.png?_=2.5.5"
+                                    alt="English flag"
+                                    width="16" height="16" />
+                                English
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://www.data.gouv.fr/fr/datasets/r/6c39a8be-cd65-465a-a656-f8c645c839ac">
+                                <img src="https://static.data.gouv.fr/_themes/gouvfr/img/flags/fr.png?_=2.5.5"
+                                    alt="Français flag"
+                                    width="16" height="16" />
+                                Français
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://www.data.gouv.fr/es/datasets/r/6c39a8be-cd65-465a-a656-f8c645c839ac">
+                                <img src="https://static.data.gouv.fr/_themes/gouvfr/img/flags/es.png?_=2.5.5"
+                                    alt="Español flag"
+                                    width="16" height="16" />
+                                Español
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </li>
+                
+                
+                <li>
+                    <a title="Connexion / Inscription"
+                        href="/fr/login?next=https%3A%2F%2Fwww.data.gouv.fr%2Ffr%2Fdatasets%2Fr%2F6c39a8be-cd65-465a-a656-f8c645c839ac">
+                        <span class="fa fa-fw fa-sign-in"></span>
+                        Connexion / Inscription
+                    </a>
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
+</section>
+    
+    
+<nav class="navbar navbar-static-top navbar-subnav search-top ">
+    <div class="container">
+        <div class="cover-marianne"></div>
+
+        <div class="search_bar row" role="search">
+            
+            
+                
+                
+            
+            <div class="col-xs-12">
+                <site-search v-ref:search action="/fr/search/" placeholder="Recherche"
+    
+    
+    >
+    <form class="site-search" action="/fr/search/">
+        <div class="input-group ">
+            <div class="input-group-btn">
+                <button class="btn" type="submit"><i class="fa fa-search"></i></button>
+            </div>
+            <label for="search" class="hidden">Recherche</label>
+            <input id="search" name="q" type="search" class="form-control" placeholder="Recherche" />
+        </div>
+    </form>
+</site-search>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+    <notification-zone></notification-zone>
+
+    
+      
+    
+    
+<section class="error">
+    <div class="container">
+
+        <div class="jumbotron">
+            <h1>
+                Erreur 404
+                <small>Page non trouvée</small>
+            </h1>
+            
+<p class="lead">La page que vous cherchez ne peut être trouvée.</p>
+
+            <p class="text-center">
+                <a class="btn btn-primary btn-lg" role="button" href="/fr/">
+                    <span class="fa fa-home"></span>
+                    Accueil
+                </a>
+            </p>
+        </div>
+
+    </div>
+</section>
+
+    
+<section class="footer">
+    <div class="container">
+        <footer class="row">
+
+            <section class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+                <h5>L'Open Data</h5>
+                <ul>
+                    
+                    <li>
+                        <a href="/fr/posts/">Actualités</a>
+                        
+                    </li>
+                    
+                    <li>
+                        <a href="https://doc.data.gouv.fr">Documentation</a>
+                        
+                    </li>
+                    
+                    <li>
+                        <a href="/fr/reference">Données de référence</a>
+                        
+                    </li>
+                    
+                    <li>
+                        <a href="/fr/licences">Licences</a>
+                        
+                    </li>
+                    
+                    <li>
+                        <a href="https://doc.data.gouv.fr/api/reference/">API</a>
+                        
+                    </li>
+                    
+                    <li>
+                        <a href="/fr/terms/">Conditions générales d&#39;utilisation</a>
+                        
+                    </li>
+                    
+                    <li>
+                        <a href="/fr/suivi">Politique de confidentialité</a>
+                        
+                    </li>
+                    
+                    <li>
+                        <a href="https://www.data.gouv.fr/fr/datasets/catalogue-des-donnees-de-data-gouv-fr/">Catalogue des données</a>
+                        
+                    </li>
+                    
+                    <li>
+                        <a href="/fr/pages/donnees-cles-par-sujet">Données clés par sujet</a>
+                        
+                    </li>
+                    
+                </ul>
+            </section>
+            <section class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+                <h5>Thématiques</h5>
+                <ul>
+                    
+                    <li>
+                        <a href="/fr/topics/agriculture-et-alimentation/" title="Agriculture et Alimentation">
+                        Agriculture et Alimentation
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="/fr/topics/culture/" title="Culture, Communications">
+                        Culture, Communications
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="/fr/topics/economie-et-emploi/" title="Comptes, Économie et Emploi">
+                        Comptes, Économie et Emploi
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="/fr/topics/education-et-recherche/" title="Éducation, Recherche, Formation">
+                        Éducation, Recherche, Formation
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="/fr/topics/international-et-europe/" title="International, Europe">
+                        International, Europe
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="/fr/topics/logement-developpement-durable-et-energie/" title="Environnement, Énergie, Logement">
+                        Environnement, Énergie, Logement
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="/fr/topics/sante-et-social/" title="Santé et Social">
+                        Santé et Social
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="/fr/topics/societe/" title=" Société, Droit, Institutions">
+                         Société, Droit, Institutions
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="/fr/topics/territoires-et-transports/" title="Territoires, Transports, Tourisme">
+                        Territoires, Transports, Tourisme
+                        </a>
+                    </li>
+                    
+                </ul>
+            </section>
+
+            <section class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+                <h5>Réseau</h5>
+                <ul>
+                    
+                    <li><a href="http://www.gouvernement.fr">Gouvernement.fr</a></li>
+                    
+                    <li><a href="http://www.france.fr">France.fr</a></li>
+                    
+                    <li><a href="http://www.legifrance.gouv.fr">Legifrance.gouv.fr</a></li>
+                    
+                    <li><a href="http://www.service-public.fr">Service-public.fr</a></li>
+                    
+                    <li><a href="http://opendatafrance.net">Opendata France</a></li>
+                    
+                    <li><a href="http://www.cada.fr">CADA.fr</a></li>
+                    
+                    <li><a href="https://www.etalab.gouv.fr">Etalab.gouv.fr</a></li>
+                    
+                </ul>
+            </section>
+
+            <section class="col-xs-6 col-sm-3 col-md-4 col-lg-4 contact">
+                <h5>Contactez-nous</h5>
+                
+                <details>
+                    <summary>Ouverture des données publiques</summary>
+                    Vous pouvez écrire à <a href="m&#x61;ilto:ouverture%40data&#46;gouv&#46;fr">ouverture@data.gouv.fr</a> pour toute demande relative à l'ouverture des données publiques : données absentes ou difficiles à trouver par exemple.
+                    <br>Pour toute donnée déjà publiée sur data.gouv.fr, le point de contact à utiliser est celui du producteur de la donnée (bouton «&nbsp;Contacter&nbsp;» sur la page d'un jeu de données).
+                </details>
+                <details>
+                    <summary>Support technique de la plateforme</summary>
+                    Vous pouvez écrire à <a href="m&#x61;ilto:support%40data&#46;gouv&#46;fr">support@data.gouv.fr</a> pour toute question ou problème relatif à l'utilisation du portail, en tant qu'utilisateur ou en tant que producteur.
+                    <br>Cette adresse ne doit pas être utilisée dans le cas de questions sur les données (cf «&nbsp;Ouverture des données publiques&nbsp;»).
+                </details>
+                <details>
+                    <summary>Démarches administratives</summary>
+                    Le site data.gouv.fr ne permet pas aux particuliers de remplir des formalités administratives et notre support n'est pas en mesure de vous aider sur ces sujets.
+                    <br>Vous pouvez vous référer au site <a href="https://www.service-public.fr">Service-Public.fr</a> le cas échéant.
+                </details>
+                
+            </section>
+
+            <section class="col-xs-9 col-xs-offset-3 col-sm-offset-0 col-sm-2 col-md-2 col-lg-2">
+                <a href="http://www.etalab.gouv.fr" title="Aller sur le blog d'Etalab">
+                  <svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" xml:space="preserve" width="282.35001" height="82.125" viewBox="0 0 282.35001 82.125" class="logo"><style>.s0{fill:#a2a2a3;}</style><g transform="matrix(1.25,0,0,-1.25,0,82.125)"><path d="m14.1527 27.0371c6.6653 0 8.6504 0.3602 9.3715 0.9024 0.2672 0.1804 0.5403 0.5402 0.5403 1.7117 0 2.5226-1.7125 5.6789-6.9379 5.6789-5.3184 0-9.91527-4.8688-10.00394-7.8418 0-0.1817 0-0.4512 0.63164-0.4512l6.3984 0zM8.56445 24.3348c-2.34414 0-2.4332-0.1805-2.4332-2.4344 0-9.1035 5.31525-16.85157 14.95665-16.85157 2.9766 0 5.5019 0.90156 8.2914 4.41484 0.9023 0.27071 1.5344-0.26953 1.6234-1.07969C28.032 2.25273 21.5391 0 16.8563 0 10.9949 0 6.40156 2.52227 3.78672 5.95039 1.08633 9.46367 0 13.6992 0 17.6641 0 28.7477 7.30313 38.032 18.1176 38.032c7.748 0 12.7961-5.3164 12.7961-10.7254 0-1.2605-0.1809-1.9804-0.3617-2.341-0.2704-0.5418-1.5286-0.6308-5.3153-0.6308l-16.67225 0M48.7551 32.9859c-1.5281 0-1.6172-0.2703-1.6172-2.1636l0-16.8535c0-5.22583 0.632-10.00396 6.5793-10.00396 0.8988 0 1.7062 0.18164 2.4332 0.45118 0.8101 0.27343 1.9824 1.26171 2.2496 1.26171 0.7211 0 1.0863-0.98828 0.9023-1.53125C57.6785 2.25273 54.4379 0 49.8383 0 42.0867 0 40.4668 4.32695 40.4668 9.73438l0 20.63672c0 2.4336-0.0859 2.6148-1.8875 2.6148l-2.5285 0c-0.5403 0.3618-0.6289 1.3528-0.2699 1.893 2.6113 0.8102 4.8699 1.9809 5.766 2.7938 1.1719 1.0789 2.8844 3.5125 3.7867 5.3164 0.4539 0.1812 1.534 0.1812 1.8934-0.4504l0-4.0559c0-1.623 0.0918-1.7117 1.6203-1.7117l10.0039 0c1.0801-0.8137 0.8988-3.2469 0.0886-3.7852l-10.1847 0M75.977 4.05742c1.7984 0 4.6 1.34961 5.496 2.25235 1.0801 1.08281 1.1723 2.34453 1.1723 4.23513l0.1813 5.3145c0 0.9941-0.3621 1.1719-0.9024 1.1719-0.5398 0-2.0742-0.3586-3.6976-0.9012-5.3149-1.7992-7.9297-3.1496-7.9297-6.66643 0-1.53398 1.0804-5.40625 5.6801-5.40625zM81.5621 19.916c1.3535 0.4512 1.4422 1.2656 1.5348 2.6145l0.0886 4.1461c0.0887 3.3371-0.9914 7.8418-6.5824 7.8418-2.5191 0-5.5851-1.2625-5.7656-4.0571-0.0895-1.4437-0.1781-2.5218-0.8965-3.064-1.3558-1.0821-3.7867-1.711-5.1398-1.711-0.8102 0-1.2645 0.4485-1.2645 1.2602 0 4.6859 10.1852 11.0855 16.7641 11.0855 6.4875 0 9.6422-3.7871 9.3722-10.5437L89.1328 11.8086c-0.1812-4.14844 0.6317-7.84376 4.1453-7.84376 0.9028 0 1.7157 0.27344 2.2555 0.54414 0.4453 0.26915 0.9023 0.62891 1.1727 0.62891 0.3558 0 0.632-0.54023 0.632-1.17305C97.3383 3.51758 94.1809 0 89.7645 0 87.598 0 85.4352 0.810547 83.9066 2.79883 83.5445 3.33594 83.0043 4.05742 82.4645 4.05742 81.832 4.05742 80.752 3.24727 78.9477 2.25273 76.9684 1.17266 74.9859 0 72.4605 0 69.8461 0 67.6824 0.724609 66.1543 2.07539 64.4391 3.60625 63.359 5.86133 63.359 8.38398c0 3.51642 1.7125 5.58482 7.4785 7.65982l10.7246 3.8722M111.215 11.3574c0-6.49021 0.178-7.39256 3.425-7.83982l2.16-0.27031c0.629-0.44844 0.451-1.98282-0.175-2.252348-2.977 0.177738-5.591 0.269528-8.749 0.269528-3.24 0-5.944-0.09179-8.6502-0.269528C98.5961 1.26445 98.4156 2.79883 99.0473 3.24727l2.0747 0.27031c3.333 0.44726 3.424 1.34961 3.424 7.83982l0 40.734c0 5.3149-0.091 5.8563-2.792 7.4793l-0.905 0.5422c-0.452 0.2699-0.452 1.5312 0 1.7996 2.255 0.7211 6.487 2.0742 9.734 3.7867 0.362 0 0.721-0.1797 0.902-0.5402-0.092-2.7035-0.27-7.2113-0.27-11.1762l0-42.6254M134.647 4.05742c1.798 0 4.594 1.34961 5.497 2.25235 1.08 1.08281 1.171 2.34453 1.171 4.23513l0.181 5.3145c0 0.9941-0.362 1.1719-0.908 1.1719-0.537 0-2.068-0.3586-3.692-0.9012-5.315-1.7992-7.929-3.1496-7.929-6.66643 0-1.53398 1.083-5.40625 5.68-5.40625zm5.585 15.85858c1.353 0.4512 1.446 1.2656 1.535 2.6145l0.088 4.1461c0.092 3.3371-0.991 7.8418-6.576 7.8418-2.525 0-5.591-1.2625-5.769-4.0571-0.092-1.4437-0.181-2.5218-0.902-3.064-1.353-1.0821-3.784-1.711-5.137-1.711-0.81 0-1.261 0.4485-1.261 1.2602 0 4.6859 10.182 11.0855 16.761 11.0855 6.487 0 9.641-3.7871 9.375-10.5437l-0.543-15.6797c-0.182-4.14844 0.632-7.84376 4.148-7.84376 0.897 0 1.706 0.27344 2.249 0.54414 0.448 0.26915 0.9 0.62891 1.173 0.62891 0.358 0 0.635-0.54023 0.635-1.17305C156.008 3.51758 152.848 0 148.435 0c-2.164 0-4.331 0.810547-5.859 2.79883-0.358 0.53711-0.898 1.25859-1.442 1.25859-0.629 0-1.712-0.81015-3.517-1.80469C135.635 1.17266 133.656 0 131.131 0c-2.615 0-4.778 0.724609-6.307 2.07539-1.712 1.53086-2.796 3.78594-2.796 6.30859 0 3.51642 1.716 5.58482 7.482 7.65982l10.722 3.8722M168.713 13.5215c0-3.1582 0.721-5.95002 2.252-7.84377 1.534-1.89062 3.965-2.97343 6.849-2.97343 8.469 0 11.805 7.21054 11.805 14.9598 0 9.2824-4.771 16.4937-13.698 16.4937-2.7 0-4.87-0.6336-6.125-1.4422-0.902-0.632-1.083-1.6234-1.083-5.1386l0-14.0555zm-6.669 38.5699c0 5.3149-0.089 5.8563-2.795 7.4793l-0.902 0.5422c-0.449 0.2699-0.449 1.5312 0 1.7996 2.074 0.8117 6.397 1.984 9.825 3.7867 0.359 0 0.722-0.1797 0.899-0.5402-0.177-3.1531-0.358-7.2113-0.358-11.1762l0-17.0324c0-1.5328 0.358-1.8902 0.898-1.8902 2.348 1.35 5.951 2.9718 10.367 2.9718 10.273 0 17.211-7.7484 17.211-17.6648C197.189 8.38398 188.539 0 176.461 0c-3.33 0-5.856 0.541016-7.659 1.17266-1.894 0.54023-3.06 1.17187-3.787 1.17187-0.721 0-1.443-0.72344-1.888-1.349608-0.092-0.092578-0.181-0.092578-0.361-0.092578-0.366 0-0.722 0.181636-0.903 0.540236 0.092 1.26172 0.181 2.97344 0.181 7.65976l0 42.98906" fill="#a2a2a3"/><path d="m178.21 52.398c0-1.53 1.003-2.5964 2.394-2.5964 0.917 0 1.647 0.4406 2.224 1.0515l0 3.3942c-0.53 0.457-1.224 0.8129-2.157 0.8129-1.476 0-2.461-1.1539-2.461-2.6622zm5.784-3.905c0-0.8973-0.236-1.5926-0.659-2.102-0.611-0.7453-1.627-1.0527-2.75-1.0527-1.136 0-2.016 0.3547-2.458 0.7812-0.258 0.2543-0.374 0.5414-0.374 0.8301 0 0.4922 0.358 0.8805 0.847 0.8805 0.423 0 0.712-0.3203 0.712-0.727 0-0.1707-0.046-0.339-0.148-0.4742 0.218-0.1383 0.69-0.2887 1.421-0.2887 0.712 0 1.391 0.1856 1.813 0.7106 0.271 0.341 0.43 0.7793 0.43 1.393l0 1.4074c-0.595-0.611-1.307-1.0664-2.409-1.0664-1.884 0-3.434 1.4925-3.434 3.5945 0 1.9539 1.431 3.7148 3.581 3.7148 0.967 0 1.732-0.3894 2.311-0.9308l0 0.7976 2.29 0 0-1.0375-1.173 0 0-6.4304M192.464 52.3457c0 1.5957-1.013 2.7313-2.492 2.7313-1.476 0-2.494-1.1356-2.494-2.7313 0-1.6121 1.018-2.7309 2.494-2.7309 1.479 0 2.492 1.1188 2.492 2.7309zm-6.208 0c0 2.0359 1.473 3.7484 3.716 3.7484 2.24 0 3.716-1.6937 3.716-3.7484 0-2.0543-1.476-3.75-3.716-3.75-2.255 0-3.716 1.6816-3.716 3.75M196.051 49.5625c-0.221 0.3883-0.34 0.9008-0.34 1.4773l0 3.8836-1.154 0 0 1.0375 2.326 0 0-4.6996c0-0.4082 0.064-0.7336 0.199-0.9699 0.225-0.4238 0.596-0.6094 1.185-0.6094 0.902 0 1.7 0.5758 2.378 1.2735l0 3.9679-1.188 0 0 1.0375 2.36 0 0-6.2109 1.154 0 0-1.0176-2.292 0 0 1.3395c-0.675-0.7981-1.663-1.4762-2.7-1.4762-0.949 0-1.572 0.3563-1.928 0.9668M204.398 54.9234l-0.948 0 0 1.0375 3.357 0 0-1.0004-1.154 0 2.139-4.7707 2.12 4.7707-1.19 0 0 1.0004 3.344 0 0-1.0375-0.948 0-3.038-6.4304-0.644 0-3.038 6.4304M211.784 49.6621c0 0.5957 0.443 1.0715 1.031 1.0715 0.595 0 1.038-0.4758 1.038-1.0715 0-0.5902-0.443-1.0664-1.038-1.0664-0.588 0-1.031 0.4762-1.031 1.0664M218.452 60.234c-0.223-0.0508-0.426-0.1504-0.558-0.3395-0.261-0.3023-0.396-0.7945-0.396-1.5097l0-2.4239 1.872 0 0-1.0375-1.872 0 0-5.1734 1.412 0 0-1.0176-3.75 0 0 1.0176 1.172 0 0 5.1734-1.292 0 0 1.0375 1.292 0 0 2.1524c0 1.1722 0.206 1.9531 0.761 2.5117 0.424 0.4098 0.933 0.6629 1.648 0.6629 0.782 0 1.32-0.3742 1.32-0.968 0-0.4758-0.32-0.798-0.731-0.798-0.473 0-0.742 0.3066-0.878 0.7121M225.885 55.1461c0-0.457-0.36-0.8652-0.814-0.8652-0.441 0-0.748 0.2882-0.865 0.6086-0.546-0.1532-1.206-0.7961-1.561-1.5247l0-3.6148 1.356 0 0-1.0176-3.68 0 0 1.0176 1.154 0 0 5.1734-1.154 0 0 1.0375 2.271 0 0-1.6464c0.561 1.0019 1.424 1.7796 2.21 1.7796 0.712 0 1.083-0.457 1.083-0.948" fill="#a2a2a3"/></g></svg>
+                </a>
+                <div class="social">
+                    <a href="https://twitter.com/datagouvfr" title="Twitter">
+                        <span class="fa fa-twitter-square"></span>
+                    </a>
+                    <a href="https://fb.me/etalab" title="Facebook">
+                        <span class="fa fa-facebook-square"></span>
+                    </a>
+                    <a href="https://github.com/etalab" title="github">
+                        <span class="fa fa-github-square"></span>
+                    </a>
+                    <span tabindex="-1" title="Flux" class="feed-icon"
+                        v-popover popover-placement="top" popover-class="rss-popover">
+                        <span class="fa fa-rss-square"></span>
+                        <span data-popover-content>
+                            <a title="Jeux de données" href="/fr/datasets/recent.atom">
+                                <span class="fa fa-rss"></span>
+                                Jeux de données
+                            </a>
+                            <br/>
+                            <a title="Réutilisations" href="/fr/reuses/recent.atom">
+                                <span class="fa fa-rss"></span>
+                                Réutilisations
+                            </a>
+                        </span>
+                    </span>
+                </div>
+                <a href="https://github.com/opendatateam/udata/" title="Moteur open-source">udata</a>
+                <a href="https://pypi.org/project/udata/2.6.4/" title="Version déployée">2.6.4</a>
+                <br/>
+                <a href="https://github.com/etalab/udata-gouvfr/" title="Extension pour Data.gouv.fr">udata-gouvfr</a>
+                <a href="https://pypi.org/project/udata-gouvfr/2.5.5/" title="Version déployée">2.5.5</a>
+            </section>
+            <p class="bottom-right"><a href="#">Haut de page</a></p>
+
+        </footer>
+    </div>
+</section>
+
+    <modal v-ref:publish-action-modal :visible="false">
+    <div class="modal-body">
+        <div class="list-group actions-list">
+            <a class="list-group-item" href="/fr/admin/dataset/new/">
+                <div class="action-icon">
+                    <span class="fa fa-cubes fa-3x"></span>
+                </div>
+                <h4 class="list-group-item-heading">
+                    
+                    Publiez un jeu de données
+                </h4>
+                 <p class="list-group-item-text">
+                
+                Contribuez et ajoutez un nouveau jeu de données au catalogue de ce site
+                </p>
+            </a>
+
+            <a class="list-group-item" href="/fr/admin/reuse/new/">
+                <div class="action-icon">
+                    <span class="fa fa-recycle fa-3x"></span>
+                </div>
+                <h4 class="list-group-item-heading">
+                    
+                    Publiez une réutilisation
+                </h4>
+                <p class="list-group-item-text">
+                
+                Contribuez et ajoutez une nouvelle réutilisation au catalogue de ce site.
+                </p>
+            </a>
+
+            <a class="list-group-item" href="/fr/admin/organization/new/">
+                <div class="action-icon">
+                    <span class="fa fa-building-o fa-3x"></span>
+                </div>
+                <h4 class="list-group-item-heading">
+                    
+                    Créez ou trouvez votre organisation
+                </h4>
+                <p class="list-group-item-text">
+                
+                Vous pouvez créer une nouvelle organisation ou trouver la vôtre
+                </p>
+            </a>
+        </div>
+    </div>
+</modal>
+    
+    
+
+
+    <script src="https://static.data.gouv.fr/static/common.77f56a277928828c78c6.js"></script>
+    
+    <script src="https://static.data.gouv.fr/static/site.77f56a277928828c78c6.js"></script>
+    
+    
+
+    
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['setDocumentTitle', '404/URL = ' +  encodeURIComponent(document.location.pathname+document.location.search) + '/From = ' + encodeURIComponent(document.referrer)]);
+  
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://stats.data.gouv.fr/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 109]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+
+  
+  _paq.push(['trackVisibleContentImpressions']);
+  
+
+  
+  
+  _paq.push(['trackPageView']);
+  
+
+  
+  var PIWIK_GOALS = {"NEW_DATASET": 1, "NEW_FOLLOW": 3, "NEW_REUSE": 2, "RESOURCE_DOWNLOAD": 5, "RESOURCE_REDIRECT": 6, "SHARE": 4};
+  // Wait for uData object to be present
+  window.addEventListener("load", function() {
+    var _loop = function _loop() {
+      var value = PIWIK_GOALS[goal];
+      var pub_fn = function pub_fn() {
+        uData.log.debug('Tracking goal', goal, 'with value', value);
+        _paq.push(['trackGoal', value]);
+      };
+      uData.pubsub.subscribe(goal, pub_fn);
+    };
+    for (var goal in PIWIK_GOALS) {
+      _loop();
+    }
+  }, false);
+  
+
+
+</script>
+<noscript><p><img src="http://stats.data.gouv.fr/piwik.php?idsite=109" style="border:0;" alt="" /></p></noscript>
+
+
+  </body>
+</html>
