@@ -90,9 +90,16 @@ def download_dep_data():
   with open('data/input/vacsi-a-dep.csv', 'wb') as f:
           f.write(data.content)
 
+def checkNumeroDep(dep):
+  if(len(dep)==1):
+    return "0"+dep
+  else:
+    return dep
+
 def import_dep_data():
   df = pd.read_csv('data/input/vacsi-a-dep.csv', sep=';')
   df.dep = df.dep.astype(str)
+  df.dep = df.dep.apply(lambda x: checkNumeroDep(x))
   return df
 
 def csv_to_json_dep(df):
