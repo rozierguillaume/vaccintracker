@@ -19,7 +19,7 @@ def import_flux_total_nat():
   return df
 
 def csv_to_json_flux_total_nat(df_tous, df):
-  dict_json = {"noms_vaccins": types_vaccins_name}
+  dict_json = {"noms_vaccins": types_vaccins_name, "types_vaccins": types_vaccins_key}
   dict_json["jour"] = df_tous.date_fin_semaine.fillna(0).to_list()
   dict_json["nb_doses_cum"] = df_tous.nb_doses_cum.fillna(0).to_list()
 
