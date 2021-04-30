@@ -48,7 +48,7 @@ def csv_to_json_fra_tous_types(df):
     "n_dose2": list(df.n_dose2),
     "n_dose2_rolling": list(df.n_dose2.rolling(window=7, center=True).mean().fillna(0)),
     "n_cum_dose2": list(df.n_cum_dose2),
-    "n_dose_tot.rolling": list((df.n_dose1+df.n_dose2).rolling(window=7, center=True).mean().fillna(0))
+    "n_dose_tot_rolling": list((df.n_dose1+df.n_dose2).rolling(window=7, center=True).mean().fillna(0))
   }
 
   with open("data/output/vacsi-ndose-fra.json", "w") as outfile:
