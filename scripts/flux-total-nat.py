@@ -26,6 +26,7 @@ def csv_to_json_flux_total_nat(df_tous, df):
   for key in types_vaccins_key:
     dict_json_vaccin = {}
     df_vaccin = df[df.type_de_vaccin == types_vaccins_name[key-1]]
+    df_vaccin = df_vaccin.merge(df_tous["date_fin_semaine"], left_on="date_fin_semaine", right_on="date_fin_semaine", how="right").groupby("date_fin_semaine").first().reset_index().sort_values(by="date_fin_semaine")
     df_vaccin = prepare_flux_total_nat_vaccin(df_vaccin)
     dict_json_vaccin["jour"] = df_vaccin.date_fin_semaine.fillna(0).to_list()
     dict_json_vaccin["nb_doses_cum"] = df_vaccin.nb_doses_cum.fillna(0).to_list()
