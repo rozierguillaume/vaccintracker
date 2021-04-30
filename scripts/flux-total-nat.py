@@ -4,7 +4,7 @@ import requests
 import numpy as np
 
 types_vaccins_key = [1, 2, 3, 4]
-types_vaccins_name = ["Pfizer/BioNTech", "Moderna", "AstraZeneca", "Janssen"]
+types_vaccins_name = ["Pfizer", "Moderna", "AstraZeneca", "Janssen"]
 
 def download_flux_total_nat():
   url = "https://www.data.gouv.fr/fr/datasets/r/9c60af86-b974-4dba-bf34-f52686c7ada9"
