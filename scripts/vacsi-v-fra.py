@@ -37,7 +37,22 @@ def csv_to_json_fra(df):
   with open("data/output/vacsi-v-fra.json", "w") as outfile:
     outfile.write(json.dumps(dict_json))
 
+def csv_to_json_fra_tous_types(df):
+  df = df.groupby("jour").sum().reset_index()
+
+  dict_json = {
+    "jour" : list(df.jour.unique()),
+    "n_dose1": list(df.n_dose1),
+    "n_cum_dose1": list(df.n_cum_dose1),
+    "n_dose2": list(df.n_dose2),
+    "n_cum_dose2": list(df.n_cum_dose2)
+  }
+
+  with open("data/output/vacsi-ndose-fra.json", "w") as outfile:
+    outfile.write(json.dumps(dict_json))
+
 
 download_fra_data()
 df = import_fra_data()
 csv_to_json_fra(df)
+csv_to_json_fra_tous_types(df)
