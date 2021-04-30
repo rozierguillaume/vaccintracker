@@ -43,8 +43,10 @@ def csv_to_json_fra_tous_types(df):
   dict_json = {
     "jour" : list(df.jour.unique()),
     "n_dose1": list(df.n_dose1),
+    "n_dose1_rolling": list(df.n_dose1.rolling(window=7, center=True).mean().fillna(0)),
     "n_cum_dose1": list(df.n_cum_dose1),
     "n_dose2": list(df.n_dose2),
+    "n_dose2_rolling": list(df.n_dose2.rolling(window=7, center=True).mean().fillna(0)),
     "n_cum_dose2": list(df.n_cum_dose2)
   }
 

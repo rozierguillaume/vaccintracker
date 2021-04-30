@@ -22,9 +22,6 @@ def import_fra_data():
   return prepare_data(df)
 
 def csv_to_json_fra(df):
-  #jour_max = df.jour.max()
-  #df = df[(df.jour == jour_max)]
-  #df = df.sort_values(by="categorie_fine")
   dict_json = {}
 
   for clage in df["categorie_fine"].tolist():
@@ -41,4 +38,6 @@ def csv_to_json_fra(df):
 
 download_fra_data()
 df = import_fra_data()
+print(df)
+print(df[df.clage_vacsi>=59].n_dose1.sum())
 csv_to_json_fra(df)
