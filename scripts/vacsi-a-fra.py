@@ -29,7 +29,9 @@ def csv_to_json_fra(df):
     dict_json[clage] = {
                 "jour": df_clage.jour.tolist(),
                 "n_dose1": df_clage.n_dose1.tolist(), 
-                "n_dose1_cum_pop": list(np.round(df_clage.n_cum_dose1.values/df_clage.population.values*100, 2))
+                "n_dose1_cum_pop": list(np.round(df_clage.n_cum_dose1.values/df_clage.population.values*100, 2)),
+                "couv_dose1": df_clage.couv_dose1.tolist(),
+                "couv_complet": df_clage.couv_complet.tolist(), 
               }
 
   with open("data/output/vacsi-tot-a-fra.json", "w") as outfile:
@@ -38,6 +40,4 @@ def csv_to_json_fra(df):
 
 download_fra_data()
 df = import_fra_data()
-print(df)
-print(df[df.clage_vacsi>=59].n_dose1.sum())
 csv_to_json_fra(df)
