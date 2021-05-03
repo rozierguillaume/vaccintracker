@@ -35,7 +35,8 @@ jobs:
     - name: Données Vaccin France
       run: |
         python scripts/vacsi-tot-a-fra.py
-        python scripts/opendata.py
+        python scripts/vacsi-a-fra.py
+	python scripts/opendata.py
         python scripts/vacsi-res-tot-dep.py
         python scripts/vacsi-v-fra.py
         python scripts/sg-epci-opendata.py 
