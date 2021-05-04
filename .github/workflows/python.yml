@@ -39,9 +39,5 @@ jobs:
         python scripts/vacsi-res-tot-dep.py
         python scripts/vacsi-v-fra.py
         python scripts/sg-epci-opendata.py
-    #python scripts/2nd_doses.py
-    #python scripts/livraisons.py
-    # Commit changes 
-    #python scripts/livraisons.py
     - uses: stefanzweifel/git-auto-commit-action@v4
     
