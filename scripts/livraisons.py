@@ -146,14 +146,14 @@ def csv_to_json_flux_separes(df_flux_pfizer, df_flux_moderna, df_flux_astrazenec
     outfile.write(json.dumps(dict_json))
 
 
-download_data()
-df = import_data()
-csv_to_json(df)
+#download_data()
+#df = import_data()
+#csv_to_json(df)
 
 download_tot_nat()
 df = import_tot_nat()
 print(df)
 csv_to_json_tot_nat(df)
 
-df_flux_pfizer, df_flux_moderna, df_flux_astrazeneca = import_data_flux_separes()
-csv_to_json_flux_separes(df_flux_pfizer, df_flux_moderna, df_flux_astrazeneca)
+#df_flux_pfizer, df_flux_moderna, df_flux_astrazeneca = import_data_flux_separes()
+#csv_to_json_flux_separes(df_flux_pfizer, df_flux_moderna, df_flux_astrazeneca)
