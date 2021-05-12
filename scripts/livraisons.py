@@ -2,6 +2,7 @@ import json
 import pandas as pd
 import requests
 import numpy as np
+import datetime
 
 ## FRANCE
 def download_data():
@@ -43,6 +44,7 @@ def download_tot_nat():
 def import_tot_nat():
   df = pd.read_csv('data/input/flux-tot-nat.csv', sep=None)
   df["date_fin_semaine"] = parsedate(df.date_fin_semaine.values)
+  df=df[df.date_fin_semaine <= (datetime.date.today() + datetime.timedelta(days=100)).strftime("%Y-%m-%d")]
   return df
 
 def csv_to_json_tot_nat(df):
