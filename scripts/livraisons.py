@@ -154,7 +154,7 @@ def csv_to_json_flux_separes(df_flux_pfizer, df_flux_moderna, df_flux_astrazenec
 
 download_tot_nat()
 df = import_tot_nat()
-print(df)
+#print(df)
 csv_to_json_tot_nat(df)
 
 #df_flux_pfizer, df_flux_moderna, df_flux_astrazeneca = import_data_flux_separes()
