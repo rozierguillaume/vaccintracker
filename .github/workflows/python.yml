@@ -3,7 +3,7 @@ name: Python Scripts
 # Controls when the action will run. 
 on:
   schedule:
-  - cron: "30 16 * * *" # UTC time (-1 en hiver et -2 en été)
+  - cron: "30 17 * * *" # UTC time (-1 en hiver et -2 en été)
   #push:
     #branches: [ main ]
   #pull_request:
