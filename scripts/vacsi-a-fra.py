@@ -14,7 +14,7 @@ def download_fra_data():
 def prepare_data(df):
   df=df[df["clage_vacsi"] != 0]
   df_clage_vacsi = pd.read_csv('data/input/clage_spf.csv', sep=';')
-  #df = df.merge(df_clage_vacsi, left_on="clage_vacsi", right_on="code_spf").groupby(["jour", "categorie_fine"]).sum().reset_index()
+  df = df.merge(df_clage_vacsi, left_on="clage_vacsi", right_on="code_spf").groupby(["jour", "categorie_fine"]).sum().reset_index()
   return df
 
 def import_fra_data():
@@ -23,9 +23,9 @@ def import_fra_data():
 
 def csv_to_json_fra(df):
   dict_json = {}
-  for clage in df["clage_vacsi"].unique():
-    clage = str(clage)
-    df_clage = df[df["clage_vacsi"] == clage]
+
+  for clage in df["categorie_fine"].tolist():
+    df_clage = df[df["categorie_fine"] == clage]
     dict_json[clage] = {
                 "jour": df_clage.jour.tolist(),
                 "n_dose1": df_clage.n_dose1.tolist(), 
