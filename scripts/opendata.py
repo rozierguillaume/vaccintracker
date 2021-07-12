@@ -22,11 +22,11 @@ def csv_to_json_fra(df):
   dict_json["dates"] = df["jour"].tolist()
   dict_json["n_dose1"] = df["n_dose1"].tolist()
   dict_json["n_cum_dose1"] = df["n_cum_dose1"].tolist()
-  dict_json["n_dose1_moyenne7j"] = df["n_dose1"].rolling(window=7).mean().fillna(0).tolist()
+  dict_json["n_dose1_moyenne7j"] = round(df["n_dose1"].rolling(window=7).mean()).fillna(0).tolist()
 
   dict_json["n_complet"] = df["n_complet"].tolist()
   dict_json["n_cum_complet"] = df["n_cum_complet"].tolist()
-  dict_json["n_complet_moyenne7j"] = df["n_complet"].rolling(window=7).mean().fillna(0).tolist()
+  dict_json["n_complet_moyenne7j"] = round(df["n_complet"].rolling(window=7).mean()).fillna(0).tolist()
 
   with open("data/output/vacsi-fra.json", "w") as outfile: 
     outfile.write(json.dumps(dict_json))
