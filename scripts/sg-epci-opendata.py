@@ -10,7 +10,7 @@ def download_fra_data():
 
   with open('data/input/sg-epci-opendata.csv', 'wb') as f:
           f.write(data.content)
-          
+
 def prepare_data(df):
   df=df[df["clage_65"] == 0] # Ne conserver que les lignes "tous âges"
   df["jour"]=df["semaine_glissante"].map(lambda x: x[11:]) # Semaine glissante to jour}
@@ -27,7 +27,7 @@ def import_old_fra_data():
 
 def csv_to_json_fra(df, old_dict):
   dict_json = old_dict
-  liste_epci = df["epci2020"].unique()
+  liste_epci = df.filter(regex=("epci20.*")).iloc[:,0].unique()
   dates = sorted(df.jour.unique())[-50:]
   dict_json["dates"] = sorted(list(set(dict_json["dates"]+dates)))
   print(dict_json["dates"])
@@ -38,7 +38,7 @@ def csv_to_json_fra(df, old_dict):
     df_temp = df[df["jour"] == date] # Keep last day
 
     for epci in liste_epci:
-      dict_json[date][str(epci)] = df_temp[df_temp["epci2020"] == epci]["ti_classe"].fillna("0").values[0]
+      dict_json[date][str(epci)] = df_temp[df_temp.filter(regex=("epci20.*")).iloc[:,0] == epci]["ti_classe"].fillna("0").values[0]
 
   with open("data/output/sg-epci.json", "w") as outfile:
     outfile.write(json.dumps(dict_json))
