@@ -32,7 +32,7 @@ def csv_to_json_fra(df):
               #"n_dose2": df.n_tot_dose2.tolist(),
               "couv_tot_dose1": list(np.round(df.n_tot_dose1.values/df["pop"].values*100, 2)),
               "couv_tot_complet": list(np.round(df.n_tot_complet.values/df["pop"].values*100, 2)),
-              #"n_dose2_pop": list(np.round(df.n_tot_dose2.values/df.population.values*100, 2))
+              "population": list(np.round(df["pop"].values))
               }
 
   with open("data/output/vacsi-tot-a-fra_lastday.json", "w") as outfile:
