@@ -15,14 +15,16 @@ def import_fra_data():
   return df
 
 def csv_to_json_fra(df):
-  #df["n_dose1_cumsum"] = df["n_dose1"].cumsum()
-  #df["n_dose2_cumsum"] = df["n_dose2"].cumsum()
 
   dict_json = {}
   dict_json["dates"] = df["jour"].tolist()
   dict_json["n_dose1"] = df["n_dose1"].tolist()
   dict_json["n_cum_dose1"] = df["n_cum_dose1"].tolist()
   dict_json["n_dose1_moyenne7j"] = round(df["n_dose1"].rolling(window=7).mean()).fillna(0).tolist()
+
+  dict_json["n_dose3"] = df["n_rappel"].tolist()
+  dict_json["n_cum_dose3"] = df["n_cum_rappel"].tolist()
+  dict_json["n_dose3_moyenne7j"] = round(df["n_rappel"].rolling(window=7).mean()).fillna(0).tolist()
 
   dict_json["n_complet"] = df["n_complet"].tolist()
   dict_json["n_cum_complet"] = df["n_cum_complet"].tolist()
