@@ -32,6 +32,7 @@ def csv_to_json_fra(df):
                 "n_dose1_cum_pop": df_clage.couv_dose1.tolist(), #list(np.round(df_clage.n_cum_dose1.values/df_clage.population.values*100, 2)),
                 "couv_dose1": df_clage.couv_dose1.tolist(),
                 "couv_complet": df_clage.couv_complet.tolist(), 
+                "couv_rappel": df_clage.couv_rappel.tolist(), 
               }
 
   with open("data/output/vacsi-tot-a-fra.json", "w") as outfile:
