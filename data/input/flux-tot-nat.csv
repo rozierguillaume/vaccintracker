@@ -141,8 +141,11 @@
 "2022-01-16","Moderna",207720,2077200
 "2022-01-23","Moderna",207720,2077200
 "2022-01-30","Moderna",207330,2073300
-"2022-02-06","Moderna",207330,2073300
-"2022-02-13","Moderna",134260,1342600
+"2022-02-06","Moderna",98620,986200
+"2022-02-13","Moderna",165120,1651200
+"2022-02-20","Moderna",125370,1253700
+"2022-02-27","Moderna",0,0
+"2022-03-06","Moderna",270200,2702000
 "2020-12-27","Pfizer",11700,58500
 "2021-01-03","Pfizer",92820,464100
 "2021-01-10","Pfizer",103935,519675
@@ -202,24 +205,104 @@
 "2022-01-23","Pfizer",284310,1705860
 "2022-01-30","Pfizer",90870,545220
 "2022-02-06","Pfizer",441675,2650050
-"2022-02-13","Pfizer",322335,1934010
+"2022-02-13","Pfizer",322920,1937520
 "2022-02-20","Pfizer",8580,51480
 "2022-02-27","Pfizer",0,0
-"2022-03-06","Pfizer",0,0
-"2022-03-13","Pfizer",0,0
+"2022-03-06","Pfizer",331695,1990170
+"2022-03-13","Pfizer",265395,1592370
 "2022-03-20","Pfizer",0,0
 "2022-03-27","Pfizer",0,0
 "2022-04-03","Pfizer",0,0
-"2022-04-10","Pfizer",0,0
+"2022-04-10","Pfizer",429000,2574000
 "2022-04-17","Pfizer",0,0
 "2022-04-24","Pfizer",0,0
 "2022-05-01","Pfizer",0,0
-"2022-05-08","Pfizer",301470,1808820
-"2022-05-15","Pfizer",301470,1808820
-"2022-05-22","Pfizer",301470,1808820
-"2022-05-29","Pfizer",301470,1808820
-"2022-06-05","Pfizer",301470,1808820
-"2022-06-12","Pfizer",376935,2261610
-"2022-06-19","Pfizer",376935,2261610
-"2022-06-26","Pfizer",376935,2261610
-"2022-07-03","Pfizer",376935,2261610
+"2022-05-08","Pfizer",0,0
+"2022-05-15","Pfizer",0,0
+"2022-05-22","Pfizer",0,0
+"2022-05-29","Pfizer",0,0
+"2022-06-05","Pfizer",0,0
+"2022-06-12","Pfizer",0,0
+"2022-06-19","Pfizer",0,0
+"2022-06-26","Pfizer",0,0
+"2022-07-03","Pfizer",0,0
+"2020-12-27","Pfizer Pédiatrique",0,0
+"2021-01-03","Pfizer Pédiatrique",0,0
+"2021-01-10","Pfizer Pédiatrique",0,0
+"2021-01-17","Pfizer Pédiatrique",0,0
+"2021-01-24","Pfizer Pédiatrique",0,0
+"2021-01-31","Pfizer Pédiatrique",0,0
+"2021-02-07","Pfizer Pédiatrique",0,0
+"2021-02-14","Pfizer Pédiatrique",0,0
+"2021-02-21","Pfizer Pédiatrique",0,0
+"2021-02-28","Pfizer Pédiatrique",0,0
+"2021-03-07","Pfizer Pédiatrique",0,0
+"2021-03-14","Pfizer Pédiatrique",0,0
+"2021-03-21","Pfizer Pédiatrique",0,0
+"2021-03-28","Pfizer Pédiatrique",0,0
+"2021-04-04","Pfizer Pédiatrique",0,0
+"2021-04-11","Pfizer Pédiatrique",0,0
+"2021-04-18","Pfizer Pédiatrique",0,0
+"2021-04-25","Pfizer Pédiatrique",0,0
+"2021-05-02","Pfizer Pédiatrique",0,0
+"2021-05-09","Pfizer Pédiatrique",0,0
+"2021-05-16","Pfizer Pédiatrique",0,0
+"2021-05-23","Pfizer Pédiatrique",0,0
+"2021-05-30","Pfizer Pédiatrique",0,0
+"2021-06-06","Pfizer Pédiatrique",0,0
+"2021-06-13","Pfizer Pédiatrique",0,0
+"2021-06-20","Pfizer Pédiatrique",0,0
+"2021-06-27","Pfizer Pédiatrique",0,0
+"2021-07-04","Pfizer Pédiatrique",0,0
+"2021-07-11","Pfizer Pédiatrique",0,0
+"2021-07-18","Pfizer Pédiatrique",0,0
+"2021-07-25","Pfizer Pédiatrique",0,0
+"2021-08-01","Pfizer Pédiatrique",0,0
+"2021-08-08","Pfizer Pédiatrique",0,0
+"2021-08-15","Pfizer Pédiatrique",0,0
+"2021-08-22","Pfizer Pédiatrique",0,0
+"2021-08-29","Pfizer Pédiatrique",0,0
+"2021-09-05","Pfizer Pédiatrique",0,0
+"2021-09-12","Pfizer Pédiatrique",0,0
+"2021-09-19","Pfizer Pédiatrique",0,0
+"2021-09-26","Pfizer Pédiatrique",0,0
+"2021-10-03","Pfizer Pédiatrique",0,0
+"2021-10-10","Pfizer Pédiatrique",0,0
+"2021-10-17","Pfizer Pédiatrique",0,0
+"2021-10-24","Pfizer Pédiatrique",0,0
+"2021-10-31","Pfizer Pédiatrique",0,0
+"2021-11-07","Pfizer Pédiatrique",0,0
+"2021-11-14","Pfizer Pédiatrique",0,0
+"2021-11-21","Pfizer Pédiatrique",0,0
+"2021-11-28","Pfizer Pédiatrique",0,0
+"2021-12-05","Pfizer Pédiatrique",0,0
+"2021-12-12","Pfizer Pédiatrique",0,0
+"2021-12-19","Pfizer Pédiatrique",194400,1944000
+"2021-12-26","Pfizer Pédiatrique",0,0
+"2022-01-02","Pfizer Pédiatrique",0,0
+"2022-01-09","Pfizer Pédiatrique",0,0
+"2022-01-16","Pfizer Pédiatrique",73200,732000
+"2022-01-23","Pfizer Pédiatrique",34800,348000
+"2022-01-30","Pfizer Pédiatrique",600,6000
+"2022-02-06","Pfizer Pédiatrique",83400,834000
+"2022-02-13","Pfizer Pédiatrique",106800,1068000
+"2022-02-20","Pfizer Pédiatrique",106800,1068000
+"2022-02-27","Pfizer Pédiatrique",106200,1062000
+"2022-03-06","Pfizer Pédiatrique",75000,750000
+"2022-03-13","Pfizer Pédiatrique",75600,756000
+"2022-03-20","Pfizer Pédiatrique",94200,942000
+"2022-03-27","Pfizer Pédiatrique",94800,948000
+"2022-04-03","Pfizer Pédiatrique",60000,6e+05
+"2022-04-10","Pfizer Pédiatrique",0,0
+"2022-04-17","Pfizer Pédiatrique",0,0
+"2022-04-24","Pfizer Pédiatrique",0,0
+"2022-05-01","Pfizer Pédiatrique",0,0
+"2022-05-08","Pfizer Pédiatrique",0,0
+"2022-05-15","Pfizer Pédiatrique",0,0
+"2022-05-22","Pfizer Pédiatrique",0,0
+"2022-05-29","Pfizer Pédiatrique",0,0
+"2022-06-05","Pfizer Pédiatrique",0,0
+"2022-06-12","Pfizer Pédiatrique",0,0
+"2022-06-19","Pfizer Pédiatrique",0,0
+"2022-06-26","Pfizer Pédiatrique",0,0
+"2022-07-03","Pfizer Pédiatrique",0,0
