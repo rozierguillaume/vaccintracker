@@ -26,6 +26,10 @@ def csv_to_json_fra(df):
   dict_json["n_cum_dose3"] = df["n_cum_rappel"].tolist()
   dict_json["n_dose3_moyenne7j"] = round(df["n_rappel"].rolling(window=7).mean()).fillna(0).tolist()
 
+  dict_json["n_dose4"] = df["n_2_rappel"].tolist()
+  dict_json["n_cum_dose4"] = df["n_cum_2_rappel"].tolist()
+  dict_json["n_dose4_moyenne7j"] = round(df["n_2_rappel"].rolling(window=7).mean()).fillna(0).tolist()
+
   dict_json["n_complet"] = df["n_complet"].tolist()
   dict_json["n_cum_complet"] = df["n_cum_complet"].tolist()
   dict_json["n_complet_moyenne7j"] = round(df["n_complet"].rolling(window=7).mean()).fillna(0).tolist()
