@@ -51,6 +51,10 @@ def csv_to_json_fra_tous_types(df):
     "n_dose3": list(df.n_dose3),
     "n_dose3_rolling": list(df.n_dose3.rolling(window=7, center=True).mean().fillna(0)),
     "n_cum_dose3": list(df.n_cum_dose3),
+    "n_cum_dose4": list(df.n_cum_dose4),
+    "n_dose4": list(df.n_dose4),
+    "n_dose4_rolling": list(df.n_dose4.rolling(window=7, center=True).mean().fillna(0)),
+    "n_cum_dose4": list(df.n_cum_dose4),
     "n_dose_tot_rolling": list((df.n_dose1+df.n_dose2+df.n_dose3).rolling(window=7, center=True).mean().fillna(0))
   }
 
