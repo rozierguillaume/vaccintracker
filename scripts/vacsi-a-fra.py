@@ -29,10 +29,11 @@ def csv_to_json_fra(df):
     dict_json[clage] = {
                 "jour": df_clage.jour.tolist(),
                 "n_dose1": df_clage.n_dose1.tolist(), 
-                "n_dose1_cum_pop": df_clage.couv_dose1.tolist(), #list(np.round(df_clage.n_cum_dose1.values/df_clage.population.values*100, 2)),
+                "n_dose1_cum_pop": df_clage.couv_dose1.tolist(),
                 "couv_dose1": df_clage.couv_dose1.tolist(),
                 "couv_complet": df_clage.couv_complet.tolist(), 
                 "couv_rappel": df_clage.couv_rappel.tolist(), 
+                "couv_2_rappel": df_clage.couv_2_rappel.tolist(), 
               }
 
   with open("data/output/vacsi-tot-a-fra.json", "w") as outfile:
