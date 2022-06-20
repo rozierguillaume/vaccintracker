@@ -18,6 +18,7 @@ def prepare_data(df):
 
 def import_fra_data():
   df = pd.read_csv('data/input/sg-epci-opendata.csv', sep=',')
+  print(df.ti_classe.unique())
   return prepare_data(df)
 
 def import_old_fra_data():
@@ -30,7 +31,6 @@ def csv_to_json_fra(df, old_dict):
   liste_epci = df.filter(regex=("epci20.*")).iloc[:,0].unique()
   dates = sorted(df.jour.unique())[-50:]
   dict_json["dates"] = sorted(list(set(dict_json["dates"]+dates)))
-  print(dict_json["dates"])
 
   for date in dates:
     print(date)
