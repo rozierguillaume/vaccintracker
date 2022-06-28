@@ -46,7 +46,7 @@ def import_tot_nat():
   df = df.dropna()
   df["date_fin_semaine"] = parsedate(df.date_fin_semaine.values)
   df=df[df.date_fin_semaine <= (datetime.date.today() + datetime.timedelta(days=50)).strftime("%Y-%m-%d")]
-  return df
+  return pd.DataFrame()
 
 def csv_to_json_tot_nat(df):
   df_tous = df.groupby("date_fin_semaine").sum().reset_index() #.sort_values(by="date_fin_semaine")
@@ -154,9 +154,8 @@ def csv_to_json_flux_separes(df_flux_pfizer, df_flux_moderna, df_flux_astrazenec
 #csv_to_json(df)
 
 download_tot_nat()
-df = import_tot_nat()
-#print(df)
-csv_to_json_tot_nat(df)
+#df = import_tot_nat()
+#csv_to_json_tot_nat(df)
 
 #df_flux_pfizer, df_flux_moderna, df_flux_astrazeneca = import_data_flux_separes()
 #csv_to_json_flux_separes(df_flux_pfizer, df_flux_moderna, df_flux_astrazeneca)
